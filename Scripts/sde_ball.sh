@@ -617,3 +617,147 @@ CUDA_VISIBLE_DEVICES=1 python Trainers/SortingSDE.py \
 --n_box 10 \
 --wall_bound 0.2 \
 --n_samples 100000 \
+
+CUDA_VISIBLE_DEVICES=1 python Trainers/SortingSDE.py \
+--exp_name M5D1_r04 \
+--data_name Sorting_SDE_Support_n1e5_ball1x10_bound0.2 \
+--tscale 0.01 \
+--normalize True \
+--batch_size 1024 \
+--n_epoches 10000 \
+--lr 2e-4 \
+--r 0.4 \
+--sigma 25 \
+--hidden_dim 256 \
+--embed_dim 128 \
+--arch MiniUpdate \
+--n_box 10 \
+--wall_bound 0.2 \
+--n_samples 100000 \
+--radius 0.4 \
+
+CUDA_VISIBLE_DEVICES=1 python Trainers/SortingSDE.py \
+--exp_name M5D1_r06 \
+--data_name Sorting_SDE_Support_n1e5_ball1x10_bound0.2 \
+--tscale 0.01 \
+--normalize True \
+--batch_size 1024 \
+--n_epoches 10000 \
+--lr 2e-4 \
+--r 0.6 \
+--sigma 25 \
+--hidden_dim 256 \
+--embed_dim 128 \
+--arch MiniUpdate \
+--n_box 10 \
+--wall_bound 0.2 \
+--n_samples 100000 \
+--radius 0.6 \
+
+CUDA_VISIBLE_DEVICES=1 python Trainers/SortingSDE.py \
+--exp_name M5D1_r06 \
+--data_name Sorting_SDE_Support_n1e5_ball1x10_bound0.2 \
+--tscale 0.01 \
+--normalize True \
+--batch_size 1024 \
+--n_epoches 10000 \
+--lr 2e-4 \
+--r 0.8 \
+--sigma 25 \
+--hidden_dim 256 \
+--embed_dim 128 \
+--arch MiniUpdate \
+--n_box 10 \
+--wall_bound 0.2 \
+--n_samples 100000 \
+--radius 0.8 \
+
+CUDA_VISIBLE_DEVICES=1 python Trainers/SortingSDE.py \
+--exp_name M5D1_r08 \
+--data_name Sorting_SDE_Support_n1e5_ball1x10_bound0.2 \
+--tscale 0.01 \
+--normalize True \
+--batch_size 1024 \
+--n_epoches 10000 \
+--lr 2e-4 \
+--r 0.8 \
+--sigma 25 \
+--hidden_dim 256 \
+--embed_dim 128 \
+--arch MiniUpdate \
+--n_box 10 \
+--wall_bound 0.2 \
+--n_samples 100000 \
+--radius 0.8 \
+
+CUDA_VISIBLE_DEVICES=1 python Trainers/SortingSDE.py \
+--exp_name M5D1_r08 \
+--data_name Sorting_SDE_Support_n1e5_ball1x10_bound0.2 \
+--tscale 0.01 \
+--normalize True \
+--batch_size 1024 \
+--n_epoches 10000 \
+--lr 2e-4 \
+--r 0.8 \
+--sigma 25 \
+--hidden_dim 256 \
+--embed_dim 128 \
+--arch MiniUpdate \
+--n_box 10 \
+--wall_bound 0.2 \
+--n_samples 100000 \
+--radius 0.8 \
+
+CUDA_VISIBLE_DEVICES=1 python Trainers/SortingSDE.py \
+--exp_name M5D1_r08_scale01 \
+--data_name Sorting_SDE_Support_n1e5_ball1x10_bound0.2 \
+--tscale 0.1 \
+--normalize True \
+--batch_size 1024 \
+--n_epoches 10000 \
+--lr 2e-4 \
+--r 0.8 \
+--sigma 25 \
+--hidden_dim 256 \
+--embed_dim 128 \
+--arch MiniUpdate \
+--n_box 10 \
+--wall_bound 0.2 \
+--n_samples 100000 \
+--radius 0.8 \
+
+CUDA_VISIBLE_DEVICES=1 python Trainers/SortingSDE.py \
+--exp_name M5D1_r08_scale0001 \
+--data_name Sorting_SDE_Support_n1e5_ball1x10_bound0.2 \
+--tscale 0.001 \
+--normalize True \
+--batch_size 1024 \
+--n_epoches 10000 \
+--lr 2e-4 \
+--r 0.8 \
+--sigma 25 \
+--hidden_dim 256 \
+--embed_dim 128 \
+--arch MiniUpdate \
+--n_box 10 \
+--wall_bound 0.2 \
+--n_samples 100000 \
+--radius 0.8 \
+
+CUDA_VISIBLE_DEVICES=1 python Trainers/SortingSDE.py \
+--exp_name M5D1_r08__scale0005 \
+--data_name Sorting_SDE_Support_n1e5_ball1x10_bound0.2 \
+--tscale 0.005 \
+--normalize True \
+--batch_size 1024 \
+--n_epoches 10000 \
+--lr 2e-4 \
+--r 0.8 \
+--sigma 25 \
+--hidden_dim 256 \
+--embed_dim 128 \
+--arch MiniUpdate \
+--n_box 10 \
+--wall_bound 0.2 \
+--n_samples 100000 \
+--radius 0.8 \
