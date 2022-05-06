@@ -256,12 +256,13 @@ if __name__ == '__main__':
         for i, real_data in enumerate(dataloader):
             # augment data first
             # set_trace()
+            score = score.to(device)
             real_data = real_data.to(device)
 
             # calc score-matching loss
             # loss = loss_fn(score, real_data, marginal_prob_std_fn, scale=args.tscale) # t \in [0, scale]
             #set_trace()
-            loss = loss_fn_cond(score, real_data, marginal_prob_std_fn, scale=args.tscale) # t \in [0, scale]
+            loss = loss_fn_cond(score, real_data, marginal_prob_std_fn, scale=args.tscale, r=args.r) # t \in [0, scale]
 
             optimizer.zero_grad()
             loss.backward()
@@ -271,29 +272,30 @@ if __name__ == '__main__':
             writer.add_scalar('train_loss', loss, i + epoch*len(dataloader))
         # start eval
         with torch.no_grad():
-            if (epoch+1) % 20 == 0:
-                test_num = 16
+            #if (epoch+1) % 20 == 0:
+                #test_num = 16
                 # use different suffix to identify each sampler's results
                 # t0 = 0.01，前面t从1～0.01的过程没意义
                 # in_process_sample, res = ode_sampler(score, marginal_prob_std_fn, diffusion_coeff_fn, num_nodes=n_box,
                 #                                      knn=knn, t0=0.01, batch_size=test_num, num_steps=500)
                 # in_process_sample, res = ode_sampler(score, marginal_prob_std_fn, diffusion_coeff_fn, bound=1 if args.normalize else args.wall_bound, num_nodes=n_box,
                 #                                     r=r, t0=args.tscale, batch_size=test_num, num_steps=250)
-                in_process_sample, res = ode_sampler(score, marginal_prob_std_fn, diffusion_coeff_fn, bound=1 if args.normalize else args.wall_bound, num_nodes=n_box,
-                                                    r=test_r, t0=args.tscale, batch_size=test_num, num_steps=250)
-                visualize_states(res.view(test_num, -1), test_env, writer, 4,  suffix='Neural_ODE_sampler|Final Sample')
+                #in_process_sample, res = ode_sampler(score, marginal_prob_std_fn, diffusion_coeff_fn, bound=1 if args.normalize else args.wall_bound, num_nodes=n_box,
+                                                    #r=test_r, t0=args.tscale, batch_size=test_num, num_steps=250)
+                #visualize_states(res.view(test_num, -1), test_env, writer, 4,  suffix='Neural_ODE_sampler|Final Sample')
                 
                 # 增加梯度图
-            f = score.conv_spatial.mlp
-            fig = vis_scores(model=f.cpu(), radius=radius, savefig=None, prefix='sup', log_norm=True, axis=is_axis,
+            if (epoch + 1) % 100 == 0:
+                f = score.conv_spatial.mlp
+                fig = vis_scores(model=f.cpu(), radius=radius, savefig=None, prefix='sup', log_norm=True, axis=is_axis,\
                            padding=padding, grid_size=score_grid, arrowwidth=arrowwidth)
-            writer.add_figure('visual of f', fig, epoch)
+                writer.add_figure('visual of f', fig, epoch)
                 # # 检查训练数据
                 # visualize_states(real_data.x.view(-1, n_box*2)[0:test_num], test_env, writer, 4,  suffix='Training Data')
 
             if (epoch + 1) % 100 == 0 and epoch > 40:
                 # visualize the proce
-                save_video(test_env, in_process_sample.cpu().numpy(), save_path=eval_path + f'{epoch+1}', suffix='mp4')
+                #save_video(test_env, in_process_sample.cpu().numpy(), save_path=eval_path + f'{epoch+1}', suffix='mp4')
 
                 # save model
                 torch.save(score.cpu().state_dict(), ckpt_path + f'score.pt')
