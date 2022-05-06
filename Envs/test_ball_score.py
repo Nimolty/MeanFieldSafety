@@ -3,6 +3,8 @@ import argparse
 import functools
 from turtle import left
 import numpy as np
+import matplotlib
+matplotlib.use('agg')
 import matplotlib.pyplot as plt
 from matplotlib.patches import Circle
 import io

@@ -285,7 +285,7 @@ if __name__ == '__main__':
                 #visualize_states(res.view(test_num, -1), test_env, writer, 4,  suffix='Neural_ODE_sampler|Final Sample')
                 
                 # 增加梯度图
-            if (epoch + 1) % 100 == 0:
+            if (epoch + 1) % 50 == 0:
                 f = score.conv_spatial.mlp
                 fig = vis_scores(model=f.cpu(), radius=radius, savefig=None, prefix='sup', log_norm=True, axis=is_axis,\
                            padding=padding, grid_size=score_grid, arrowwidth=arrowwidth)
