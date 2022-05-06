@@ -262,7 +262,7 @@ if __name__ == '__main__':
             states_np.append(deepcopy(cur_state).reshape(-1))
             
             tar_vels = comp_des_vel(cur_state.tolist())
-            print(cur_state - target_state)
+            #print(cur_state - target_state)
             sup_vels = get_sup_vel(cur_state, t)
             
             if IS_GOAL:
@@ -299,17 +299,23 @@ if __name__ == '__main__':
             break
         collision_num += infos['collision_num'] if IS_SIM else dummy_collision_checker(agents)
     
-    delta_pos = np.sqrt(np.sum(infos['delta_pos']**2, axis=1))
+    #delta_pos = np.sqrt(np.sum(infos['delta_pos']**2, axis=1))
+    #print(delta_pos)
+    final_state = get_cur_state_np(agents)
+    print(final_state)
+    print(target_state)
+    print(final_state - target_state)
+    delta_pos = np.sqrt(np.sum((final_state - target_state)**2, axis=1))
     # safety
     if IS_SIM:
         print(
             f'### Average vel err: {sum(vel_errs) / len(vel_errs)} || Mean vel err: {sum(vel_errs_mean) / len(vel_errs_mean)}###')
         print(
-            f' All delta_pos : {delta_pos.sum()} || Mean delta_pos : {np.mean(delta_pos)}')
+            f'###All delta_pos : {delta_pos.sum()} || Mean delta_pos : {np.mean(delta_pos)} || Max delta_pos : {np.max(delta_pos)}###')
     if collision_num == 0:
-        print("Totally safe")
+        print("###Totally safe###")
     else:
-        print(f'### Mean Collision Num: {collision_num / total_steps}, Total Collision Num: {collision_num} ###')
+        print(f'### Mean Collision Num: {collision_num / total_steps} || Total Collision Num: {collision_num} ###')
     # set_trace()
     if VIDEO_NUM == 0:
         save_video2(test_env, states_np, save_path=f'./logs/{EXP_NAME}/' + f'N{N_BOXES}_SR{SUP_RATE}_MAXVEL{MAX_VEL}'.replace('.', ''), fps=len(states_np) // DURATION, suffix='mp4')
