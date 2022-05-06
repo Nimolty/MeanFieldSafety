@@ -121,7 +121,7 @@ if __name__ == '__main__':
     parser.add_argument('--data_name', type=str,default='Sorting_SDE_Support_n1e5_ball1x10_bound0.2')
     parser.add_argument('--n_box', type=int, default=10)
     parser.add_argument('--knn', type=int, default=5)
-    parser.add_argument('--r', type=float, default=0.4)
+    parser.add_argument('--r', type=float, default=0.8)
     parser.add_argument('--wall_bound', type=float, default=0.2)
     parser.add_argument('--n_epoches', type=int, default=10000)
     parser.add_argument('--n_samples', type=int, default=100000)
@@ -207,7 +207,7 @@ if __name__ == '__main__':
     # convert dataset
     # knn = args.knn
     r = args.r if args.normalize else args.r * args.wall_bound
-    test_r = 0.4
+    #test_r = 0.4
     # edge = knn_graph(dataset[0].reshape(n_box, 2), knn)
     # edge = radius_graph(dataset[0].reshape(n_box, 2), r)
 
