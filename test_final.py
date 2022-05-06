@@ -52,11 +52,22 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # SUP_RATE = 0.1
 # IS_SIM = False
 
-def save_video(env, states, save_path, simulation=False, fps = 50, render_size = 256, suffix='avi'):
+def save_video(env, states, save_path, simulation=False, fps=50, render_size=256, camera_hight=1.0, suffix='avi'):
     imgs = []
     for _, state in tqdm(enumerate(states), desc='Saving video'):
         # set_trace()
-        env.set_state(state/SCALE, simulation)
+        env.set_state(state, simulation)
+        img = env.render(render_size, camera_hight=camera_hight)
+        imgs.append(img)
+    batch_imgs = np.stack(imgs, axis=0)
+    images_to_video(save_path+f'.{suffix}', batch_imgs, fps, (render_size, render_size))
+
+
+def save_video2(env, states, save_path, simulation=False, fps = 50, render_size = 256, suffix='avi'):
+    imgs = []
+    for _, state in tqdm(enumerate(states), desc='Saving video'):
+        # set_trace()
+        env.set_state(state, simulation)
         img = env.render(render_size)
         imgs.append(img)
     batch_imgs = np.stack(imgs, axis=0)
@@ -81,12 +92,14 @@ def assign_tar_vels(agents, vels):
         agent.pref_velocity = np.array(vel)
     # 将tar的pref_velocity设置为我们计算所得的vel
 
-def comp_sup_vel(state, t, score, edge):
+def comp_sup_vel(state, t, score,r):
     # set_trace()
     # state_inp = state * SCALE
     state_inp = state
     with torch.no_grad():
         # !!! MMD 之前都没根据当前state来定edge graph！！
+        #print(state)
+        #print(radius_graph)
         edge = radius_graph(torch.tensor(state, device=device).view(-1, 2), r)
         convert_to_inp = partial(Data, edge_index=edge)
         state_ts = convert_to_inp(x=torch.tensor(state_inp).to(device))
@@ -137,21 +150,24 @@ def compute_V_des(X, goal, V_max):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--exp_name',type=str)
-    parser.add_argument('--n_boxes', type = int)
+    parser.add_argument('--exp_name',type=str,default='M5D1_r08')
+    parser.add_argument('--n_boxes', type = int,default=10)
+    parser.add_argument('--radius',type=float,default=0.8)
     parser.add_argument('--wall_bound', type=float,default=0.2)
-    parser.add_argument('--radius', type=float)
-    parser.add_argument('--sigma', type=int, default=25)
+    parser.add_argument('--num_scale', default=10)
+    parser.add_argument('--agent_radius', type=float,default=0.025/(0.02-0.025))
+    parser.add_argument('--sigma', type=float, default=25.)
     parser.add_argument('--pb_freq', type=int, default=4)
-    parser.add_argument('--max_action', type=float, default=1.0)
+    parser.add_argument('--max_vel', type=float, default=0.3)
     parser.add_argument('--dt', type=float, default=1/50)
     parser.add_argument('--duration',type=int, default=5)
     parser.add_argument('--t0', type=float, default=1e-2)
     parser.add_argument('--is_gui', type=bool, default=False)
-    parser.add_argument('--IS_SIM', type=bool, default=False)
+    parser.add_argument('--IS_SIM', type=bool, default=True)
     parser.add_argument('--IS_GOAL', type=bool, default=True)
     parser.add_argument('--IS_SUPPORT', type=bool, default=True)
-
+    parser.add_argument('--savevideo_num', type=int, default=0)
+    parser.add_argument('--sup_rate', type=float, default=0.1)
     
     
 
@@ -159,11 +175,13 @@ if __name__ == '__main__':
     args = parser.parse_args()
     EXP_NAME = args.exp_name
     N_BOXES = args.n_boxes
+    R = args.radius
     WALL_BOUND = args.wall_bound
-    RADIUS = args.radius
+    NUM_SCALE = args.num_scale
+    RADIUS = args.agent_radius
     SIGMA = args.sigma
     PB_FREQ = args.pb_freq
-    MAX_VEL = args.max_action
+    MAX_VEL = args.max_vel
     dt = args.dt
     DURATION = args.duration
     t0 = args.t0
@@ -171,7 +189,8 @@ if __name__ == '__main__':
     IS_SIM = args.IS_SIM
     IS_GOAL = args.IS_GOAL
     IS_SUPPORT = args.IS_SUPPORT
-    
+    VIDEO_NUM = args.savevideo_num
+    SUP_RATE = args.sup_rate
     
     time_freq = int(1 / dt)
     env_kwargs = {
@@ -180,7 +199,7 @@ if __name__ == '__main__':
         'time_freq':time_freq * PB_FREQ,
         'is_gui' : is_gui, 
         'max_action' : MAX_VEL,
-        'normalize' : False,
+        'normalize' : True,
         }
     test_env = RLSorting(**env_kwargs) #我们在此设置了环境
     test_env.seed(0)
@@ -193,7 +212,8 @@ if __name__ == '__main__':
     
     n_objs = test_env.n_boxes
     init_state = init_state.reshape((n_objs, -1))
-    target_state = target_state.reshape((n_objsm -1))
+    target_state = target_state.reshape((n_objs, -1))
+    #print(target_state)
     
     # 我们将pretrained的score导入到我们程序中
     sup_path = f'./logs/{EXP_NAME}/score.pt'
@@ -204,12 +224,12 @@ if __name__ == '__main__':
     score_support.load_state_dict(torch.load(sup_path))
     
     # 这边是设置一些速度相关的函数，但有几个地方明天问一下东哥
-    r = 0.2
-    edge_graph = radius_graph(torch.ones((n_objs, 2)).to(device), r)
+    #r = 0.2
+    #edge_graph = radius_graph(torch.ones((n_objs, 2)).to(device), r)
     # 这里我们设置了get_sup_vel，这样的话得到当前状态的梯度信息
     # comp_des_vel 是先得到距离，然后计算速度
     t = torch.tensor([t0]).unsqueeze(0).to(device) # t的shape为torch.Size([1,1])
-    get_sup_vel = partial(comp_sup_vel, score=score_support.to(device), V_max = [MAX_VEL] * (n_objs))
+    get_sup_vel = partial(comp_sup_vel, score=score_support.to(device), r=R)
     sup_vel = get_sup_vel(init_state, t)
     
     comp_des_vel = partial(compute_V_des, goal=target_state.tolist(), V_max = [MAX_VEL] * (n_objs))
@@ -218,7 +238,7 @@ if __name__ == '__main__':
     # 接下来是一些可能造成迷惑的地方了，这里的SUPPORT和IS_GOAL的作用是什么呢，我们又应该根据什么来设置这两个bool值
     if IS_GOAL:
         if IS_SUPPORT:
-            obj_vel = sup_vel * SUP_RATE + tar_vel
+            obj_vel = sup_vel * SUP_RATE + normalise_vels(tar_vel)
         else:
             obj_vel = tar_vel
     else:
@@ -231,7 +251,7 @@ if __name__ == '__main__':
     
     #--------------------------------------
     # simulation starts
-    start_np = []
+    states_np = []
     total_steps = int(DURATION/dt)
     collision_num = 0
     vel_errs = []
@@ -242,16 +262,20 @@ if __name__ == '__main__':
             states_np.append(deepcopy(cur_state).reshape(-1))
             
             tar_vels = comp_des_vel(cur_state.tolist())
-            get_vels = get_sup_vel(cur_state, t)
+            print(cur_state - target_state)
+            sup_vels = get_sup_vel(cur_state, t)
             
             if IS_GOAL:
                 if IS_SUPPORT:
-                    obj_vels = sup_vels * SUP_RATE + tar_vels
+                    obj_vels = sup_vels * SUP_RATE + normalise_vels(tar_vels)
                 else:
                     obj_vels = tar_vels
             else:
                 obj_vels = sup_vels
             obj_vels = normalise_vels(obj_vels)
+            #print(sup_vels * SUP_RATE)
+            #print(obj_vels)
+            #print(normalise_vels(tar_vels))
             assign_tar_vels(agents, obj_vels)
             
             if IS_SIM:
@@ -263,9 +287,9 @@ if __name__ == '__main__':
                 vel_errs.append(infos['vel_err'])
                 vel_errs_mean.append(infos['vel_err_mean'])
                 for i, agent in enumerate(agents):
-                    agent.posiiton = new-state[2*i:2*i+2]
+                    agent.position = new_state[2*i:2*i+2]
             else:
-                obj_vels *= 1 / BOUND
+                #obj_vels *= 1 / BOUND # 这一步属实没看懂
                 '''rule-based update, not sim'''
                 for i, agent in enumerate(agents):
                     agent.velocity = obj_vels[i]
@@ -275,17 +299,22 @@ if __name__ == '__main__':
             break
         collision_num += infos['collision_num'] if IS_SIM else dummy_collision_checker(agents)
     
+    delta_pos = np.sqrt(np.sum(infos['delta_pos']**2, axis=1))
     # safety
     if IS_SIM:
         print(
             f'### Average vel err: {sum(vel_errs) / len(vel_errs)} || Mean vel err: {sum(vel_errs_mean) / len(vel_errs_mean)}###')
+        print(
+            f' All delta_pos : {delta_pos.sum()} || Mean delta_pos : {np.mean(delta_pos)}')
     if collision_num == 0:
         print("Totally safe")
     else:
         print(f'### Mean Collision Num: {collision_num / total_steps}, Total Collision Num: {collision_num} ###')
     # set_trace()
-    # save_video(test_env, states_np, save_path=f'./logs/{EXP_NAME}_R{R}', fps=len(states_np) // VIDEO_LEN, suffix='mp4')
-    save_video(test_env, states_np, save_path=f'./logs/{EXP_NAME}/' + f'N{N_BOXES}_R{R}_SR{SUP_RATE}'.replace('.', ''), camera_hight=BOUND_SCALE, fps=len(states_np) // VIDEO_LEN, suffix='mp4')
+    if VIDEO_NUM == 0:
+        save_video2(test_env, states_np, save_path=f'./logs/{EXP_NAME}/' + f'N{N_BOXES}_SR{SUP_RATE}_MAXVEL{MAX_VEL}'.replace('.', ''), fps=len(states_np) // DURATION, suffix='mp4')
+    elif VIDEO_NUM == 1:
+        save_video(test_env, states_np, save_path=f'./logs/{EXP_NAME}/' + f'N{N_BOXES}_R{R}_SR{SUP_RATE}'.replace('.', ''), camera_hight=np.sqrt(NUM_SCALE), fps=len(states_np) // 5, suffix='mp4')
 
 
 
