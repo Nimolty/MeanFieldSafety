@@ -287,9 +287,13 @@ if __name__ == '__main__':
                 # 增加梯度图
             if (epoch + 1) % 50 == 0:
                 f = score.conv_spatial.mlp
-                fig = vis_scores(model=f.cpu(), radius=radius, savefig=None, prefix='sup', norm=True, axis=is_axis,\
+                fig1 = vis_scores(model=f.cpu(), radius=radius, savefig=None, prefix='sup', norm=True, axis=is_axis,\
                            padding=padding, grid_size=score_grid, arrowwidth=arrowwidth)
-                writer.add_figure('visual of f', fig, epoch)
+                fig2 = vis_scores(model=f.cpu(), radius=radius, savefig=None, prefix='sup', norm=False, axis=is_axis,\
+                           padding=padding, grid_size=score_grid, arrowwidth=arrowwidth)
+                writer.add_figure('visual of normalized f', fig1, epoch)
+                writer.add_figure('visual of unnormalized f', fig2, epoch)
+                
                 # # 检查训练数据
                 # visualize_states(real_data.x.view(-1, n_box*2)[0:test_num], test_env, writer, 4,  suffix='Training Data')
 

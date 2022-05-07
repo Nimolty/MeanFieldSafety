@@ -148,9 +148,54 @@
 ###All delta_pos : 7.781487941741943 || Mean delta_pos : 0.2593829333782196 || Max delta_pos : 1.44132399559021###
 ### Mean Collision Num: 0.482 || Total Collision Num: 120.5 ###
 # 视频结果：到达了指定位置
-
-
-
+#######################################################
+# CUDA_VISIBLE_DEVICES=1 python -m ipdb test_final.py \
+# --exp_name M5D6_r08_scale015 \
+# --n_boxes 10 \
+# --radius 0.8 \
+# --max_vel 0.3 \
+# --sup_rate 0.1 \
+# --dt 1/50 \
+# --pb_freq 4 \
+# --duration 5\
+# --wall_bound 0.20
+# 量化指标： 
+### Average vel err: 0.42847014294744523 || Mean vel err: 0.13583889072784586###
+###All delta_pos : 0.08274920284748077 || Mean delta_pos : 0.008274920284748077 || Max delta_pos : 0.022147690877318382###
+### Mean Collision Num: 2.302 || Total Collision Num: 575.5 ###
+# 视频结果：到达了指定位置
+#######################################################
+# CUDA_VISIBLE_DEVICES=1 python -m ipdb test_final.py \
+# --exp_name M5D6_r08_scale015 \
+# --n_boxes 10 \
+# --radius 0.8 \
+# --max_vel 0.3 \
+# --sup_rate 0.1 \
+# --dt 1/50 \
+# --pb_freq 4 \
+# --duration 5\
+# --wall_bound 0.20
+# 量化指标： 
+### Average vel err: 0.5266268365547083 || Mean vel err: 0.16943406979091524###
+###All delta_pos : 1.1098363399505615 || Mean delta_pos : 0.11098363250494003 || Max delta_pos : 0.7444146275520325###
+### Mean Collision Num: 3.035 || Total Collision Num: 758.75 ##
+# 视频结果：到达了指定位置
+#######################################################
+# CUDA_VISIBLE_DEVICES=1 python -m ipdb test_final.py \
+# --exp_name M5D6_r04 \
+# --n_boxes 10 \
+# --radius 0.8 \
+# --max_vel 0.2 \
+# --sup_rate 0.3 \
+# --dt 1/50 \
+# --pb_freq 4 \
+# --duration 5\
+# --wall_bound 0.20
+# 量化指标： 
+### Average vel err: 0.14442756309423377 || Mean vel err: 0.03565970923135026###
+###All delta_pos : 0.8831984400749207 || Mean delta_pos : 0.08831984549760818 || Max delta_pos : 0.4032108783721924###
+###Totally safe###
+# 视频结果：到达了指定位置
 
 
 
