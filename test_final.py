@@ -27,6 +27,7 @@ sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
 from Algorithms.SDE import ScoreModelGNN, ScoreModelGNNMini, MiniUpdate,  marginal_prob_std, diffusion_coeff
 from Algorithms.pyorca.pyorca import Agent
+from Envs.test_ball_score import vis_scores
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -191,6 +192,9 @@ if __name__ == '__main__':
     IS_SUPPORT = args.IS_SUPPORT
     VIDEO_NUM = args.savevideo_num
     SUP_RATE = args.sup_rate
+    padding = 0.03
+    score_grid = 40
+    arrowwidth = 0.010
     
     time_freq = int(1 / dt)
     env_kwargs = {
@@ -302,10 +306,37 @@ if __name__ == '__main__':
     #delta_pos = np.sqrt(np.sum(infos['delta_pos']**2, axis=1))
     #print(delta_pos)
     final_state = get_cur_state_np(agents)
-    print(final_state)
-    print(target_state)
-    print(final_state - target_state)
+    #print(final_state)
+    #print(target_state)
+    #print(sup_vels)
+    #print(sup_vels * SUP_RATE)
+    #print(normalise_vels(tar_vels))
+    #print(final_state - target_state)
     delta_pos = np.sqrt(np.sum((final_state - target_state)**2, axis=1))
+    #print(delta_pos)
+    #f = score_support.conv_spatial.mlp.cpu()
+    #fig, scores = vis_scores(model=f.cpu(), radius=R, savefig=None, prefix='sup', log_norm=False, axis=True,\
+                           #padding=padding, grid_size=score_grid, arrowwidth=arrowwidth) 
+    #fig.savefig('gradient_field')
+    #print(scores[640:680])
+    #print(-f(torch.tensor([mesh[640:680])))
+    #left_bound = -1
+    #right_bound = 1
+    #grid_size = 40
+
+    #mesh = []
+    #x = np.linspace(left_bound, right_bound, grid_size)
+    #y = np.linspace(left_bound, right_bound, grid_size)
+    #for i in x:
+    #    for j in y:
+     #       mesh.append(np.asarray([i, j]))
+            
+    #mesh = np.stack(mesh, axis=0)
+    #mesh = torch.from_numpy(mesh).float()
+    #if device is not None:
+    #    mesh = mesh.to(device)
+    #print(-f(mesh[640:680]))
+    
     # safety
     if IS_SIM:
         print(

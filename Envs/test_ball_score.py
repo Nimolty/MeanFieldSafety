@@ -51,7 +51,7 @@ def vis_scores(
         prefix=None,
         device=None,
         grid_size=20,
-        log_norm=True,
+        norm=True,
         axis=False,
         padding=0.1,
         arrowwidth=0.010,
@@ -76,11 +76,12 @@ def vis_scores(
     # score_norms = torch.sqrt(torch.sum(scores ** 2, dim=-1, keepdim=True))
     # scores /= score_norms
     # set_trace()
-    if log_norm:
+    if norm:
         score_norms = torch.sqrt(torch.sum(scores ** 2, dim=-1, keepdim=True))
         scores /= score_norms
-        scores *= torch.log(score_norms) * 2
- 
+        #scores *= torch.log(score_norms) * 2
+    #score_norms = torch.sqrt(torch.sum(scores ** 2, dim=-1, keepdim=True))
+    #print(score_norms[640:680])
     mesh = mesh.detach().numpy()
     scores = scores.detach().numpy()
     fig = draw_circle(radius=radius)
