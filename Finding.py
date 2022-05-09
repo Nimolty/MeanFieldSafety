@@ -377,19 +377,24 @@ if __name__ == '__main__':
     parser.add_argument('--exp_name',type=str,default='M5D1_r04')
     parser.add_argument('--n_boxes', type = int,default=10)
     parser.add_argument('--wall_bound', type=float, default=0.2)
+    parser.add_argument('--sup_rate_init', type=float,default=0.05)
+    parser.add_argument('--max_vel_init', type=float, default=0.05)
     
     args = parser.parse_args()
     exp_name = args.exp_name
     wall_bound = args.wall_bound
     n_boxes = args.n_boxes
+    sup_rate_init = args.sup_rate_init
+    max_vel_init = args.max_vel_init
     
-    out = open(f'./logs/M5D1_r04/record_N{n_boxes}_WB{wall_bound}.txt', 'w')
-    sup_rate = [0.05 + i * 0.02 for i in range(120)]
-    max_vel = [0.05 + i * 0.02 for i in range(120)]
+    
+    out = open(f'./logs/M5D1_r04/record_N{n_boxes}_WB{wall_bound}_new.txt', 'w')
+    sup_rate = [sup_rate_init + i * 0.001 for i in range(10)]
+    max_vel = [max_vel_init + i * 0.0001 for i in range(200)]
     for i in tqdm(sup_rate):
         for j in max_vel:
             max_, mean_, coll_num, mean_coll_num = plan(i, j,exp_name, n_boxes, wall_bound)
-            if mean_coll_num < 0.1 or max_ < 0.1:
+            if mean_coll_num < 0.2 and max_ < 0.1:
                 out.write(f'sup_rate 为 {i}, max_vel 为 {j}' + f'\n')
                 out.write(f'Mean delta pos {mean_}, Max delta pos {max_}, Total collision Num : {coll_num}, Mean collision num : {mean_coll_num}' + f'\n')
     out.close()

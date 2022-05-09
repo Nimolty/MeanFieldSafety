@@ -80,8 +80,11 @@ def images_to_video(path, images, fps, size):
         out.write(item)
     out.release()
 
-def snapshot(env, file_name):
-    img = env.render(256)
+def snapshot(env, file_name,camera_hight=None):
+    if camera_hight is None:
+        img = env.render(256)
+    else:
+        img = env.render(256, camera_hight=camera_hight)
     cv2.imwrite(file_name, img)
 
 def get_cur_state_np(agents):
@@ -167,8 +170,9 @@ if __name__ == '__main__':
     parser.add_argument('--IS_SIM', type=bool, default=True)
     parser.add_argument('--IS_GOAL', type=bool, default=True)
     parser.add_argument('--IS_SUPPORT', type=bool, default=True)
-    parser.add_argument('--savevideo_num', type=int, default=0)
+    parser.add_argument('--savevideo_num', type=int, default=1)
     parser.add_argument('--sup_rate', type=float, default=0.1)
+    #parser.add_argument('--camera_hight', default=None)
     
     
 
@@ -192,6 +196,7 @@ if __name__ == '__main__':
     IS_SUPPORT = args.IS_SUPPORT
     VIDEO_NUM = args.savevideo_num
     SUP_RATE = args.sup_rate
+    #camera_hight = args.camera_hight
     padding = 0.03
     score_grid = 40
     arrowwidth = 0.010
@@ -210,9 +215,15 @@ if __name__ == '__main__':
     
     # 接下来我们设定起始状态和终止状态，并且做出拍照
     target_state = test_env.reset()
-    snapshot(test_env, 'goal.png')
+    if VIDEO_NUM == 1:
+        snapshot(test_env, f'./logs/{EXP_NAME}/N{N_BOXES}_R{R}_SR{SUP_RATE}_MAXVEL{MAX_VEL}_goal.png', camera_hight=np.sqrt(NUM_SCALE))
+    else:
+        snapshot(test_env, f'./logs/{EXP_NAME}/N{N_BOXES}_R{R}_SR{SUP_RATE}_MAXVEL{MAX_VEL}_goal.png')
     init_state = test_env.reset()
-    snapshot(test_env, 'init.png')
+    if VIDEO_NUM == 1:
+        snapshot(test_env, f'./logs/{EXP_NAME}/N{N_BOXES}_R{R}_SR{SUP_RATE}_MAXVEL{MAX_VEL}_init.png', camera_hight=np.sqrt(NUM_SCALE))
+    else:
+        snapshot(test_env, f'./logs/{EXP_NAME}/N{N_BOXES}_R{R}_SR{SUP_RATE}_MAXVEL{MAX_VEL}_init.png')
     
     n_objs = test_env.n_boxes
     init_state = init_state.reshape((n_objs, -1))
@@ -350,8 +361,10 @@ if __name__ == '__main__':
     # set_trace()
     if VIDEO_NUM == 0:
         save_video2(test_env, states_np, save_path=f'./logs/{EXP_NAME}/' + f'N{N_BOXES}_SR{SUP_RATE}_MAXVEL{MAX_VEL}'.replace('.', ''), fps=len(states_np) // DURATION, suffix='mp4')
+        
+        
     elif VIDEO_NUM == 1:
-        save_video(test_env, states_np, save_path=f'./logs/{EXP_NAME}/' + f'N{N_BOXES}_R{R}_SR{SUP_RATE}'.replace('.', ''), camera_hight=np.sqrt(NUM_SCALE), fps=len(states_np) // 5, suffix='mp4')
+        save_video(test_env, states_np, save_path=f'./logs/{EXP_NAME}/' + f'N{N_BOXES}_R{R}_SR{SUP_RATE}_MAXVEL{MAX_VEL}'.replace('.', ''), camera_hight=np.sqrt(NUM_SCALE), fps=len(states_np) // 5, suffix='mp4')
 
 
 

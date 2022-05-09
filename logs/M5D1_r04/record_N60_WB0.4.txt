@@ -1,0 +1,2229 @@
+sup_rate 为 0.05, max_vel 为 0.37
+Mean delta pos 0.0049561322666704655, Max delta pos 0.01591995544731617, Total collision Num : 2713.75, Mean collision num : 10.855
+sup_rate 为 0.05, max_vel 为 1.27
+Mean delta pos 0.03261040896177292, Max delta pos 0.05317895859479904, Total collision Num : 1675.0, Mean collision num : 6.7
+sup_rate 为 0.05, max_vel 为 1.3900000000000001
+Mean delta pos 0.021570563316345215, Max delta pos 0.055714309215545654, Total collision Num : 1586.25, Mean collision num : 6.345
+sup_rate 为 0.05, max_vel 为 1.4300000000000002
+Mean delta pos 0.027506083250045776, Max delta pos 0.056537892669439316, Total collision Num : 1730.0, Mean collision num : 6.92
+sup_rate 为 0.05, max_vel 为 1.4500000000000002
+Mean delta pos 0.03645160421729088, Max delta pos 0.06205785274505615, Total collision Num : 2032.5, Mean collision num : 8.13
+sup_rate 为 0.05, max_vel 为 1.51
+Mean delta pos 0.02881772071123123, Max delta pos 0.06730857491493225, Total collision Num : 1864.75, Mean collision num : 7.459
+sup_rate 为 0.05, max_vel 为 1.57
+Mean delta pos 0.02826663851737976, Max delta pos 0.06483405828475952, Total collision Num : 1645.0, Mean collision num : 6.58
+sup_rate 为 0.05, max_vel 为 1.61
+Mean delta pos 0.042572446167469025, Max delta pos 0.07026195526123047, Total collision Num : 1743.25, Mean collision num : 6.973
+sup_rate 为 0.05, max_vel 为 1.6300000000000001
+Mean delta pos 0.03697899356484413, Max delta pos 0.06924035400152206, Total collision Num : 1666.25, Mean collision num : 6.665
+sup_rate 为 0.05, max_vel 为 1.6500000000000001
+Mean delta pos 0.048421598970890045, Max delta pos 0.07253503799438477, Total collision Num : 1416.0, Mean collision num : 5.664
+sup_rate 为 0.05, max_vel 为 1.6900000000000002
+Mean delta pos 0.04362299293279648, Max delta pos 0.07252863049507141, Total collision Num : 1696.0, Mean collision num : 6.784
+sup_rate 为 0.05, max_vel 为 1.7100000000000002
+Mean delta pos 0.0358705036342144, Max delta pos 0.0740114077925682, Total collision Num : 1769.75, Mean collision num : 7.079
+sup_rate 为 0.05, max_vel 为 1.73
+Mean delta pos 0.037138160318136215, Max delta pos 0.07047365605831146, Total collision Num : 1498.5, Mean collision num : 5.994
+sup_rate 为 0.05, max_vel 为 1.77
+Mean delta pos 0.0433550663292408, Max delta pos 0.06661798059940338, Total collision Num : 1598.0, Mean collision num : 6.392
+sup_rate 为 0.05, max_vel 为 1.81
+Mean delta pos 0.04489600285887718, Max delta pos 0.07436174154281616, Total collision Num : 1427.0, Mean collision num : 5.708
+sup_rate 为 0.05, max_vel 为 1.83
+Mean delta pos 0.0414230115711689, Max delta pos 0.07794211059808731, Total collision Num : 1422.75, Mean collision num : 5.691
+sup_rate 为 0.05, max_vel 为 1.87
+Mean delta pos 0.05148741975426674, Max delta pos 0.08100399374961853, Total collision Num : 1353.25, Mean collision num : 5.413
+sup_rate 为 0.05, max_vel 为 1.8900000000000001
+Mean delta pos 0.05089719593524933, Max delta pos 0.07995373010635376, Total collision Num : 1536.0, Mean collision num : 6.144
+sup_rate 为 0.05, max_vel 为 1.9100000000000001
+Mean delta pos 0.04028942435979843, Max delta pos 0.07415954023599625, Total collision Num : 1562.0, Mean collision num : 6.248
+sup_rate 为 0.05, max_vel 为 1.9300000000000002
+Mean delta pos 0.05498982593417168, Max delta pos 0.08484047651290894, Total collision Num : 1469.75, Mean collision num : 5.879
+sup_rate 为 0.05, max_vel 为 1.9500000000000002
+Mean delta pos 0.046147339046001434, Max delta pos 0.08411416411399841, Total collision Num : 1911.75, Mean collision num : 7.647
+sup_rate 为 0.05, max_vel 为 1.97
+Mean delta pos 0.0576636865735054, Max delta pos 0.08869015425443649, Total collision Num : 1647.5, Mean collision num : 6.59
+sup_rate 为 0.05, max_vel 为 1.99
+Mean delta pos 0.048086024820804596, Max delta pos 0.0860271006822586, Total collision Num : 1594.25, Mean collision num : 6.377
+sup_rate 为 0.05, max_vel 为 2.01
+Mean delta pos 0.050597112625837326, Max delta pos 0.09216772764921188, Total collision Num : 1731.5, Mean collision num : 6.926
+sup_rate 为 0.05, max_vel 为 2.05
+Mean delta pos 0.04889075830578804, Max delta pos 0.09192311763763428, Total collision Num : 1680.75, Mean collision num : 6.723
+sup_rate 为 0.05, max_vel 为 2.07
+Mean delta pos 0.05207861214876175, Max delta pos 0.09500724077224731, Total collision Num : 1715.75, Mean collision num : 6.863
+sup_rate 为 0.05, max_vel 为 2.09
+Mean delta pos 0.04791061580181122, Max delta pos 0.0854884684085846, Total collision Num : 1555.0, Mean collision num : 6.22
+sup_rate 为 0.05, max_vel 为 2.11
+Mean delta pos 0.06134730949997902, Max delta pos 0.09185262024402618, Total collision Num : 1724.0, Mean collision num : 6.896
+sup_rate 为 0.05, max_vel 为 2.13
+Mean delta pos 0.059969935566186905, Max delta pos 0.09262499958276749, Total collision Num : 1513.25, Mean collision num : 6.053
+sup_rate 为 0.05, max_vel 为 2.15
+Mean delta pos 0.05682854354381561, Max delta pos 0.09637335687875748, Total collision Num : 1762.25, Mean collision num : 7.049
+sup_rate 为 0.05, max_vel 为 2.17
+Mean delta pos 0.04936308413743973, Max delta pos 0.08470252901315689, Total collision Num : 1613.75, Mean collision num : 6.455
+sup_rate 为 0.05, max_vel 为 2.19
+Mean delta pos 0.055003825575113297, Max delta pos 0.09156016260385513, Total collision Num : 1671.75, Mean collision num : 6.687
+sup_rate 为 0.05, max_vel 为 2.23
+Mean delta pos 0.05311257392168045, Max delta pos 0.09817660599946976, Total collision Num : 1792.75, Mean collision num : 7.171
+sup_rate 为 0.05, max_vel 为 2.27
+Mean delta pos 0.06006235256791115, Max delta pos 0.0974813774228096, Total collision Num : 1566.75, Mean collision num : 6.267
+sup_rate 为 0.07, max_vel 为 0.31
+Mean delta pos 0.008213702589273453, Max delta pos 0.03356229513883591, Total collision Num : 2188.75, Mean collision num : 8.755
+sup_rate 为 0.07, max_vel 为 0.35
+Mean delta pos 0.007263703737407923, Max delta pos 0.016881972551345825, Total collision Num : 2276.5, Mean collision num : 9.106
+sup_rate 为 0.07, max_vel 为 0.45
+Mean delta pos 0.0069404966197907925, Max delta pos 0.026565736159682274, Total collision Num : 1991.5, Mean collision num : 7.966
+sup_rate 为 0.07, max_vel 为 1.21
+Mean delta pos 0.019877413287758827, Max delta pos 0.04989209771156311, Total collision Num : 1687.5, Mean collision num : 6.75
+sup_rate 为 0.07, max_vel 为 1.4300000000000002
+Mean delta pos 0.02933378331363201, Max delta pos 0.0523628368973732, Total collision Num : 2068.75, Mean collision num : 8.275
+sup_rate 为 0.07, max_vel 为 1.4500000000000002
+Mean delta pos 0.03765802085399628, Max delta pos 0.061220139265060425, Total collision Num : 1525.0, Mean collision num : 6.1
+sup_rate 为 0.07, max_vel 为 1.49
+Mean delta pos 0.036402907222509384, Max delta pos 0.06789463013410568, Total collision Num : 1574.25, Mean collision num : 6.297
+sup_rate 为 0.07, max_vel 为 1.53
+Mean delta pos 0.03545296937227249, Max delta pos 0.0633174329996109, Total collision Num : 1875.5, Mean collision num : 7.502
+sup_rate 为 0.07, max_vel 为 1.59
+Mean delta pos 0.02850104123353958, Max delta pos 0.06877107173204422, Total collision Num : 1759.5, Mean collision num : 7.038
+sup_rate 为 0.07, max_vel 为 1.6300000000000001
+Mean delta pos 0.04248238354921341, Max delta pos 0.06623595952987671, Total collision Num : 1696.5, Mean collision num : 6.786
+sup_rate 为 0.07, max_vel 为 1.6700000000000002
+Mean delta pos 0.043358154594898224, Max delta pos 0.07307059317827225, Total collision Num : 1468.5, Mean collision num : 5.874
+sup_rate 为 0.07, max_vel 为 1.73
+Mean delta pos 0.03747830539941788, Max delta pos 0.06905414164066315, Total collision Num : 1593.5, Mean collision num : 6.374
+sup_rate 为 0.07, max_vel 为 1.75
+Mean delta pos 0.04099716246128082, Max delta pos 0.0722089409828186, Total collision Num : 1640.5, Mean collision num : 6.562
+sup_rate 为 0.07, max_vel 为 1.77
+Mean delta pos 0.03479291498661041, Max delta pos 0.08022256195545197, Total collision Num : 1810.25, Mean collision num : 7.241
+sup_rate 为 0.07, max_vel 为 1.79
+Mean delta pos 0.04775916785001755, Max delta pos 0.07898399233818054, Total collision Num : 1537.5, Mean collision num : 6.15
+sup_rate 为 0.07, max_vel 为 1.81
+Mean delta pos 0.04388483241200447, Max delta pos 0.06986495852470398, Total collision Num : 1508.5, Mean collision num : 6.034
+sup_rate 为 0.07, max_vel 为 1.83
+Mean delta pos 0.040962591767311096, Max delta pos 0.0844365581870079, Total collision Num : 1993.0, Mean collision num : 7.972
+sup_rate 为 0.07, max_vel 为 1.85
+Mean delta pos 0.03736245632171631, Max delta pos 0.07512812316417694, Total collision Num : 1853.75, Mean collision num : 7.415
+sup_rate 为 0.07, max_vel 为 1.87
+Mean delta pos 0.04432731494307518, Max delta pos 0.08440721035003662, Total collision Num : 1620.25, Mean collision num : 6.481
+sup_rate 为 0.07, max_vel 为 1.8900000000000001
+Mean delta pos 0.04722962900996208, Max delta pos 0.08213618397712708, Total collision Num : 1612.75, Mean collision num : 6.451
+sup_rate 为 0.07, max_vel 为 1.9100000000000001
+Mean delta pos 0.04293544590473175, Max delta pos 0.09393321722745895, Total collision Num : 1880.5, Mean collision num : 7.522
+sup_rate 为 0.07, max_vel 为 1.9300000000000002
+Mean delta pos 0.04562322795391083, Max delta pos 0.08327370136976242, Total collision Num : 1659.75, Mean collision num : 6.639
+sup_rate 为 0.07, max_vel 为 1.9500000000000002
+Mean delta pos 0.052926190197467804, Max delta pos 0.07832475751638412, Total collision Num : 1741.75, Mean collision num : 6.967
+sup_rate 为 0.07, max_vel 为 1.97
+Mean delta pos 0.04868268221616745, Max delta pos 0.08689955621957779, Total collision Num : 1774.0, Mean collision num : 7.096
+sup_rate 为 0.07, max_vel 为 1.99
+Mean delta pos 0.054197944700717926, Max delta pos 0.0857311338186264, Total collision Num : 1871.0, Mean collision num : 7.484
+sup_rate 为 0.07, max_vel 为 2.01
+Mean delta pos 0.04980405792593956, Max delta pos 0.09091692417860031, Total collision Num : 1727.75, Mean collision num : 6.911
+sup_rate 为 0.07, max_vel 为 2.03
+Mean delta pos 0.05823855102062225, Max delta pos 0.08577005565166473, Total collision Num : 1573.75, Mean collision num : 6.295
+sup_rate 为 0.07, max_vel 为 2.05
+Mean delta pos 0.05612681806087494, Max delta pos 0.08600372076034546, Total collision Num : 1707.75, Mean collision num : 6.831
+sup_rate 为 0.07, max_vel 为 2.07
+Mean delta pos 0.05014703795313835, Max delta pos 0.08770713210105896, Total collision Num : 1570.0, Mean collision num : 6.28
+sup_rate 为 0.07, max_vel 为 2.09
+Mean delta pos 0.04434589669108391, Max delta pos 0.088002048432827, Total collision Num : 2000.0, Mean collision num : 8.0
+sup_rate 为 0.07, max_vel 为 2.11
+Mean delta pos 0.05540459230542183, Max delta pos 0.08822933584451675, Total collision Num : 1606.75, Mean collision num : 6.427
+sup_rate 为 0.07, max_vel 为 2.13
+Mean delta pos 0.06225181743502617, Max delta pos 0.09758463501930237, Total collision Num : 1672.0, Mean collision num : 6.688
+sup_rate 为 0.07, max_vel 为 2.15
+Mean delta pos 0.04351317510008812, Max delta pos 0.08073441684246063, Total collision Num : 1797.25, Mean collision num : 7.189
+sup_rate 为 0.07, max_vel 为 2.17
+Mean delta pos 0.051020752638578415, Max delta pos 0.09892819076776505, Total collision Num : 1555.0, Mean collision num : 6.22
+sup_rate 为 0.07, max_vel 为 2.25
+Mean delta pos 0.04693678393959999, Max delta pos 0.09156811982393265, Total collision Num : 1751.5, Mean collision num : 7.006
+sup_rate 为 0.09, max_vel 为 0.05
+Mean delta pos 0.9675959944725037, Max delta pos 1.8036127090454102, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.09, max_vel 为 0.35
+Mean delta pos 0.008643290027976036, Max delta pos 0.04175817221403122, Total collision Num : 2069.0, Mean collision num : 8.276
+sup_rate 为 0.09, max_vel 为 0.37
+Mean delta pos 0.008474249392747879, Max delta pos 0.041670702397823334, Total collision Num : 1896.75, Mean collision num : 7.587
+sup_rate 为 0.09, max_vel 为 0.51
+Mean delta pos 0.007383492775261402, Max delta pos 0.021151920780539513, Total collision Num : 1757.75, Mean collision num : 7.031
+sup_rate 为 0.09, max_vel 为 0.7500000000000001
+Mean delta pos 0.0114202369004488, Max delta pos 0.031240003183484077, Total collision Num : 1631.75, Mean collision num : 6.527
+sup_rate 为 0.09, max_vel 为 0.77
+Mean delta pos 0.011708814650774002, Max delta pos 0.033003997057676315, Total collision Num : 1876.0, Mean collision num : 7.504
+sup_rate 为 0.09, max_vel 为 1.1300000000000001
+Mean delta pos 0.02625313028693199, Max delta pos 0.05208717659115791, Total collision Num : 1567.5, Mean collision num : 6.27
+sup_rate 为 0.09, max_vel 为 1.29
+Mean delta pos 0.022579602897167206, Max delta pos 0.050280094146728516, Total collision Num : 1685.75, Mean collision num : 6.743
+sup_rate 为 0.09, max_vel 为 1.3900000000000001
+Mean delta pos 0.03674551472067833, Max delta pos 0.061028990894556046, Total collision Num : 1744.75, Mean collision num : 6.979
+sup_rate 为 0.09, max_vel 为 1.49
+Mean delta pos 0.025715891271829605, Max delta pos 0.06595873087644577, Total collision Num : 2095.75, Mean collision num : 8.383
+sup_rate 为 0.09, max_vel 为 1.51
+Mean delta pos 0.020971139892935753, Max delta pos 0.04790744557976723, Total collision Num : 1798.5, Mean collision num : 7.194
+sup_rate 为 0.09, max_vel 为 1.53
+Mean delta pos 0.03593496233224869, Max delta pos 0.07066309452056885, Total collision Num : 1922.0, Mean collision num : 7.688
+sup_rate 为 0.09, max_vel 为 1.55
+Mean delta pos 0.022154605016112328, Max delta pos 0.05633789673447609, Total collision Num : 1745.5, Mean collision num : 6.982
+sup_rate 为 0.09, max_vel 为 1.61
+Mean delta pos 0.028272800147533417, Max delta pos 0.06829387694597244, Total collision Num : 1611.5, Mean collision num : 6.446
+sup_rate 为 0.09, max_vel 为 1.6300000000000001
+Mean delta pos 0.031081587076187134, Max delta pos 0.057471904903650284, Total collision Num : 1687.5, Mean collision num : 6.75
+sup_rate 为 0.09, max_vel 为 1.6500000000000001
+Mean delta pos 0.038853444159030914, Max delta pos 0.06820417195558548, Total collision Num : 1829.25, Mean collision num : 7.317
+sup_rate 为 0.09, max_vel 为 1.6700000000000002
+Mean delta pos 0.039375923573970795, Max delta pos 0.06947717815637589, Total collision Num : 1778.0, Mean collision num : 7.112
+sup_rate 为 0.09, max_vel 为 1.6900000000000002
+Mean delta pos 0.03939343988895416, Max delta pos 0.07303959131240845, Total collision Num : 1881.25, Mean collision num : 7.525
+sup_rate 为 0.09, max_vel 为 1.7100000000000002
+Mean delta pos 0.03755761310458183, Max delta pos 0.07532729208469391, Total collision Num : 1667.25, Mean collision num : 6.669
+sup_rate 为 0.09, max_vel 为 1.75
+Mean delta pos 0.038846205919981, Max delta pos 0.07614699751138687, Total collision Num : 1635.0, Mean collision num : 6.54
+sup_rate 为 0.09, max_vel 为 1.77
+Mean delta pos 0.04547040909528732, Max delta pos 0.07844673097133636, Total collision Num : 1790.0, Mean collision num : 7.16
+sup_rate 为 0.09, max_vel 为 1.79
+Mean delta pos 0.037577155977487564, Max delta pos 0.0889223963022232, Total collision Num : 1978.75, Mean collision num : 7.915
+sup_rate 为 0.09, max_vel 为 1.85
+Mean delta pos 0.048688892275094986, Max delta pos 0.08405625075101852, Total collision Num : 1735.0, Mean collision num : 6.94
+sup_rate 为 0.09, max_vel 为 1.87
+Mean delta pos 0.0306859128177166, Max delta pos 0.05982307717204094, Total collision Num : 1804.75, Mean collision num : 7.219
+sup_rate 为 0.09, max_vel 为 1.9100000000000001
+Mean delta pos 0.03804553672671318, Max delta pos 0.07424405217170715, Total collision Num : 1879.75, Mean collision num : 7.519
+sup_rate 为 0.09, max_vel 为 1.9300000000000002
+Mean delta pos 0.03773542121052742, Max delta pos 0.07758444547653198, Total collision Num : 1639.5, Mean collision num : 6.558
+sup_rate 为 0.09, max_vel 为 1.9500000000000002
+Mean delta pos 0.04403069242835045, Max delta pos 0.07393036782741547, Total collision Num : 1763.75, Mean collision num : 7.055
+sup_rate 为 0.09, max_vel 为 1.97
+Mean delta pos 0.037083204835653305, Max delta pos 0.08429008722305298, Total collision Num : 1903.5, Mean collision num : 7.614
+sup_rate 为 0.09, max_vel 为 1.99
+Mean delta pos 0.047331925481557846, Max delta pos 0.08313079923391342, Total collision Num : 1917.5, Mean collision num : 7.67
+sup_rate 为 0.09, max_vel 为 2.01
+Mean delta pos 0.05618080869317055, Max delta pos 0.0855477899312973, Total collision Num : 2022.25, Mean collision num : 8.089
+sup_rate 为 0.09, max_vel 为 2.03
+Mean delta pos 0.05406290292739868, Max delta pos 0.08985961228609085, Total collision Num : 1800.25, Mean collision num : 7.201
+sup_rate 为 0.09, max_vel 为 2.05
+Mean delta pos 0.05687130242586136, Max delta pos 0.08700013160705566, Total collision Num : 1809.75, Mean collision num : 7.239
+sup_rate 为 0.09, max_vel 为 2.07
+Mean delta pos 0.03834477812051773, Max delta pos 0.08979190140962601, Total collision Num : 1807.0, Mean collision num : 7.228
+sup_rate 为 0.09, max_vel 为 2.09
+Mean delta pos 0.06203116849064827, Max delta pos 0.08962327241897583, Total collision Num : 1962.0, Mean collision num : 7.848
+sup_rate 为 0.09, max_vel 为 2.11
+Mean delta pos 0.04352492466568947, Max delta pos 0.09224122017621994, Total collision Num : 1838.0, Mean collision num : 7.352
+sup_rate 为 0.09, max_vel 为 2.13
+Mean delta pos 0.04697345197200775, Max delta pos 0.09764230251312256, Total collision Num : 1616.5, Mean collision num : 6.466
+sup_rate 为 0.09, max_vel 为 2.15
+Mean delta pos 0.03697879612445831, Max delta pos 0.08508843928575516, Total collision Num : 2094.0, Mean collision num : 8.376
+sup_rate 为 0.09, max_vel 为 2.17
+Mean delta pos 0.04616665840148926, Max delta pos 0.08867441862821579, Total collision Num : 1684.25, Mean collision num : 6.737
+sup_rate 为 0.09, max_vel 为 2.19
+Mean delta pos 0.058926425874233246, Max delta pos 0.09590809792280197, Total collision Num : 2056.0, Mean collision num : 8.224
+sup_rate 为 0.09, max_vel 为 2.23
+Mean delta pos 0.05542246252298355, Max delta pos 0.09261368960142136, Total collision Num : 1698.75, Mean collision num : 6.795
+sup_rate 为 0.09, max_vel 为 2.25
+Mean delta pos 0.05825558677315712, Max delta pos 0.09492026269435883, Total collision Num : 1803.25, Mean collision num : 7.213
+sup_rate 为 0.09, max_vel 为 2.27
+Mean delta pos 0.04048805683851242, Max delta pos 0.09561580419540405, Total collision Num : 1781.0, Mean collision num : 7.124
+sup_rate 为 0.09, max_vel 为 2.29
+Mean delta pos 0.049105916172266006, Max delta pos 0.08537470549345016, Total collision Num : 1774.25, Mean collision num : 7.097
+sup_rate 为 0.09, max_vel 为 2.3899999999999997
+Mean delta pos 0.058451902121305466, Max delta pos 0.09874371439218521, Total collision Num : 1701.0, Mean collision num : 6.804
+sup_rate 为 0.09, max_vel 为 2.4299999999999997
+Mean delta pos 0.04977952316403389, Max delta pos 0.0981602743268013, Total collision Num : 1840.5, Mean collision num : 7.362
+sup_rate 为 0.11, max_vel 为 0.05
+Mean delta pos 0.9888377785682678, Max delta pos 1.8054991960525513, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.11, max_vel 为 0.43
+Mean delta pos 0.00984406378120184, Max delta pos 0.0416548065841198, Total collision Num : 1661.75, Mean collision num : 6.647
+sup_rate 为 0.11, max_vel 为 0.45
+Mean delta pos 0.008327833376824856, Max delta pos 0.04176151007413864, Total collision Num : 1595.75, Mean collision num : 6.383
+sup_rate 为 0.11, max_vel 为 0.67
+Mean delta pos 0.010691066272556782, Max delta pos 0.025864478200674057, Total collision Num : 1527.25, Mean collision num : 6.109
+sup_rate 为 0.11, max_vel 为 0.89
+Mean delta pos 0.01284558605402708, Max delta pos 0.03348572179675102, Total collision Num : 1303.0, Mean collision num : 5.212
+sup_rate 为 0.11, max_vel 为 0.9700000000000001
+Mean delta pos 0.01381008792668581, Max delta pos 0.03851675987243652, Total collision Num : 1587.75, Mean collision num : 6.351
+sup_rate 为 0.11, max_vel 为 1.01
+Mean delta pos 0.018172407522797585, Max delta pos 0.043391384184360504, Total collision Num : 1636.25, Mean collision num : 6.545
+sup_rate 为 0.11, max_vel 为 1.1700000000000002
+Mean delta pos 0.030601931735873222, Max delta pos 0.06888634711503983, Total collision Num : 1447.75, Mean collision num : 5.791
+sup_rate 为 0.11, max_vel 为 1.4300000000000002
+Mean delta pos 0.023117143660783768, Max delta pos 0.04669004678726196, Total collision Num : 1566.0, Mean collision num : 6.264
+sup_rate 为 0.11, max_vel 为 1.55
+Mean delta pos 0.0419914610683918, Max delta pos 0.06333503127098083, Total collision Num : 1892.75, Mean collision num : 7.571
+sup_rate 为 0.11, max_vel 为 1.57
+Mean delta pos 0.034442272037267685, Max delta pos 0.06868604570627213, Total collision Num : 1703.25, Mean collision num : 6.813
+sup_rate 为 0.11, max_vel 为 1.59
+Mean delta pos 0.038485679775476456, Max delta pos 0.07006459683179855, Total collision Num : 1713.25, Mean collision num : 6.853
+sup_rate 为 0.11, max_vel 为 1.61
+Mean delta pos 0.04206700250506401, Max delta pos 0.06465515494346619, Total collision Num : 2012.75, Mean collision num : 8.051
+sup_rate 为 0.11, max_vel 为 1.6300000000000001
+Mean delta pos 0.031307533383369446, Max delta pos 0.06506185233592987, Total collision Num : 1844.75, Mean collision num : 7.379
+sup_rate 为 0.11, max_vel 为 1.6500000000000001
+Mean delta pos 0.02422034926712513, Max delta pos 0.06696969270706177, Total collision Num : 1917.0, Mean collision num : 7.668
+sup_rate 为 0.11, max_vel 为 1.6700000000000002
+Mean delta pos 0.04105440899729729, Max delta pos 0.07687355577945709, Total collision Num : 1830.0, Mean collision num : 7.32
+sup_rate 为 0.11, max_vel 为 1.6900000000000002
+Mean delta pos 0.03533428907394409, Max delta pos 0.07579642534255981, Total collision Num : 1695.25, Mean collision num : 6.781
+sup_rate 为 0.11, max_vel 为 1.73
+Mean delta pos 0.029157094657421112, Max delta pos 0.06869953870773315, Total collision Num : 1626.25, Mean collision num : 6.505
+sup_rate 为 0.11, max_vel 为 1.75
+Mean delta pos 0.0401088111102581, Max delta pos 0.07309319823980331, Total collision Num : 1706.0, Mean collision num : 6.824
+sup_rate 为 0.11, max_vel 为 1.79
+Mean delta pos 0.0328364297747612, Max delta pos 0.06753259897232056, Total collision Num : 1639.5, Mean collision num : 6.558
+sup_rate 为 0.11, max_vel 为 1.81
+Mean delta pos 0.04176683723926544, Max delta pos 0.07179217785596848, Total collision Num : 1699.25, Mean collision num : 6.797
+sup_rate 为 0.11, max_vel 为 1.83
+Mean delta pos 0.03170754760503769, Max delta pos 0.0833253413438797, Total collision Num : 1723.5, Mean collision num : 6.894
+sup_rate 为 0.11, max_vel 为 1.85
+Mean delta pos 0.04114319011569023, Max delta pos 0.08430295437574387, Total collision Num : 1689.75, Mean collision num : 6.759
+sup_rate 为 0.11, max_vel 为 1.87
+Mean delta pos 0.03966214880347252, Max delta pos 0.07984118908643723, Total collision Num : 1642.0, Mean collision num : 6.568
+sup_rate 为 0.11, max_vel 为 1.8900000000000001
+Mean delta pos 0.0499618798494339, Max delta pos 0.08377741277217865, Total collision Num : 1695.75, Mean collision num : 6.783
+sup_rate 为 0.11, max_vel 为 1.9100000000000001
+Mean delta pos 0.03678455576300621, Max delta pos 0.07218150794506073, Total collision Num : 1657.25, Mean collision num : 6.629
+sup_rate 为 0.11, max_vel 为 1.9300000000000002
+Mean delta pos 0.035679273307323456, Max delta pos 0.06472060084342957, Total collision Num : 1777.25, Mean collision num : 7.109
+sup_rate 为 0.11, max_vel 为 1.9500000000000002
+Mean delta pos 0.032190922647714615, Max delta pos 0.07397358119487762, Total collision Num : 1983.25, Mean collision num : 7.933
+sup_rate 为 0.11, max_vel 为 1.97
+Mean delta pos 0.03442220389842987, Max delta pos 0.07898219674825668, Total collision Num : 1911.0, Mean collision num : 7.644
+sup_rate 为 0.11, max_vel 为 1.99
+Mean delta pos 0.05123244225978851, Max delta pos 0.09223275631666183, Total collision Num : 1858.5, Mean collision num : 7.434
+sup_rate 为 0.11, max_vel 为 2.01
+Mean delta pos 0.040060628205537796, Max delta pos 0.07897835969924927, Total collision Num : 1946.5, Mean collision num : 7.786
+sup_rate 为 0.11, max_vel 为 2.03
+Mean delta pos 0.05558827891945839, Max delta pos 0.09410856664180756, Total collision Num : 1688.5, Mean collision num : 6.754
+sup_rate 为 0.11, max_vel 为 2.05
+Mean delta pos 0.055115774273872375, Max delta pos 0.0894884243607521, Total collision Num : 1893.0, Mean collision num : 7.572
+sup_rate 为 0.11, max_vel 为 2.07
+Mean delta pos 0.055878546088933945, Max delta pos 0.08960495889186859, Total collision Num : 1842.5, Mean collision num : 7.37
+sup_rate 为 0.11, max_vel 为 2.09
+Mean delta pos 0.03792361915111542, Max delta pos 0.0786544680595398, Total collision Num : 1758.25, Mean collision num : 7.033
+sup_rate 为 0.11, max_vel 为 2.11
+Mean delta pos 0.041244227439165115, Max delta pos 0.09261070936918259, Total collision Num : 1697.25, Mean collision num : 6.789
+sup_rate 为 0.11, max_vel 为 2.13
+Mean delta pos 0.04182333126664162, Max delta pos 0.07591644674539566, Total collision Num : 1710.0, Mean collision num : 6.84
+sup_rate 为 0.11, max_vel 为 2.15
+Mean delta pos 0.05087168887257576, Max delta pos 0.08810856193304062, Total collision Num : 1752.75, Mean collision num : 7.011
+sup_rate 为 0.11, max_vel 为 2.17
+Mean delta pos 0.03724082186818123, Max delta pos 0.08681871742010117, Total collision Num : 1901.25, Mean collision num : 7.605
+sup_rate 为 0.11, max_vel 为 2.19
+Mean delta pos 0.06295840442180634, Max delta pos 0.09723690897226334, Total collision Num : 1741.5, Mean collision num : 6.966
+sup_rate 为 0.11, max_vel 为 2.21
+Mean delta pos 0.056428249925374985, Max delta pos 0.09994537383317947, Total collision Num : 1784.5, Mean collision num : 7.138
+sup_rate 为 0.11, max_vel 为 2.23
+Mean delta pos 0.04787442460656166, Max delta pos 0.09354523569345474, Total collision Num : 1865.5, Mean collision num : 7.462
+sup_rate 为 0.11, max_vel 为 2.27
+Mean delta pos 0.04350297898054123, Max delta pos 0.08823835104703903, Total collision Num : 1680.5, Mean collision num : 6.722
+sup_rate 为 0.11, max_vel 为 2.29
+Mean delta pos 0.05383868142962456, Max delta pos 0.0912686362862587, Total collision Num : 1904.75, Mean collision num : 7.619
+sup_rate 为 0.11, max_vel 为 2.33
+Mean delta pos 0.06753762066364288, Max delta pos 0.09928089380264282, Total collision Num : 1878.75, Mean collision num : 7.515
+sup_rate 为 0.11, max_vel 为 2.35
+Mean delta pos 0.05544792488217354, Max delta pos 0.09435468912124634, Total collision Num : 1741.5, Mean collision num : 6.966
+sup_rate 为 0.11, max_vel 为 2.3699999999999997
+Mean delta pos 0.053049638867378235, Max delta pos 0.08788568526506424, Total collision Num : 1752.0, Mean collision num : 7.008
+sup_rate 为 0.11, max_vel 为 2.3899999999999997
+Mean delta pos 0.037745632231235504, Max delta pos 0.09438345581293106, Total collision Num : 1816.25, Mean collision num : 7.265
+sup_rate 为 0.11, max_vel 为 2.4099999999999997
+Mean delta pos 0.05534602701663971, Max delta pos 0.0932222381234169, Total collision Num : 1664.25, Mean collision num : 6.657
+sup_rate 为 0.13, max_vel 为 0.05
+Mean delta pos 1.0015490055084229, Max delta pos 1.8094444274902344, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.13, max_vel 为 0.49
+Mean delta pos 0.010486726649105549, Max delta pos 0.041970428079366684, Total collision Num : 1452.0, Mean collision num : 5.808
+sup_rate 为 0.13, max_vel 为 0.51
+Mean delta pos 0.009894040413200855, Max delta pos 0.041777677834033966, Total collision Num : 1510.5, Mean collision num : 6.042
+sup_rate 为 0.13, max_vel 为 0.5700000000000001
+Mean delta pos 0.010561193339526653, Max delta pos 0.035248227417469025, Total collision Num : 1554.25, Mean collision num : 6.217
+sup_rate 为 0.13, max_vel 为 0.5900000000000001
+Mean delta pos 0.010861010290682316, Max delta pos 0.0303345900028944, Total collision Num : 1311.75, Mean collision num : 5.247
+sup_rate 为 0.13, max_vel 为 0.63
+Mean delta pos 0.0105396443977952, Max delta pos 0.026304494589567184, Total collision Num : 1397.25, Mean collision num : 5.589
+sup_rate 为 0.13, max_vel 为 0.7300000000000001
+Mean delta pos 0.008882018737494946, Max delta pos 0.029779452830553055, Total collision Num : 1393.0, Mean collision num : 5.572
+sup_rate 为 0.13, max_vel 为 0.93
+Mean delta pos 0.015254215337336063, Max delta pos 0.03457777202129364, Total collision Num : 1435.0, Mean collision num : 5.74
+sup_rate 为 0.13, max_vel 为 1.03
+Mean delta pos 0.014176088385283947, Max delta pos 0.03991587460041046, Total collision Num : 1395.25, Mean collision num : 5.581
+sup_rate 为 0.13, max_vel 为 1.09
+Mean delta pos 0.02133735828101635, Max delta pos 0.04411495476961136, Total collision Num : 1648.0, Mean collision num : 6.592
+sup_rate 为 0.13, max_vel 为 1.21
+Mean delta pos 0.020305506885051727, Max delta pos 0.04746120423078537, Total collision Num : 1582.75, Mean collision num : 6.331
+sup_rate 为 0.13, max_vel 为 1.31
+Mean delta pos 0.02536030486226082, Max delta pos 0.04740435630083084, Total collision Num : 1499.5, Mean collision num : 5.998
+sup_rate 为 0.13, max_vel 为 1.3900000000000001
+Mean delta pos 0.030433598905801773, Max delta pos 0.05716972425580025, Total collision Num : 1622.5, Mean collision num : 6.49
+sup_rate 为 0.13, max_vel 为 1.4300000000000002
+Mean delta pos 0.020179517567157745, Max delta pos 0.04853156954050064, Total collision Num : 1500.5, Mean collision num : 6.002
+sup_rate 为 0.13, max_vel 为 1.51
+Mean delta pos 0.027521660551428795, Max delta pos 0.06836375594139099, Total collision Num : 1564.0, Mean collision num : 6.256
+sup_rate 为 0.13, max_vel 为 1.61
+Mean delta pos 0.030124953016638756, Max delta pos 0.06868106871843338, Total collision Num : 1813.75, Mean collision num : 7.255
+sup_rate 为 0.13, max_vel 为 1.6700000000000002
+Mean delta pos 0.03747095540165901, Max delta pos 0.07103332877159119, Total collision Num : 1827.25, Mean collision num : 7.309
+sup_rate 为 0.13, max_vel 为 1.73
+Mean delta pos 0.03281567990779877, Max delta pos 0.06880667060613632, Total collision Num : 1701.75, Mean collision num : 6.807
+sup_rate 为 0.13, max_vel 为 1.75
+Mean delta pos 0.04386253282427788, Max delta pos 0.07256996631622314, Total collision Num : 1795.75, Mean collision num : 7.183
+sup_rate 为 0.13, max_vel 为 1.83
+Mean delta pos 0.026596272364258766, Max delta pos 0.06704163551330566, Total collision Num : 1725.25, Mean collision num : 6.901
+sup_rate 为 0.13, max_vel 为 1.85
+Mean delta pos 0.03536535054445267, Max delta pos 0.0814175084233284, Total collision Num : 1854.25, Mean collision num : 7.417
+sup_rate 为 0.13, max_vel 为 1.87
+Mean delta pos 0.04537791758775711, Max delta pos 0.0814543068408966, Total collision Num : 1828.5, Mean collision num : 7.314
+sup_rate 为 0.13, max_vel 为 1.8900000000000001
+Mean delta pos 0.03880970925092697, Max delta pos 0.08682917058467865, Total collision Num : 1914.0, Mean collision num : 7.656
+sup_rate 为 0.13, max_vel 为 1.9100000000000001
+Mean delta pos 0.03329111635684967, Max delta pos 0.07622405141592026, Total collision Num : 1724.0, Mean collision num : 6.896
+sup_rate 为 0.13, max_vel 为 1.9300000000000002
+Mean delta pos 0.036550167948007584, Max delta pos 0.06746450066566467, Total collision Num : 1900.0, Mean collision num : 7.6
+sup_rate 为 0.13, max_vel 为 1.9500000000000002
+Mean delta pos 0.05506517365574837, Max delta pos 0.08206059038639069, Total collision Num : 1757.5, Mean collision num : 7.03
+sup_rate 为 0.13, max_vel 为 1.97
+Mean delta pos 0.045054834336042404, Max delta pos 0.0785818099975586, Total collision Num : 1911.5, Mean collision num : 7.646
+sup_rate 为 0.13, max_vel 为 1.99
+Mean delta pos 0.044356755912303925, Max delta pos 0.08771654963493347, Total collision Num : 1650.75, Mean collision num : 6.603
+sup_rate 为 0.13, max_vel 为 2.01
+Mean delta pos 0.053160544484853745, Max delta pos 0.08612200617790222, Total collision Num : 1678.25, Mean collision num : 6.713
+sup_rate 为 0.13, max_vel 为 2.05
+Mean delta pos 0.044616665691137314, Max delta pos 0.09430389106273651, Total collision Num : 1774.5, Mean collision num : 7.098
+sup_rate 为 0.13, max_vel 为 2.09
+Mean delta pos 0.04380500316619873, Max delta pos 0.08290970325469971, Total collision Num : 2074.75, Mean collision num : 8.299
+sup_rate 为 0.13, max_vel 为 2.11
+Mean delta pos 0.042699847370386124, Max delta pos 0.09270443022251129, Total collision Num : 1944.0, Mean collision num : 7.776
+sup_rate 为 0.13, max_vel 为 2.13
+Mean delta pos 0.039265453815460205, Max delta pos 0.092600017786026, Total collision Num : 1753.5, Mean collision num : 7.014
+sup_rate 为 0.13, max_vel 为 2.15
+Mean delta pos 0.03912859782576561, Max delta pos 0.08677584677934647, Total collision Num : 1820.0, Mean collision num : 7.28
+sup_rate 为 0.13, max_vel 为 2.17
+Mean delta pos 0.035776861011981964, Max delta pos 0.08068080991506577, Total collision Num : 1798.75, Mean collision num : 7.195
+sup_rate 为 0.13, max_vel 为 2.21
+Mean delta pos 0.05572597682476044, Max delta pos 0.09663860499858856, Total collision Num : 2193.0, Mean collision num : 8.772
+sup_rate 为 0.13, max_vel 为 2.23
+Mean delta pos 0.05836355313658714, Max delta pos 0.09857487678527832, Total collision Num : 1942.75, Mean collision num : 7.771
+sup_rate 为 0.13, max_vel 为 2.25
+Mean delta pos 0.061167847365140915, Max delta pos 0.09462278336286545, Total collision Num : 2052.0, Mean collision num : 8.208
+sup_rate 为 0.13, max_vel 为 2.29
+Mean delta pos 0.055746521800756454, Max delta pos 0.09382078051567078, Total collision Num : 1895.75, Mean collision num : 7.583
+sup_rate 为 0.13, max_vel 为 2.31
+Mean delta pos 0.06005362793803215, Max delta pos 0.09652632474899292, Total collision Num : 1704.75, Mean collision num : 6.819
+sup_rate 为 0.13, max_vel 为 2.33
+Mean delta pos 0.05847668647766113, Max delta pos 0.09126736968755722, Total collision Num : 2014.75, Mean collision num : 8.059
+sup_rate 为 0.13, max_vel 为 2.35
+Mean delta pos 0.051583629101514816, Max delta pos 0.09801836311817169, Total collision Num : 1924.75, Mean collision num : 7.699
+sup_rate 为 0.13, max_vel 为 2.3699999999999997
+Mean delta pos 0.049133721739053726, Max delta pos 0.09978135675191879, Total collision Num : 1772.5, Mean collision num : 7.09
+sup_rate 为 0.13, max_vel 为 2.4299999999999997
+Mean delta pos 0.05819804593920708, Max delta pos 0.0955505296587944, Total collision Num : 1945.0, Mean collision num : 7.78
+sup_rate 为 0.15000000000000002, max_vel 为 0.05
+Mean delta pos 1.0104780197143555, Max delta pos 1.811731219291687, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.15000000000000002, max_vel 为 0.07
+Mean delta pos 0.9678040742874146, Max delta pos 1.8324220180511475, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.15000000000000002, max_vel 为 0.5900000000000001
+Mean delta pos 0.01049022562801838, Max delta pos 0.04171815887093544, Total collision Num : 1240.75, Mean collision num : 4.963
+sup_rate 为 0.15000000000000002, max_vel 为 0.63
+Mean delta pos 0.011864668689668179, Max delta pos 0.04177863895893097, Total collision Num : 1252.75, Mean collision num : 5.011
+sup_rate 为 0.15000000000000002, max_vel 为 0.65
+Mean delta pos 0.012995042838156223, Max delta pos 0.036533016711473465, Total collision Num : 1304.25, Mean collision num : 5.217
+sup_rate 为 0.15000000000000002, max_vel 为 0.67
+Mean delta pos 0.011294415220618248, Max delta pos 0.03218856453895569, Total collision Num : 1241.5, Mean collision num : 4.966
+sup_rate 为 0.15000000000000002, max_vel 为 0.6900000000000001
+Mean delta pos 0.011938369832932949, Max delta pos 0.027379240840673447, Total collision Num : 1234.0, Mean collision num : 4.936
+sup_rate 为 0.15000000000000002, max_vel 为 0.7300000000000001
+Mean delta pos 0.01144834142178297, Max delta pos 0.033371418714523315, Total collision Num : 1411.5, Mean collision num : 5.646
+sup_rate 为 0.15000000000000002, max_vel 为 0.77
+Mean delta pos 0.01185461226850748, Max delta pos 0.03355354070663452, Total collision Num : 1442.0, Mean collision num : 5.768
+sup_rate 为 0.15000000000000002, max_vel 为 0.8700000000000001
+Mean delta pos 0.012595432810485363, Max delta pos 0.03899235650897026, Total collision Num : 1528.5, Mean collision num : 6.114
+sup_rate 为 0.15000000000000002, max_vel 为 1.21
+Mean delta pos 0.023500127717852592, Max delta pos 0.051030997186899185, Total collision Num : 1476.25, Mean collision num : 5.905
+sup_rate 为 0.15000000000000002, max_vel 为 1.27
+Mean delta pos 0.026217447593808174, Max delta pos 0.0488637275993824, Total collision Num : 1564.0, Mean collision num : 6.256
+sup_rate 为 0.15000000000000002, max_vel 为 1.33
+Mean delta pos 0.02774115465581417, Max delta pos 0.061225198209285736, Total collision Num : 1598.5, Mean collision num : 6.394
+sup_rate 为 0.15000000000000002, max_vel 为 1.4500000000000002
+Mean delta pos 0.028168441727757454, Max delta pos 0.0662054643034935, Total collision Num : 1623.25, Mean collision num : 6.493
+sup_rate 为 0.15000000000000002, max_vel 为 1.55
+Mean delta pos 0.03260483220219612, Max delta pos 0.06421568244695663, Total collision Num : 1636.0, Mean collision num : 6.544
+sup_rate 为 0.15000000000000002, max_vel 为 1.61
+Mean delta pos 0.03719034418463707, Max delta pos 0.06703727692365646, Total collision Num : 2078.25, Mean collision num : 8.313
+sup_rate 为 0.15000000000000002, max_vel 为 1.7100000000000002
+Mean delta pos 0.030846236273646355, Max delta pos 0.07340788841247559, Total collision Num : 1856.25, Mean collision num : 7.425
+sup_rate 为 0.15000000000000002, max_vel 为 1.73
+Mean delta pos 0.04186414182186127, Max delta pos 0.07117514312267303, Total collision Num : 1784.0, Mean collision num : 7.136
+sup_rate 为 0.15000000000000002, max_vel 为 1.75
+Mean delta pos 0.04480591043829918, Max delta pos 0.06925526261329651, Total collision Num : 1821.25, Mean collision num : 7.285
+sup_rate 为 0.15000000000000002, max_vel 为 1.77
+Mean delta pos 0.04245324432849884, Max delta pos 0.07012856006622314, Total collision Num : 1763.75, Mean collision num : 7.055
+sup_rate 为 0.15000000000000002, max_vel 为 1.79
+Mean delta pos 0.0430934838950634, Max delta pos 0.07593369483947754, Total collision Num : 1824.0, Mean collision num : 7.296
+sup_rate 为 0.15000000000000002, max_vel 为 1.81
+Mean delta pos 0.03161095082759857, Max delta pos 0.07085052132606506, Total collision Num : 1696.0, Mean collision num : 6.784
+sup_rate 为 0.15000000000000002, max_vel 为 1.83
+Mean delta pos 0.044535595923662186, Max delta pos 0.08070050179958344, Total collision Num : 2008.5, Mean collision num : 8.034
+sup_rate 为 0.15000000000000002, max_vel 为 1.8900000000000001
+Mean delta pos 0.049723997712135315, Max delta pos 0.08471263200044632, Total collision Num : 1698.5, Mean collision num : 6.794
+sup_rate 为 0.15000000000000002, max_vel 为 1.9500000000000002
+Mean delta pos 0.03872989863157272, Max delta pos 0.09012861549854279, Total collision Num : 1894.75, Mean collision num : 7.579
+sup_rate 为 0.15000000000000002, max_vel 为 1.97
+Mean delta pos 0.03825728967785835, Max delta pos 0.08056820929050446, Total collision Num : 1871.75, Mean collision num : 7.487
+sup_rate 为 0.15000000000000002, max_vel 为 1.99
+Mean delta pos 0.040292780846357346, Max delta pos 0.08364371955394745, Total collision Num : 1866.25, Mean collision num : 7.465
+sup_rate 为 0.15000000000000002, max_vel 为 2.01
+Mean delta pos 0.043206553906202316, Max delta pos 0.08099847286939621, Total collision Num : 1745.75, Mean collision num : 6.983
+sup_rate 为 0.15000000000000002, max_vel 为 2.03
+Mean delta pos 0.03842905908823013, Max delta pos 0.09337173402309418, Total collision Num : 1801.5, Mean collision num : 7.206
+sup_rate 为 0.15000000000000002, max_vel 为 2.07
+Mean delta pos 0.04303283616900444, Max delta pos 0.07856159657239914, Total collision Num : 2016.0, Mean collision num : 8.064
+sup_rate 为 0.15000000000000002, max_vel 为 2.09
+Mean delta pos 0.052137572318315506, Max delta pos 0.09227145463228226, Total collision Num : 1688.5, Mean collision num : 6.754
+sup_rate 为 0.15000000000000002, max_vel 为 2.11
+Mean delta pos 0.03794464096426964, Max delta pos 0.07541104406118393, Total collision Num : 1639.0, Mean collision num : 6.556
+sup_rate 为 0.15000000000000002, max_vel 为 2.13
+Mean delta pos 0.039384838193655014, Max delta pos 0.08374407887458801, Total collision Num : 1841.75, Mean collision num : 7.367
+sup_rate 为 0.15000000000000002, max_vel 为 2.17
+Mean delta pos 0.05552906543016434, Max delta pos 0.09247282147407532, Total collision Num : 1835.75, Mean collision num : 7.343
+sup_rate 为 0.15000000000000002, max_vel 为 2.19
+Mean delta pos 0.05650485306978226, Max delta pos 0.08950266242027283, Total collision Num : 1845.0, Mean collision num : 7.38
+sup_rate 为 0.15000000000000002, max_vel 为 2.21
+Mean delta pos 0.05421542376279831, Max delta pos 0.08922287821769714, Total collision Num : 1889.5, Mean collision num : 7.558
+sup_rate 为 0.15000000000000002, max_vel 为 2.25
+Mean delta pos 0.048463549464941025, Max delta pos 0.08453593403100967, Total collision Num : 1852.0, Mean collision num : 7.408
+sup_rate 为 0.15000000000000002, max_vel 为 2.29
+Mean delta pos 0.05487828329205513, Max delta pos 0.09466958791017532, Total collision Num : 1716.0, Mean collision num : 6.864
+sup_rate 为 0.15000000000000002, max_vel 为 2.33
+Mean delta pos 0.05941911041736603, Max delta pos 0.0952017530798912, Total collision Num : 1982.75, Mean collision num : 7.931
+sup_rate 为 0.15000000000000002, max_vel 为 2.35
+Mean delta pos 0.040313493460416794, Max delta pos 0.08887268602848053, Total collision Num : 1859.25, Mean collision num : 7.437
+sup_rate 为 0.15000000000000002, max_vel 为 2.3699999999999997
+Mean delta pos 0.046211667358875275, Max delta pos 0.09594550728797913, Total collision Num : 2036.5, Mean collision num : 8.146
+sup_rate 为 0.15000000000000002, max_vel 为 2.4299999999999997
+Mean delta pos 0.046470753848552704, Max delta pos 0.0993899405002594, Total collision Num : 1854.0, Mean collision num : 7.416
+sup_rate 为 0.16999999999999998, max_vel 为 0.05
+Mean delta pos 1.0171031951904297, Max delta pos 1.8134323358535767, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.16999999999999998, max_vel 为 0.07
+Mean delta pos 0.9800179600715637, Max delta pos 1.8298028707504272, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.16999999999999998, max_vel 为 0.63
+Mean delta pos 0.012904319912195206, Max delta pos 0.04165101423859596, Total collision Num : 1190.0, Mean collision num : 4.76
+sup_rate 为 0.16999999999999998, max_vel 为 0.65
+Mean delta pos 0.011272362433373928, Max delta pos 0.0416034497320652, Total collision Num : 1166.25, Mean collision num : 4.665
+sup_rate 为 0.16999999999999998, max_vel 为 0.67
+Mean delta pos 0.011800340376794338, Max delta pos 0.04175174981355667, Total collision Num : 1173.75, Mean collision num : 4.695
+sup_rate 为 0.16999999999999998, max_vel 为 0.6900000000000001
+Mean delta pos 0.013016441836953163, Max delta pos 0.04099090397357941, Total collision Num : 1088.25, Mean collision num : 4.353
+sup_rate 为 0.16999999999999998, max_vel 为 0.7300000000000001
+Mean delta pos 0.012695599347352982, Max delta pos 0.03754403814673424, Total collision Num : 1132.5, Mean collision num : 4.53
+sup_rate 为 0.16999999999999998, max_vel 为 0.7500000000000001
+Mean delta pos 0.01177489385008812, Max delta pos 0.03424513339996338, Total collision Num : 1203.25, Mean collision num : 4.813
+sup_rate 为 0.16999999999999998, max_vel 为 0.77
+Mean delta pos 0.011706455610692501, Max delta pos 0.030173445120453835, Total collision Num : 1109.75, Mean collision num : 4.439
+sup_rate 为 0.16999999999999998, max_vel 为 0.79
+Mean delta pos 0.01282524224370718, Max delta pos 0.03427080065011978, Total collision Num : 1167.5, Mean collision num : 4.67
+sup_rate 为 0.16999999999999998, max_vel 为 0.8300000000000001
+Mean delta pos 0.014193189330399036, Max delta pos 0.039739374071359634, Total collision Num : 1514.25, Mean collision num : 6.057
+sup_rate 为 0.16999999999999998, max_vel 为 0.8500000000000001
+Mean delta pos 0.014076669700443745, Max delta pos 0.03534001484513283, Total collision Num : 1468.25, Mean collision num : 5.873
+sup_rate 为 0.16999999999999998, max_vel 为 0.91
+Mean delta pos 0.018097499385476112, Max delta pos 0.03816933557391167, Total collision Num : 1265.25, Mean collision num : 5.061
+sup_rate 为 0.16999999999999998, max_vel 为 0.9700000000000001
+Mean delta pos 0.015441378578543663, Max delta pos 0.04068220779299736, Total collision Num : 1291.5, Mean collision num : 5.166
+sup_rate 为 0.16999999999999998, max_vel 为 1.3900000000000001
+Mean delta pos 0.02595602348446846, Max delta pos 0.05245375260710716, Total collision Num : 1484.5, Mean collision num : 5.938
+sup_rate 为 0.16999999999999998, max_vel 为 1.47
+Mean delta pos 0.03776717185974121, Max delta pos 0.07067403942346573, Total collision Num : 1531.0, Mean collision num : 6.124
+sup_rate 为 0.16999999999999998, max_vel 为 1.49
+Mean delta pos 0.03311627358198166, Max delta pos 0.06401786208152771, Total collision Num : 1494.75, Mean collision num : 5.979
+sup_rate 为 0.16999999999999998, max_vel 为 1.6900000000000002
+Mean delta pos 0.0398591011762619, Max delta pos 0.07761995494365692, Total collision Num : 1771.25, Mean collision num : 7.085
+sup_rate 为 0.16999999999999998, max_vel 为 1.7100000000000002
+Mean delta pos 0.041099708527326584, Max delta pos 0.07340763509273529, Total collision Num : 1618.5, Mean collision num : 6.474
+sup_rate 为 0.16999999999999998, max_vel 为 1.75
+Mean delta pos 0.03276532143354416, Max delta pos 0.06595994532108307, Total collision Num : 1829.0, Mean collision num : 7.316
+sup_rate 为 0.16999999999999998, max_vel 为 1.79
+Mean delta pos 0.037875574082136154, Max delta pos 0.06908975541591644, Total collision Num : 1869.75, Mean collision num : 7.479
+sup_rate 为 0.16999999999999998, max_vel 为 1.81
+Mean delta pos 0.03969113901257515, Max delta pos 0.06828123331069946, Total collision Num : 1762.25, Mean collision num : 7.049
+sup_rate 为 0.16999999999999998, max_vel 为 1.85
+Mean delta pos 0.03669801726937294, Max delta pos 0.06911680102348328, Total collision Num : 1684.0, Mean collision num : 6.736
+sup_rate 为 0.16999999999999998, max_vel 为 1.87
+Mean delta pos 0.04645496979355812, Max delta pos 0.08526555448770523, Total collision Num : 1788.25, Mean collision num : 7.153
+sup_rate 为 0.16999999999999998, max_vel 为 1.9100000000000001
+Mean delta pos 0.04442359879612923, Max delta pos 0.07681044191122055, Total collision Num : 2009.5, Mean collision num : 8.038
+sup_rate 为 0.16999999999999998, max_vel 为 2.05
+Mean delta pos 0.0537920817732811, Max delta pos 0.08725008368492126, Total collision Num : 1823.5, Mean collision num : 7.294
+sup_rate 为 0.16999999999999998, max_vel 为 2.07
+Mean delta pos 0.03668384626507759, Max delta pos 0.08878979831933975, Total collision Num : 1787.0, Mean collision num : 7.148
+sup_rate 为 0.16999999999999998, max_vel 为 2.09
+Mean delta pos 0.04677482694387436, Max delta pos 0.0823693573474884, Total collision Num : 1831.0, Mean collision num : 7.324
+sup_rate 为 0.16999999999999998, max_vel 为 2.11
+Mean delta pos 0.05350465700030327, Max delta pos 0.0907861515879631, Total collision Num : 1902.5, Mean collision num : 7.61
+sup_rate 为 0.16999999999999998, max_vel 为 2.15
+Mean delta pos 0.05315133184194565, Max delta pos 0.09275690466165543, Total collision Num : 1796.75, Mean collision num : 7.187
+sup_rate 为 0.16999999999999998, max_vel 为 2.17
+Mean delta pos 0.04041074961423874, Max delta pos 0.09552844613790512, Total collision Num : 1923.0, Mean collision num : 7.692
+sup_rate 为 0.16999999999999998, max_vel 为 2.21
+Mean delta pos 0.04783439263701439, Max delta pos 0.0935404896736145, Total collision Num : 1879.25, Mean collision num : 7.517
+sup_rate 为 0.16999999999999998, max_vel 为 2.23
+Mean delta pos 0.047282930463552475, Max delta pos 0.0944090485572815, Total collision Num : 1811.75, Mean collision num : 7.247
+sup_rate 为 0.16999999999999998, max_vel 为 2.27
+Mean delta pos 0.052394311875104904, Max delta pos 0.0965830534696579, Total collision Num : 2246.25, Mean collision num : 8.985
+sup_rate 为 0.16999999999999998, max_vel 为 2.29
+Mean delta pos 0.04956270381808281, Max delta pos 0.093049556016922, Total collision Num : 1695.0, Mean collision num : 6.78
+sup_rate 为 0.16999999999999998, max_vel 为 2.31
+Mean delta pos 0.05628066137433052, Max delta pos 0.0925576388835907, Total collision Num : 1957.75, Mean collision num : 7.831
+sup_rate 为 0.16999999999999998, max_vel 为 2.33
+Mean delta pos 0.05566010996699333, Max delta pos 0.09461943060159683, Total collision Num : 1912.5, Mean collision num : 7.65
+sup_rate 为 0.16999999999999998, max_vel 为 2.3699999999999997
+Mean delta pos 0.05039851740002632, Max delta pos 0.08615824580192566, Total collision Num : 2054.25, Mean collision num : 8.217
+sup_rate 为 0.16999999999999998, max_vel 为 2.4299999999999997
+Mean delta pos 0.04743029922246933, Max delta pos 0.08765827119350433, Total collision Num : 1987.0, Mean collision num : 7.948
+sup_rate 为 0.19, max_vel 为 0.05
+Mean delta pos 1.0221978425979614, Max delta pos 1.8148603439331055, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.19, max_vel 为 0.07
+Mean delta pos 0.9900888204574585, Max delta pos 1.8243197202682495, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.19, max_vel 为 0.7100000000000001
+Mean delta pos 0.013358408585190773, Max delta pos 0.0417499840259552, Total collision Num : 1182.5, Mean collision num : 4.73
+sup_rate 为 0.19, max_vel 为 0.7300000000000001
+Mean delta pos 0.014984622597694397, Max delta pos 0.04179567098617554, Total collision Num : 1046.25, Mean collision num : 4.185
+sup_rate 为 0.19, max_vel 为 0.7500000000000001
+Mean delta pos 0.009429155848920345, Max delta pos 0.041785918176174164, Total collision Num : 1058.0, Mean collision num : 4.232
+sup_rate 为 0.19, max_vel 为 0.77
+Mean delta pos 0.011113681830465794, Max delta pos 0.04171232506632805, Total collision Num : 1089.5, Mean collision num : 4.358
+sup_rate 为 0.19, max_vel 为 0.79
+Mean delta pos 0.014033529907464981, Max delta pos 0.039994869381189346, Total collision Num : 1022.75, Mean collision num : 4.091
+sup_rate 为 0.19, max_vel 为 0.8300000000000001
+Mean delta pos 0.0148481959477067, Max delta pos 0.037561725825071335, Total collision Num : 1121.25, Mean collision num : 4.485
+sup_rate 为 0.19, max_vel 为 0.8500000000000001
+Mean delta pos 0.015206347219645977, Max delta pos 0.0360395610332489, Total collision Num : 1144.5, Mean collision num : 4.578
+sup_rate 为 0.19, max_vel 为 0.8700000000000001
+Mean delta pos 0.01523140911012888, Max delta pos 0.03338230401277542, Total collision Num : 1346.0, Mean collision num : 5.384
+sup_rate 为 0.19, max_vel 为 0.89
+Mean delta pos 0.016500180587172508, Max delta pos 0.03815102204680443, Total collision Num : 1064.25, Mean collision num : 4.257
+sup_rate 为 0.19, max_vel 为 0.91
+Mean delta pos 0.01565108634531498, Max delta pos 0.038387324661016464, Total collision Num : 1084.5, Mean collision num : 4.338
+sup_rate 为 0.19, max_vel 为 0.93
+Mean delta pos 0.01657586731016636, Max delta pos 0.03717596083879471, Total collision Num : 1184.5, Mean collision num : 4.738
+sup_rate 为 0.19, max_vel 为 0.9900000000000001
+Mean delta pos 0.016186751425266266, Max delta pos 0.046598974615335464, Total collision Num : 1178.25, Mean collision num : 4.713
+sup_rate 为 0.19, max_vel 为 1.35
+Mean delta pos 0.02249119058251381, Max delta pos 0.0635296106338501, Total collision Num : 1305.0, Mean collision num : 5.22
+sup_rate 为 0.19, max_vel 为 1.47
+Mean delta pos 0.0314827486872673, Max delta pos 0.06042574346065521, Total collision Num : 1431.75, Mean collision num : 5.727
+sup_rate 为 0.19, max_vel 为 1.51
+Mean delta pos 0.02615341544151306, Max delta pos 0.060722850263118744, Total collision Num : 1441.0, Mean collision num : 5.764
+sup_rate 为 0.19, max_vel 为 1.75
+Mean delta pos 0.03486635163426399, Max delta pos 0.07045234739780426, Total collision Num : 1579.25, Mean collision num : 6.317
+sup_rate 为 0.19, max_vel 为 1.77
+Mean delta pos 0.023143446072936058, Max delta pos 0.06689438968896866, Total collision Num : 1825.75, Mean collision num : 7.303
+sup_rate 为 0.19, max_vel 为 1.81
+Mean delta pos 0.032419219613075256, Max delta pos 0.07019734382629395, Total collision Num : 1747.5, Mean collision num : 6.99
+sup_rate 为 0.19, max_vel 为 1.87
+Mean delta pos 0.0477774553000927, Max delta pos 0.08305171877145767, Total collision Num : 1700.5, Mean collision num : 6.802
+sup_rate 为 0.19, max_vel 为 2.05
+Mean delta pos 0.04555976018309593, Max delta pos 0.07765202969312668, Total collision Num : 1879.5, Mean collision num : 7.518
+sup_rate 为 0.19, max_vel 为 2.09
+Mean delta pos 0.04275912418961525, Max delta pos 0.07473008334636688, Total collision Num : 1891.5, Mean collision num : 7.566
+sup_rate 为 0.19, max_vel 为 2.11
+Mean delta pos 0.034808918833732605, Max delta pos 0.07782161235809326, Total collision Num : 1794.75, Mean collision num : 7.179
+sup_rate 为 0.19, max_vel 为 2.13
+Mean delta pos 0.04900868237018585, Max delta pos 0.08824914693832397, Total collision Num : 1888.0, Mean collision num : 7.552
+sup_rate 为 0.19, max_vel 为 2.15
+Mean delta pos 0.04930302873253822, Max delta pos 0.08658931404352188, Total collision Num : 1815.25, Mean collision num : 7.261
+sup_rate 为 0.19, max_vel 为 2.17
+Mean delta pos 0.04770086705684662, Max delta pos 0.08637669682502747, Total collision Num : 1871.75, Mean collision num : 7.487
+sup_rate 为 0.19, max_vel 为 2.21
+Mean delta pos 0.0331682525575161, Max delta pos 0.0943145826458931, Total collision Num : 1826.25, Mean collision num : 7.305
+sup_rate 为 0.19, max_vel 为 2.23
+Mean delta pos 0.053369343280792236, Max delta pos 0.09657615423202515, Total collision Num : 1758.0, Mean collision num : 7.032
+sup_rate 为 0.19, max_vel 为 2.25
+Mean delta pos 0.038665223866701126, Max delta pos 0.07763239741325378, Total collision Num : 1979.75, Mean collision num : 7.919
+sup_rate 为 0.19, max_vel 为 2.27
+Mean delta pos 0.045852143317461014, Max delta pos 0.09790201485157013, Total collision Num : 1809.5, Mean collision num : 7.238
+sup_rate 为 0.19, max_vel 为 2.29
+Mean delta pos 0.05366354063153267, Max delta pos 0.0989101305603981, Total collision Num : 1717.25, Mean collision num : 6.869
+sup_rate 为 0.19, max_vel 为 2.33
+Mean delta pos 0.05644393339753151, Max delta pos 0.0984446182847023, Total collision Num : 1874.75, Mean collision num : 7.499
+sup_rate 为 0.19, max_vel 为 2.35
+Mean delta pos 0.05140980705618858, Max delta pos 0.09986993670463562, Total collision Num : 1983.25, Mean collision num : 7.933
+sup_rate 为 0.19, max_vel 为 2.3699999999999997
+Mean delta pos 0.05407356098294258, Max delta pos 0.09552745521068573, Total collision Num : 1933.25, Mean collision num : 7.733
+sup_rate 为 0.19, max_vel 为 2.3899999999999997
+Mean delta pos 0.049136821180582047, Max delta pos 0.09914868324995041, Total collision Num : 1789.5, Mean collision num : 7.158
+sup_rate 为 0.19, max_vel 为 2.4299999999999997
+Mean delta pos 0.0459325909614563, Max delta pos 0.08407868444919586, Total collision Num : 1744.5, Mean collision num : 6.978
+sup_rate 为 0.21000000000000002, max_vel 为 0.05
+Mean delta pos 1.0261753797531128, Max delta pos 1.815983772277832, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.21000000000000002, max_vel 为 0.07
+Mean delta pos 0.9984409809112549, Max delta pos 1.825196385383606, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.21000000000000002, max_vel 为 0.09
+Mean delta pos 0.9638036489486694, Max delta pos 1.8436068296432495, Total collision Num : 4.75, Mean collision num : 0.019
+sup_rate 为 0.21000000000000002, max_vel 为 0.77
+Mean delta pos 0.014778275974094868, Max delta pos 0.04229201376438141, Total collision Num : 1058.5, Mean collision num : 4.234
+sup_rate 为 0.21000000000000002, max_vel 为 0.79
+Mean delta pos 0.015149404294788837, Max delta pos 0.042317796498537064, Total collision Num : 1044.25, Mean collision num : 4.177
+sup_rate 为 0.21000000000000002, max_vel 为 0.81
+Mean delta pos 0.014849564991891384, Max delta pos 0.041737426072359085, Total collision Num : 1042.75, Mean collision num : 4.171
+sup_rate 为 0.21000000000000002, max_vel 为 0.8300000000000001
+Mean delta pos 0.016404325142502785, Max delta pos 0.04164332151412964, Total collision Num : 1040.5, Mean collision num : 4.162
+sup_rate 为 0.21000000000000002, max_vel 为 0.8500000000000001
+Mean delta pos 0.016601797193288803, Max delta pos 0.04154082015156746, Total collision Num : 1031.25, Mean collision num : 4.125
+sup_rate 为 0.21000000000000002, max_vel 为 0.8700000000000001
+Mean delta pos 0.015957849100232124, Max delta pos 0.04163207486271858, Total collision Num : 1056.25, Mean collision num : 4.225
+sup_rate 为 0.21000000000000002, max_vel 为 0.89
+Mean delta pos 0.01666736975312233, Max delta pos 0.04209444671869278, Total collision Num : 1091.0, Mean collision num : 4.364
+sup_rate 为 0.21000000000000002, max_vel 为 0.91
+Mean delta pos 0.015762928873300552, Max delta pos 0.041308578103780746, Total collision Num : 1086.0, Mean collision num : 4.344
+sup_rate 为 0.21000000000000002, max_vel 为 0.9500000000000001
+Mean delta pos 0.018290024250745773, Max delta pos 0.04179542511701584, Total collision Num : 1016.25, Mean collision num : 4.065
+sup_rate 为 0.21000000000000002, max_vel 为 0.9900000000000001
+Mean delta pos 0.018072519451379776, Max delta pos 0.03963691368699074, Total collision Num : 1122.5, Mean collision num : 4.49
+sup_rate 为 0.21000000000000002, max_vel 为 1.07
+Mean delta pos 0.019122151657938957, Max delta pos 0.05040017515420914, Total collision Num : 1293.75, Mean collision num : 5.175
+sup_rate 为 0.21000000000000002, max_vel 为 1.11
+Mean delta pos 0.015167293138802052, Max delta pos 0.04071692004799843, Total collision Num : 1307.25, Mean collision num : 5.229
+sup_rate 为 0.21000000000000002, max_vel 为 1.1700000000000002
+Mean delta pos 0.0193331241607666, Max delta pos 0.04862842336297035, Total collision Num : 1334.0, Mean collision num : 5.336
+sup_rate 为 0.21000000000000002, max_vel 为 1.1900000000000002
+Mean delta pos 0.017651475965976715, Max delta pos 0.05245541036128998, Total collision Num : 1357.25, Mean collision num : 5.429
+sup_rate 为 0.21000000000000002, max_vel 为 1.6500000000000001
+Mean delta pos 0.0327218696475029, Max delta pos 0.06254585832357407, Total collision Num : 1519.25, Mean collision num : 6.077
+sup_rate 为 0.21000000000000002, max_vel 为 1.6900000000000002
+Mean delta pos 0.023016637191176414, Max delta pos 0.06661241501569748, Total collision Num : 1599.75, Mean collision num : 6.399
+sup_rate 为 0.21000000000000002, max_vel 为 1.7100000000000002
+Mean delta pos 0.02692255936563015, Max delta pos 0.06216876953840256, Total collision Num : 1649.0, Mean collision num : 6.596
+sup_rate 为 0.21000000000000002, max_vel 为 1.77
+Mean delta pos 0.026013029739260674, Max delta pos 0.056919001042842865, Total collision Num : 1597.0, Mean collision num : 6.388
+sup_rate 为 0.21000000000000002, max_vel 为 1.83
+Mean delta pos 0.02959994412958622, Max delta pos 0.07077550888061523, Total collision Num : 1748.75, Mean collision num : 6.995
+sup_rate 为 0.21000000000000002, max_vel 为 1.85
+Mean delta pos 0.037918660789728165, Max delta pos 0.07282733917236328, Total collision Num : 1705.5, Mean collision num : 6.822
+sup_rate 为 0.21000000000000002, max_vel 为 1.9100000000000001
+Mean delta pos 0.040252070873975754, Max delta pos 0.07359886914491653, Total collision Num : 1756.75, Mean collision num : 7.027
+sup_rate 为 0.21000000000000002, max_vel 为 1.99
+Mean delta pos 0.04634634405374527, Max delta pos 0.08281610906124115, Total collision Num : 1803.0, Mean collision num : 7.212
+sup_rate 为 0.21000000000000002, max_vel 为 2.01
+Mean delta pos 0.03366268798708916, Max delta pos 0.072330042719841, Total collision Num : 1763.5, Mean collision num : 7.054
+sup_rate 为 0.21000000000000002, max_vel 为 2.05
+Mean delta pos 0.04630643501877785, Max delta pos 0.0962354987859726, Total collision Num : 1822.25, Mean collision num : 7.289
+sup_rate 为 0.21000000000000002, max_vel 为 2.09
+Mean delta pos 0.03981633484363556, Max delta pos 0.07601317018270493, Total collision Num : 1693.5, Mean collision num : 6.774
+sup_rate 为 0.21000000000000002, max_vel 为 2.13
+Mean delta pos 0.041254520416259766, Max delta pos 0.08138243854045868, Total collision Num : 1711.75, Mean collision num : 6.847
+sup_rate 为 0.21000000000000002, max_vel 为 2.15
+Mean delta pos 0.04783700406551361, Max delta pos 0.08583026379346848, Total collision Num : 1982.0, Mean collision num : 7.928
+sup_rate 为 0.21000000000000002, max_vel 为 2.17
+Mean delta pos 0.040314506739377975, Max delta pos 0.08789986371994019, Total collision Num : 1781.75, Mean collision num : 7.127
+sup_rate 为 0.21000000000000002, max_vel 为 2.19
+Mean delta pos 0.04485715925693512, Max delta pos 0.08532761037349701, Total collision Num : 1679.75, Mean collision num : 6.719
+sup_rate 为 0.21000000000000002, max_vel 为 2.21
+Mean delta pos 0.03431807458400726, Max delta pos 0.07878430187702179, Total collision Num : 1819.5, Mean collision num : 7.278
+sup_rate 为 0.21000000000000002, max_vel 为 2.25
+Mean delta pos 0.041023097932338715, Max delta pos 0.07624766230583191, Total collision Num : 1970.5, Mean collision num : 7.882
+sup_rate 为 0.21000000000000002, max_vel 为 2.31
+Mean delta pos 0.05130908265709877, Max delta pos 0.0981147289276123, Total collision Num : 1851.0, Mean collision num : 7.404
+sup_rate 为 0.21000000000000002, max_vel 为 2.33
+Mean delta pos 0.04511731117963791, Max delta pos 0.09975780546665192, Total collision Num : 1859.25, Mean collision num : 7.437
+sup_rate 为 0.21000000000000002, max_vel 为 2.3699999999999997
+Mean delta pos 0.03236117586493492, Max delta pos 0.06799158453941345, Total collision Num : 2070.5, Mean collision num : 8.282
+sup_rate 为 0.21000000000000002, max_vel 为 2.4299999999999997
+Mean delta pos 0.05021172761917114, Max delta pos 0.09976820647716522, Total collision Num : 1776.75, Mean collision num : 7.107
+sup_rate 为 0.22999999999999998, max_vel 为 0.05
+Mean delta pos 1.0294086933135986, Max delta pos 1.8169893026351929, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.22999999999999998, max_vel 为 0.07
+Mean delta pos 1.0051687955856323, Max delta pos 1.8259979486465454, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.22999999999999998, max_vel 为 0.09
+Mean delta pos 0.973234236240387, Max delta pos 1.8419368267059326, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.22999999999999998, max_vel 为 0.89
+Mean delta pos 0.016812972724437714, Max delta pos 0.04105207696557045, Total collision Num : 1109.25, Mean collision num : 4.437
+sup_rate 为 0.22999999999999998, max_vel 为 0.91
+Mean delta pos 0.01590513251721859, Max delta pos 0.04145163297653198, Total collision Num : 1013.75, Mean collision num : 4.055
+sup_rate 为 0.22999999999999998, max_vel 为 0.9500000000000001
+Mean delta pos 0.02027774229645729, Max delta pos 0.04490167647600174, Total collision Num : 1021.25, Mean collision num : 4.085
+sup_rate 为 0.22999999999999998, max_vel 为 0.9700000000000001
+Mean delta pos 0.016740692779421806, Max delta pos 0.039752308279275894, Total collision Num : 1013.5, Mean collision num : 4.054
+sup_rate 为 0.22999999999999998, max_vel 为 1.01
+Mean delta pos 0.020199110731482506, Max delta pos 0.04391254484653473, Total collision Num : 1069.25, Mean collision num : 4.277
+sup_rate 为 0.22999999999999998, max_vel 为 1.1500000000000001
+Mean delta pos 0.01970144920051098, Max delta pos 0.044582147151231766, Total collision Num : 1209.5, Mean collision num : 4.838
+sup_rate 为 0.22999999999999998, max_vel 为 1.1700000000000002
+Mean delta pos 0.019938232377171516, Max delta pos 0.05242651700973511, Total collision Num : 1149.5, Mean collision num : 4.598
+sup_rate 为 0.22999999999999998, max_vel 为 1.4100000000000001
+Mean delta pos 0.027260897681117058, Max delta pos 0.06147891283035278, Total collision Num : 1296.25, Mean collision num : 5.185
+sup_rate 为 0.22999999999999998, max_vel 为 1.4500000000000002
+Mean delta pos 0.03141559660434723, Max delta pos 0.06950746476650238, Total collision Num : 1637.5, Mean collision num : 6.55
+sup_rate 为 0.22999999999999998, max_vel 为 1.55
+Mean delta pos 0.01919294148683548, Max delta pos 0.06915906816720963, Total collision Num : 1362.75, Mean collision num : 5.451
+sup_rate 为 0.22999999999999998, max_vel 为 1.6300000000000001
+Mean delta pos 0.042472224682569504, Max delta pos 0.0789894238114357, Total collision Num : 1598.25, Mean collision num : 6.393
+sup_rate 为 0.22999999999999998, max_vel 为 1.75
+Mean delta pos 0.04882092401385307, Max delta pos 0.07847754657268524, Total collision Num : 1801.25, Mean collision num : 7.205
+sup_rate 为 0.22999999999999998, max_vel 为 1.9500000000000002
+Mean delta pos 0.04920672997832298, Max delta pos 0.07841354608535767, Total collision Num : 1522.25, Mean collision num : 6.089
+sup_rate 为 0.22999999999999998, max_vel 为 2.01
+Mean delta pos 0.048925384879112244, Max delta pos 0.09081412106752396, Total collision Num : 1698.5, Mean collision num : 6.794
+sup_rate 为 0.22999999999999998, max_vel 为 2.03
+Mean delta pos 0.04383601248264313, Max delta pos 0.09521454572677612, Total collision Num : 1692.25, Mean collision num : 6.769
+sup_rate 为 0.22999999999999998, max_vel 为 2.05
+Mean delta pos 0.03458616882562637, Max delta pos 0.08108401298522949, Total collision Num : 1857.75, Mean collision num : 7.431
+sup_rate 为 0.22999999999999998, max_vel 为 2.07
+Mean delta pos 0.040030304342508316, Max delta pos 0.06989068537950516, Total collision Num : 1674.25, Mean collision num : 6.697
+sup_rate 为 0.22999999999999998, max_vel 为 2.09
+Mean delta pos 0.027186667546629906, Max delta pos 0.071586012840271, Total collision Num : 1726.25, Mean collision num : 6.905
+sup_rate 为 0.22999999999999998, max_vel 为 2.11
+Mean delta pos 0.0476536862552166, Max delta pos 0.07841891050338745, Total collision Num : 1888.5, Mean collision num : 7.554
+sup_rate 为 0.22999999999999998, max_vel 为 2.15
+Mean delta pos 0.04686819761991501, Max delta pos 0.0825490728020668, Total collision Num : 1834.5, Mean collision num : 7.338
+sup_rate 为 0.22999999999999998, max_vel 为 2.17
+Mean delta pos 0.04604087024927139, Max delta pos 0.08808624744415283, Total collision Num : 1829.75, Mean collision num : 7.319
+sup_rate 为 0.22999999999999998, max_vel 为 2.23
+Mean delta pos 0.043880559504032135, Max delta pos 0.0895402729511261, Total collision Num : 1825.0, Mean collision num : 7.3
+sup_rate 为 0.22999999999999998, max_vel 为 2.31
+Mean delta pos 0.04701651632785797, Max delta pos 0.09194111824035645, Total collision Num : 1758.5, Mean collision num : 7.034
+sup_rate 为 0.22999999999999998, max_vel 为 2.33
+Mean delta pos 0.0479680635035038, Max delta pos 0.0979766696691513, Total collision Num : 1757.0, Mean collision num : 7.028
+sup_rate 为 0.22999999999999998, max_vel 为 2.35
+Mean delta pos 0.05165480077266693, Max delta pos 0.09882297366857529, Total collision Num : 1790.0, Mean collision num : 7.16
+sup_rate 为 0.22999999999999998, max_vel 为 2.3899999999999997
+Mean delta pos 0.047684814780950546, Max delta pos 0.09196209162473679, Total collision Num : 1690.75, Mean collision num : 6.763
+sup_rate 为 0.25, max_vel 为 0.05
+Mean delta pos 1.0321320295333862, Max delta pos 1.817775845527649, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.25, max_vel 为 0.07
+Mean delta pos 1.0108153820037842, Max delta pos 1.8267632722854614, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.25, max_vel 为 0.09
+Mean delta pos 0.9810777902603149, Max delta pos 1.8400226831436157, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.25, max_vel 为 0.9700000000000001
+Mean delta pos 0.017488772049546242, Max delta pos 0.04427773132920265, Total collision Num : 1025.75, Mean collision num : 4.103
+sup_rate 为 0.25, max_vel 为 1.01
+Mean delta pos 0.021863894537091255, Max delta pos 0.04720115661621094, Total collision Num : 975.0, Mean collision num : 3.9
+sup_rate 为 0.25, max_vel 为 1.03
+Mean delta pos 0.017186742275953293, Max delta pos 0.0453660748898983, Total collision Num : 992.0, Mean collision num : 3.968
+sup_rate 为 0.25, max_vel 为 1.09
+Mean delta pos 0.02275661937892437, Max delta pos 0.04479959234595299, Total collision Num : 1000.75, Mean collision num : 4.003
+sup_rate 为 0.25, max_vel 为 1.11
+Mean delta pos 0.021861832588911057, Max delta pos 0.0425078310072422, Total collision Num : 1063.0, Mean collision num : 4.252
+sup_rate 为 0.25, max_vel 为 1.1300000000000001
+Mean delta pos 0.017943335697054863, Max delta pos 0.044980812817811966, Total collision Num : 1099.25, Mean collision num : 4.397
+sup_rate 为 0.25, max_vel 为 1.1500000000000001
+Mean delta pos 0.021482007578015327, Max delta pos 0.042627014219760895, Total collision Num : 1043.0, Mean collision num : 4.172
+sup_rate 为 0.25, max_vel 为 1.1700000000000002
+Mean delta pos 0.020732499659061432, Max delta pos 0.05573207139968872, Total collision Num : 1181.75, Mean collision num : 4.727
+sup_rate 为 0.25, max_vel 为 1.21
+Mean delta pos 0.01928597316145897, Max delta pos 0.048598140478134155, Total collision Num : 1167.0, Mean collision num : 4.668
+sup_rate 为 0.25, max_vel 为 1.29
+Mean delta pos 0.02393442392349243, Max delta pos 0.05916276574134827, Total collision Num : 1269.25, Mean collision num : 5.077
+sup_rate 为 0.25, max_vel 为 1.33
+Mean delta pos 0.02331419475376606, Max delta pos 0.05826207250356674, Total collision Num : 1281.5, Mean collision num : 5.126
+sup_rate 为 0.25, max_vel 为 1.35
+Mean delta pos 0.026625368744134903, Max delta pos 0.059194713830947876, Total collision Num : 1265.5, Mean collision num : 5.062
+sup_rate 为 0.25, max_vel 为 1.57
+Mean delta pos 0.03433946520090103, Max delta pos 0.06503507494926453, Total collision Num : 1343.5, Mean collision num : 5.374
+sup_rate 为 0.25, max_vel 为 1.59
+Mean delta pos 0.027581291273236275, Max delta pos 0.07077166438102722, Total collision Num : 1293.0, Mean collision num : 5.172
+sup_rate 为 0.25, max_vel 为 1.6700000000000002
+Mean delta pos 0.025015655905008316, Max delta pos 0.049100421369075775, Total collision Num : 1472.25, Mean collision num : 5.889
+sup_rate 为 0.25, max_vel 为 1.73
+Mean delta pos 0.02381293661892414, Max delta pos 0.07463745772838593, Total collision Num : 1530.5, Mean collision num : 6.122
+sup_rate 为 0.25, max_vel 为 1.75
+Mean delta pos 0.020848333835601807, Max delta pos 0.06906034797430038, Total collision Num : 1445.5, Mean collision num : 5.782
+sup_rate 为 0.25, max_vel 为 1.8900000000000001
+Mean delta pos 0.039571020752191544, Max delta pos 0.08265098929405212, Total collision Num : 1550.5, Mean collision num : 6.202
+sup_rate 为 0.25, max_vel 为 1.9100000000000001
+Mean delta pos 0.0364905446767807, Max delta pos 0.0655716136097908, Total collision Num : 1672.25, Mean collision num : 6.689
+sup_rate 为 0.25, max_vel 为 1.9300000000000002
+Mean delta pos 0.03172203525900841, Max delta pos 0.07969462871551514, Total collision Num : 1724.5, Mean collision num : 6.898
+sup_rate 为 0.25, max_vel 为 1.99
+Mean delta pos 0.043276701122522354, Max delta pos 0.09063690900802612, Total collision Num : 1681.75, Mean collision num : 6.727
+sup_rate 为 0.25, max_vel 为 2.03
+Mean delta pos 0.035002391785383224, Max delta pos 0.09319612383842468, Total collision Num : 1654.5, Mean collision num : 6.618
+sup_rate 为 0.25, max_vel 为 2.07
+Mean delta pos 0.047122772783041, Max delta pos 0.08965655416250229, Total collision Num : 1780.5, Mean collision num : 7.122
+sup_rate 为 0.25, max_vel 为 2.09
+Mean delta pos 0.03267710283398628, Max delta pos 0.09349700808525085, Total collision Num : 1837.0, Mean collision num : 7.348
+sup_rate 为 0.25, max_vel 为 2.13
+Mean delta pos 0.03116445615887642, Max delta pos 0.07878561317920685, Total collision Num : 1673.75, Mean collision num : 6.695
+sup_rate 为 0.25, max_vel 为 2.17
+Mean delta pos 0.043019071221351624, Max delta pos 0.07419203966856003, Total collision Num : 1735.75, Mean collision num : 6.943
+sup_rate 为 0.25, max_vel 为 2.21
+Mean delta pos 0.048807498067617416, Max delta pos 0.08525527268648148, Total collision Num : 1804.75, Mean collision num : 7.219
+sup_rate 为 0.25, max_vel 为 2.29
+Mean delta pos 0.033803947269916534, Max delta pos 0.09138353914022446, Total collision Num : 1680.5, Mean collision num : 6.722
+sup_rate 为 0.25, max_vel 为 2.31
+Mean delta pos 0.0380261093378067, Max delta pos 0.08880563825368881, Total collision Num : 1816.25, Mean collision num : 7.265
+sup_rate 为 0.25, max_vel 为 2.33
+Mean delta pos 0.05825866758823395, Max delta pos 0.09680434316396713, Total collision Num : 1839.25, Mean collision num : 7.357
+sup_rate 为 0.25, max_vel 为 2.35
+Mean delta pos 0.05368613451719284, Max delta pos 0.09605738520622253, Total collision Num : 1879.5, Mean collision num : 7.518
+sup_rate 为 0.25, max_vel 为 2.4099999999999997
+Mean delta pos 0.04437941685318947, Max delta pos 0.08437947928905487, Total collision Num : 1832.0, Mean collision num : 7.328
+sup_rate 为 0.27, max_vel 为 0.05
+Mean delta pos 1.0344551801681519, Max delta pos 1.8184818029403687, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.27, max_vel 为 0.07
+Mean delta pos 1.0149214267730713, Max delta pos 1.8276481628417969, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.27, max_vel 为 0.09
+Mean delta pos 0.9881367087364197, Max delta pos 1.8377647399902344, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.27, max_vel 为 0.11
+Mean delta pos 0.9559513926506042, Max delta pos 1.8520182371139526, Total collision Num : 23.0, Mean collision num : 0.092
+sup_rate 为 0.27, max_vel 为 0.9900000000000001
+Mean delta pos 0.014256794936954975, Max delta pos 0.04374675452709198, Total collision Num : 1048.75, Mean collision num : 4.195
+sup_rate 为 0.27, max_vel 为 1.05
+Mean delta pos 0.018675029277801514, Max delta pos 0.04703230410814285, Total collision Num : 1011.25, Mean collision num : 4.045
+sup_rate 为 0.27, max_vel 为 1.09
+Mean delta pos 0.01874852553009987, Max delta pos 0.044875890016555786, Total collision Num : 1020.5, Mean collision num : 4.082
+sup_rate 为 0.27, max_vel 为 1.11
+Mean delta pos 0.019561447203159332, Max delta pos 0.04766685515642166, Total collision Num : 1030.0, Mean collision num : 4.12
+sup_rate 为 0.27, max_vel 为 1.25
+Mean delta pos 0.021115250885486603, Max delta pos 0.0504731647670269, Total collision Num : 990.5, Mean collision num : 3.962
+sup_rate 为 0.27, max_vel 为 1.27
+Mean delta pos 0.02320338971912861, Max delta pos 0.054505471140146255, Total collision Num : 1101.25, Mean collision num : 4.405
+sup_rate 为 0.27, max_vel 为 1.29
+Mean delta pos 0.026004701852798462, Max delta pos 0.05645984411239624, Total collision Num : 1102.0, Mean collision num : 4.408
+sup_rate 为 0.27, max_vel 为 1.31
+Mean delta pos 0.019277866929769516, Max delta pos 0.05609150230884552, Total collision Num : 1170.75, Mean collision num : 4.683
+sup_rate 为 0.27, max_vel 为 1.33
+Mean delta pos 0.019293077290058136, Max delta pos 0.057545438408851624, Total collision Num : 1056.75, Mean collision num : 4.227
+sup_rate 为 0.27, max_vel 为 1.35
+Mean delta pos 0.02594902738928795, Max delta pos 0.06139594689011574, Total collision Num : 1136.75, Mean collision num : 4.547
+sup_rate 为 0.27, max_vel 为 1.37
+Mean delta pos 0.02523709088563919, Max delta pos 0.05801156535744667, Total collision Num : 1219.5, Mean collision num : 4.878
+sup_rate 为 0.27, max_vel 为 1.3900000000000001
+Mean delta pos 0.03112657554447651, Max delta pos 0.06282659620046616, Total collision Num : 1199.5, Mean collision num : 4.798
+sup_rate 为 0.27, max_vel 为 1.47
+Mean delta pos 0.029168272390961647, Max delta pos 0.058958519250154495, Total collision Num : 1228.25, Mean collision num : 4.913
+sup_rate 为 0.27, max_vel 为 1.49
+Mean delta pos 0.026905616745352745, Max delta pos 0.06797481328248978, Total collision Num : 1308.0, Mean collision num : 5.232
+sup_rate 为 0.27, max_vel 为 1.51
+Mean delta pos 0.02189689315855503, Max delta pos 0.054329752922058105, Total collision Num : 1338.5, Mean collision num : 5.354
+sup_rate 为 0.27, max_vel 为 1.53
+Mean delta pos 0.03309907764196396, Max delta pos 0.06327413767576218, Total collision Num : 1389.5, Mean collision num : 5.558
+sup_rate 为 0.27, max_vel 为 1.57
+Mean delta pos 0.0259409062564373, Max delta pos 0.046169463545084, Total collision Num : 1337.25, Mean collision num : 5.349
+sup_rate 为 0.27, max_vel 为 1.61
+Mean delta pos 0.021966569125652313, Max delta pos 0.06274201720952988, Total collision Num : 1324.75, Mean collision num : 5.299
+sup_rate 为 0.27, max_vel 为 1.6900000000000002
+Mean delta pos 0.023752737790346146, Max delta pos 0.058998171240091324, Total collision Num : 1597.75, Mean collision num : 6.391
+sup_rate 为 0.27, max_vel 为 1.79
+Mean delta pos 0.02427881769835949, Max delta pos 0.0748022124171257, Total collision Num : 1502.75, Mean collision num : 6.011
+sup_rate 为 0.27, max_vel 为 1.9500000000000002
+Mean delta pos 0.030915232375264168, Max delta pos 0.0925852358341217, Total collision Num : 1701.5, Mean collision num : 6.806
+sup_rate 为 0.27, max_vel 为 1.97
+Mean delta pos 0.02731991931796074, Max delta pos 0.07694873213768005, Total collision Num : 1641.0, Mean collision num : 6.564
+sup_rate 为 0.27, max_vel 为 1.99
+Mean delta pos 0.029620200395584106, Max delta pos 0.09596187621355057, Total collision Num : 1631.25, Mean collision num : 6.525
+sup_rate 为 0.27, max_vel 为 2.03
+Mean delta pos 0.04419471696019173, Max delta pos 0.09012192487716675, Total collision Num : 1710.5, Mean collision num : 6.842
+sup_rate 为 0.27, max_vel 为 2.09
+Mean delta pos 0.04530484229326248, Max delta pos 0.08986061811447144, Total collision Num : 1751.0, Mean collision num : 7.004
+sup_rate 为 0.27, max_vel 为 2.13
+Mean delta pos 0.0454714410007, Max delta pos 0.08750855177640915, Total collision Num : 1667.75, Mean collision num : 6.671
+sup_rate 为 0.27, max_vel 为 2.15
+Mean delta pos 0.04657358676195145, Max delta pos 0.08284752070903778, Total collision Num : 1675.0, Mean collision num : 6.7
+sup_rate 为 0.27, max_vel 为 2.31
+Mean delta pos 0.04284077510237694, Max delta pos 0.0930418074131012, Total collision Num : 1868.0, Mean collision num : 7.472
+sup_rate 为 0.27, max_vel 为 2.3899999999999997
+Mean delta pos 0.039591167122125626, Max delta pos 0.09045044332742691, Total collision Num : 1814.75, Mean collision num : 7.259
+sup_rate 为 0.29, max_vel 为 0.05
+Mean delta pos 1.0364161729812622, Max delta pos 1.8191280364990234, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.29, max_vel 为 0.07
+Mean delta pos 1.0186800956726074, Max delta pos 1.8284279108047485, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.29, max_vel 为 0.09
+Mean delta pos 0.9949331283569336, Max delta pos 1.8346136808395386, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.29, max_vel 为 0.11
+Mean delta pos 0.967456042766571, Max delta pos 1.849141001701355, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.29, max_vel 为 1.05
+Mean delta pos 0.02054375596344471, Max delta pos 0.04793393984436989, Total collision Num : 1021.0, Mean collision num : 4.084
+sup_rate 为 0.29, max_vel 为 1.11
+Mean delta pos 0.02294708415865898, Max delta pos 0.04419855773448944, Total collision Num : 1090.0, Mean collision num : 4.36
+sup_rate 为 0.29, max_vel 为 1.21
+Mean delta pos 0.018844734877347946, Max delta pos 0.05151459947228432, Total collision Num : 1039.5, Mean collision num : 4.158
+sup_rate 为 0.29, max_vel 为 1.25
+Mean delta pos 0.02278108149766922, Max delta pos 0.05094137415289879, Total collision Num : 994.0, Mean collision num : 3.976
+sup_rate 为 0.29, max_vel 为 1.27
+Mean delta pos 0.02333318442106247, Max delta pos 0.055768392980098724, Total collision Num : 955.25, Mean collision num : 3.821
+sup_rate 为 0.29, max_vel 为 1.33
+Mean delta pos 0.019597908481955528, Max delta pos 0.047933634370565414, Total collision Num : 1045.5, Mean collision num : 4.182
+sup_rate 为 0.29, max_vel 为 1.37
+Mean delta pos 0.023379595950245857, Max delta pos 0.05025152117013931, Total collision Num : 1134.75, Mean collision num : 4.539
+sup_rate 为 0.29, max_vel 为 1.4500000000000002
+Mean delta pos 0.01949772983789444, Max delta pos 0.052794452756643295, Total collision Num : 1165.5, Mean collision num : 4.662
+sup_rate 为 0.29, max_vel 为 1.49
+Mean delta pos 0.035049572587013245, Max delta pos 0.0680917426943779, Total collision Num : 1178.75, Mean collision num : 4.715
+sup_rate 为 0.29, max_vel 为 1.53
+Mean delta pos 0.024302205070853233, Max delta pos 0.06317389756441116, Total collision Num : 1232.0, Mean collision num : 4.928
+sup_rate 为 0.29, max_vel 为 1.55
+Mean delta pos 0.026409834623336792, Max delta pos 0.06367741525173187, Total collision Num : 1335.0, Mean collision num : 5.34
+sup_rate 为 0.29, max_vel 为 1.57
+Mean delta pos 0.022529734298586845, Max delta pos 0.0558968149125576, Total collision Num : 1332.0, Mean collision num : 5.328
+sup_rate 为 0.29, max_vel 为 1.7100000000000002
+Mean delta pos 0.024216260761022568, Max delta pos 0.06772780418395996, Total collision Num : 1505.0, Mean collision num : 6.02
+sup_rate 为 0.29, max_vel 为 1.75
+Mean delta pos 0.03272692859172821, Max delta pos 0.0718781054019928, Total collision Num : 1380.25, Mean collision num : 5.521
+sup_rate 为 0.29, max_vel 为 1.77
+Mean delta pos 0.03429084271192551, Max delta pos 0.07307131588459015, Total collision Num : 1372.75, Mean collision num : 5.491
+sup_rate 为 0.29, max_vel 为 1.8900000000000001
+Mean delta pos 0.033042062073946, Max delta pos 0.08270341157913208, Total collision Num : 1500.75, Mean collision num : 6.003
+sup_rate 为 0.29, max_vel 为 1.9300000000000002
+Mean delta pos 0.039786916226148605, Max delta pos 0.09040830284357071, Total collision Num : 1726.5, Mean collision num : 6.906
+sup_rate 为 0.29, max_vel 为 1.99
+Mean delta pos 0.04943149909377098, Max delta pos 0.09255696088075638, Total collision Num : 1625.25, Mean collision num : 6.501
+sup_rate 为 0.29, max_vel 为 2.03
+Mean delta pos 0.03621995076537132, Max delta pos 0.09159230440855026, Total collision Num : 1669.25, Mean collision num : 6.677
+sup_rate 为 0.29, max_vel 为 2.05
+Mean delta pos 0.04430818930268288, Max delta pos 0.08688251674175262, Total collision Num : 1674.5, Mean collision num : 6.698
+sup_rate 为 0.29, max_vel 为 2.09
+Mean delta pos 0.03700287640094757, Max delta pos 0.08821014314889908, Total collision Num : 1731.0, Mean collision num : 6.924
+sup_rate 为 0.29, max_vel 为 2.11
+Mean delta pos 0.04313793033361435, Max delta pos 0.07638401538133621, Total collision Num : 1622.5, Mean collision num : 6.49
+sup_rate 为 0.29, max_vel 为 2.19
+Mean delta pos 0.036139171570539474, Max delta pos 0.0940580889582634, Total collision Num : 1783.0, Mean collision num : 7.132
+sup_rate 为 0.29, max_vel 为 2.23
+Mean delta pos 0.03792706876993179, Max delta pos 0.0851002037525177, Total collision Num : 1819.75, Mean collision num : 7.279
+sup_rate 为 0.29, max_vel 为 2.25
+Mean delta pos 0.051614779978990555, Max delta pos 0.09611956030130386, Total collision Num : 1753.75, Mean collision num : 7.015
+sup_rate 为 0.29, max_vel 为 2.31
+Mean delta pos 0.034698162227869034, Max delta pos 0.09853791445493698, Total collision Num : 1551.25, Mean collision num : 6.205
+sup_rate 为 0.29, max_vel 为 2.33
+Mean delta pos 0.043199263513088226, Max delta pos 0.09122639894485474, Total collision Num : 1738.5, Mean collision num : 6.954
+sup_rate 为 0.29, max_vel 为 2.4099999999999997
+Mean delta pos 0.043789226561784744, Max delta pos 0.08820503950119019, Total collision Num : 1879.0, Mean collision num : 7.516
+sup_rate 为 0.31, max_vel 为 0.05
+Mean delta pos 1.038167119026184, Max delta pos 1.8196351528167725, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.31, max_vel 为 0.07
+Mean delta pos 1.0217567682266235, Max delta pos 1.829118013381958, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.31, max_vel 为 0.09
+Mean delta pos 1.0007853507995605, Max delta pos 1.8316289186477661, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.31, max_vel 为 0.11
+Mean delta pos 0.9744857549667358, Max delta pos 1.8477208614349365, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.31, max_vel 为 1.1300000000000001
+Mean delta pos 0.020892590284347534, Max delta pos 0.04729711264371872, Total collision Num : 941.75, Mean collision num : 3.767
+sup_rate 为 0.31, max_vel 为 1.1500000000000001
+Mean delta pos 0.01560150645673275, Max delta pos 0.06144500523805618, Total collision Num : 1099.25, Mean collision num : 4.397
+sup_rate 为 0.31, max_vel 为 1.1700000000000002
+Mean delta pos 0.018966587260365486, Max delta pos 0.05271707475185394, Total collision Num : 1074.25, Mean collision num : 4.297
+sup_rate 为 0.31, max_vel 为 1.23
+Mean delta pos 0.024482667446136475, Max delta pos 0.04701883718371391, Total collision Num : 1104.75, Mean collision num : 4.419
+sup_rate 为 0.31, max_vel 为 1.25
+Mean delta pos 0.024033790454268456, Max delta pos 0.0505322627723217, Total collision Num : 992.0, Mean collision num : 3.968
+sup_rate 为 0.31, max_vel 为 1.31
+Mean delta pos 0.028696561232209206, Max delta pos 0.06297577917575836, Total collision Num : 997.75, Mean collision num : 3.991
+sup_rate 为 0.31, max_vel 为 1.37
+Mean delta pos 0.025799009948968887, Max delta pos 0.06363784521818161, Total collision Num : 1036.75, Mean collision num : 4.147
+sup_rate 为 0.31, max_vel 为 1.4100000000000001
+Mean delta pos 0.029374804347753525, Max delta pos 0.06224521994590759, Total collision Num : 1102.5, Mean collision num : 4.41
+sup_rate 为 0.31, max_vel 为 1.4300000000000002
+Mean delta pos 0.022005461156368256, Max delta pos 0.06861907988786697, Total collision Num : 1200.75, Mean collision num : 4.803
+sup_rate 为 0.31, max_vel 为 1.4500000000000002
+Mean delta pos 0.026427829638123512, Max delta pos 0.07338017970323563, Total collision Num : 1211.75, Mean collision num : 4.847
+sup_rate 为 0.31, max_vel 为 1.53
+Mean delta pos 0.03215591609477997, Max delta pos 0.0660431757569313, Total collision Num : 1213.5, Mean collision num : 4.854
+sup_rate 为 0.31, max_vel 为 1.57
+Mean delta pos 0.033854950219392776, Max delta pos 0.08442430198192596, Total collision Num : 1337.25, Mean collision num : 5.349
+sup_rate 为 0.31, max_vel 为 1.7100000000000002
+Mean delta pos 0.0343443937599659, Max delta pos 0.06956571340560913, Total collision Num : 1385.75, Mean collision num : 5.543
+sup_rate 为 0.31, max_vel 为 1.73
+Mean delta pos 0.03727036714553833, Max delta pos 0.0771389752626419, Total collision Num : 1493.5, Mean collision num : 5.974
+sup_rate 为 0.31, max_vel 为 1.79
+Mean delta pos 0.022010456770658493, Max delta pos 0.06333408504724503, Total collision Num : 1517.75, Mean collision num : 6.071
+sup_rate 为 0.31, max_vel 为 1.9300000000000002
+Mean delta pos 0.04302780330181122, Max delta pos 0.09033741056919098, Total collision Num : 1589.5, Mean collision num : 6.358
+sup_rate 为 0.31, max_vel 为 1.9500000000000002
+Mean delta pos 0.03884067013859749, Max delta pos 0.07323756068944931, Total collision Num : 1499.5, Mean collision num : 5.998
+sup_rate 为 0.31, max_vel 为 1.99
+Mean delta pos 0.028888190165162086, Max delta pos 0.0854947566986084, Total collision Num : 1469.5, Mean collision num : 5.878
+sup_rate 为 0.31, max_vel 为 2.01
+Mean delta pos 0.0425211600959301, Max delta pos 0.08997029066085815, Total collision Num : 1621.5, Mean collision num : 6.486
+sup_rate 为 0.31, max_vel 为 2.05
+Mean delta pos 0.03520927205681801, Max delta pos 0.09230989217758179, Total collision Num : 1600.0, Mean collision num : 6.4
+sup_rate 为 0.31, max_vel 为 2.21
+Mean delta pos 0.04096509888768196, Max delta pos 0.08708919584751129, Total collision Num : 1859.5, Mean collision num : 7.438
+sup_rate 为 0.31, max_vel 为 2.27
+Mean delta pos 0.03112506866455078, Max delta pos 0.09330923110246658, Total collision Num : 1660.0, Mean collision num : 6.64
+sup_rate 为 0.31, max_vel 为 2.35
+Mean delta pos 0.0398835726082325, Max delta pos 0.09360262006521225, Total collision Num : 1731.5, Mean collision num : 6.926
+sup_rate 为 0.33, max_vel 为 0.05
+Mean delta pos 1.0396207571029663, Max delta pos 1.8201245069503784, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.33, max_vel 为 0.07
+Mean delta pos 1.0245423316955566, Max delta pos 1.8297392129898071, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.33, max_vel 为 0.09
+Mean delta pos 1.004624605178833, Max delta pos 1.8318685293197632, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.33, max_vel 为 0.11
+Mean delta pos 0.9809062480926514, Max delta pos 1.846067190170288, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.33, max_vel 为 0.13
+Mean delta pos 0.9473119378089905, Max delta pos 1.8561900854110718, Total collision Num : 8.0, Mean collision num : 0.032
+sup_rate 为 0.33, max_vel 为 1.37
+Mean delta pos 0.024866599589586258, Max delta pos 0.05694926902651787, Total collision Num : 1014.5, Mean collision num : 4.058
+sup_rate 为 0.33, max_vel 为 1.3900000000000001
+Mean delta pos 0.03495963290333748, Max delta pos 0.06157037615776062, Total collision Num : 1102.0, Mean collision num : 4.408
+sup_rate 为 0.33, max_vel 为 1.47
+Mean delta pos 0.028966430574655533, Max delta pos 0.06316381692886353, Total collision Num : 1140.75, Mean collision num : 4.563
+sup_rate 为 0.33, max_vel 为 1.61
+Mean delta pos 0.03766671568155289, Max delta pos 0.07764676213264465, Total collision Num : 1196.25, Mean collision num : 4.785
+sup_rate 为 0.33, max_vel 为 1.6300000000000001
+Mean delta pos 0.03541887179017067, Max delta pos 0.06567315757274628, Total collision Num : 1219.5, Mean collision num : 4.878
+sup_rate 为 0.33, max_vel 为 1.7100000000000002
+Mean delta pos 0.02779253013432026, Max delta pos 0.07284538447856903, Total collision Num : 1326.75, Mean collision num : 5.307
+sup_rate 为 0.33, max_vel 为 1.81
+Mean delta pos 0.0248950757086277, Max delta pos 0.07527285069227219, Total collision Num : 1485.75, Mean collision num : 5.943
+sup_rate 为 0.33, max_vel 为 1.9500000000000002
+Mean delta pos 0.03843381628394127, Max delta pos 0.07521521300077438, Total collision Num : 1584.75, Mean collision num : 6.339
+sup_rate 为 0.33, max_vel 为 1.99
+Mean delta pos 0.037563689053058624, Max delta pos 0.07069794088602066, Total collision Num : 1507.5, Mean collision num : 6.03
+sup_rate 为 0.33, max_vel 为 2.01
+Mean delta pos 0.025131605565547943, Max delta pos 0.08332689106464386, Total collision Num : 1537.75, Mean collision num : 6.151
+sup_rate 为 0.33, max_vel 为 2.07
+Mean delta pos 0.044646188616752625, Max delta pos 0.08619038015604019, Total collision Num : 1769.0, Mean collision num : 7.076
+sup_rate 为 0.33, max_vel 为 2.11
+Mean delta pos 0.03400389105081558, Max delta pos 0.08756343275308609, Total collision Num : 1730.25, Mean collision num : 6.921
+sup_rate 为 0.33, max_vel 为 2.21
+Mean delta pos 0.032952357083559036, Max delta pos 0.0888538658618927, Total collision Num : 1701.25, Mean collision num : 6.805
+sup_rate 为 0.33, max_vel 为 2.25
+Mean delta pos 0.04516012594103813, Max delta pos 0.09074139595031738, Total collision Num : 1832.25, Mean collision num : 7.329
+sup_rate 为 0.33, max_vel 为 2.27
+Mean delta pos 0.029446743428707123, Max delta pos 0.08467252552509308, Total collision Num : 1761.25, Mean collision num : 7.045
+sup_rate 为 0.33, max_vel 为 2.3699999999999997
+Mean delta pos 0.03409671410918236, Max delta pos 0.08803058415651321, Total collision Num : 1832.5, Mean collision num : 7.33
+sup_rate 为 0.35, max_vel 为 0.05
+Mean delta pos 1.0409042835235596, Max delta pos 1.820440649986267, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.35, max_vel 为 0.07
+Mean delta pos 1.0270048379898071, Max delta pos 1.8303256034851074, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.35, max_vel 为 0.09
+Mean delta pos 1.0084929466247559, Max delta pos 1.8318616151809692, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.35, max_vel 为 0.11
+Mean delta pos 0.9873483777046204, Max delta pos 1.8440866470336914, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.35, max_vel 为 0.13
+Mean delta pos 0.9586527347564697, Max delta pos 1.8548437356948853, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.35, max_vel 为 1.25
+Mean delta pos 0.021304022520780563, Max delta pos 0.09993857145309448, Total collision Num : 995.25, Mean collision num : 3.981
+sup_rate 为 0.35, max_vel 为 1.3900000000000001
+Mean delta pos 0.028785264119505882, Max delta pos 0.05720458924770355, Total collision Num : 1043.0, Mean collision num : 4.172
+sup_rate 为 0.35, max_vel 为 1.4100000000000001
+Mean delta pos 0.023362813517451286, Max delta pos 0.05640716105699539, Total collision Num : 1072.0, Mean collision num : 4.288
+sup_rate 为 0.35, max_vel 为 1.4300000000000002
+Mean delta pos 0.02458381839096546, Max delta pos 0.06664135307073593, Total collision Num : 1120.25, Mean collision num : 4.481
+sup_rate 为 0.35, max_vel 为 1.51
+Mean delta pos 0.03186893090605736, Max delta pos 0.061375025659799576, Total collision Num : 1040.5, Mean collision num : 4.162
+sup_rate 为 0.35, max_vel 为 1.61
+Mean delta pos 0.02333766035735607, Max delta pos 0.05950869619846344, Total collision Num : 1238.25, Mean collision num : 4.953
+sup_rate 为 0.35, max_vel 为 1.6700000000000002
+Mean delta pos 0.027455301955342293, Max delta pos 0.06319072842597961, Total collision Num : 1263.25, Mean collision num : 5.053
+sup_rate 为 0.35, max_vel 为 1.6900000000000002
+Mean delta pos 0.030577844008803368, Max delta pos 0.06627433001995087, Total collision Num : 1281.5, Mean collision num : 5.126
+sup_rate 为 0.35, max_vel 为 1.73
+Mean delta pos 0.02560655027627945, Max delta pos 0.0676606073975563, Total collision Num : 1342.0, Mean collision num : 5.368
+sup_rate 为 0.35, max_vel 为 1.81
+Mean delta pos 0.03790852054953575, Max delta pos 0.07269224524497986, Total collision Num : 1463.5, Mean collision num : 5.854
+sup_rate 为 0.35, max_vel 为 1.9100000000000001
+Mean delta pos 0.0389968566596508, Max delta pos 0.07000460475683212, Total collision Num : 1435.25, Mean collision num : 5.741
+sup_rate 为 0.35, max_vel 为 1.99
+Mean delta pos 0.039896368980407715, Max delta pos 0.08604978024959564, Total collision Num : 1586.25, Mean collision num : 6.345
+sup_rate 为 0.35, max_vel 为 2.05
+Mean delta pos 0.03591068461537361, Max delta pos 0.09276869893074036, Total collision Num : 1530.0, Mean collision num : 6.12
+sup_rate 为 0.35, max_vel 为 2.07
+Mean delta pos 0.04208619147539139, Max delta pos 0.09334094822406769, Total collision Num : 1487.25, Mean collision num : 5.949
+sup_rate 为 0.35, max_vel 为 2.09
+Mean delta pos 0.03327975794672966, Max delta pos 0.09602119028568268, Total collision Num : 1590.0, Mean collision num : 6.36
+sup_rate 为 0.35, max_vel 为 2.11
+Mean delta pos 0.03201756998896599, Max delta pos 0.07899549603462219, Total collision Num : 1573.75, Mean collision num : 6.295
+sup_rate 为 0.35, max_vel 为 2.19
+Mean delta pos 0.046539418399333954, Max delta pos 0.08809485286474228, Total collision Num : 1903.75, Mean collision num : 7.615
+sup_rate 为 0.35, max_vel 为 2.23
+Mean delta pos 0.04692607745528221, Max delta pos 0.08747074007987976, Total collision Num : 1731.25, Mean collision num : 6.925
+sup_rate 为 0.35, max_vel 为 2.27
+Mean delta pos 0.04784340411424637, Max delta pos 0.09832686185836792, Total collision Num : 1694.75, Mean collision num : 6.779
+sup_rate 为 0.35, max_vel 为 2.29
+Mean delta pos 0.04658163711428642, Max delta pos 0.09952182322740555, Total collision Num : 1677.0, Mean collision num : 6.708
+sup_rate 为 0.35, max_vel 为 2.4099999999999997
+Mean delta pos 0.043443892151117325, Max delta pos 0.09648705273866653, Total collision Num : 2006.75, Mean collision num : 8.027
+sup_rate 为 0.37, max_vel 为 0.05
+Mean delta pos 1.0420386791229248, Max delta pos 1.8207591772079468, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.37, max_vel 为 0.07
+Mean delta pos 1.0291880369186401, Max delta pos 1.8308756351470947, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.37, max_vel 为 0.09
+Mean delta pos 1.0119801759719849, Max delta pos 1.831768274307251, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.37, max_vel 为 0.11
+Mean delta pos 0.9932037591934204, Max delta pos 1.8421032428741455, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.37, max_vel 为 0.13
+Mean delta pos 0.9671416878700256, Max delta pos 1.8533557653427124, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.37, max_vel 为 0.15000000000000002
+Mean delta pos 0.9252730011940002, Max delta pos 1.8630540370941162, Total collision Num : 18.0, Mean collision num : 0.072
+sup_rate 为 0.37, max_vel 为 1.59
+Mean delta pos 0.02312861569225788, Max delta pos 0.06659841537475586, Total collision Num : 1169.5, Mean collision num : 4.678
+sup_rate 为 0.37, max_vel 为 1.6900000000000002
+Mean delta pos 0.028984224423766136, Max delta pos 0.07444702088832855, Total collision Num : 1277.5, Mean collision num : 5.11
+sup_rate 为 0.37, max_vel 为 1.7100000000000002
+Mean delta pos 0.03019244596362114, Max delta pos 0.07647925615310669, Total collision Num : 1266.0, Mean collision num : 5.064
+sup_rate 为 0.37, max_vel 为 1.73
+Mean delta pos 0.028095491230487823, Max delta pos 0.07251715660095215, Total collision Num : 1233.0, Mean collision num : 4.932
+sup_rate 为 0.37, max_vel 为 1.75
+Mean delta pos 0.03586538881063461, Max delta pos 0.07455825805664062, Total collision Num : 1307.25, Mean collision num : 5.229
+sup_rate 为 0.37, max_vel 为 1.79
+Mean delta pos 0.032241448760032654, Max delta pos 0.07980436086654663, Total collision Num : 1329.25, Mean collision num : 5.317
+sup_rate 为 0.37, max_vel 为 1.83
+Mean delta pos 0.04358942434191704, Max delta pos 0.08603578805923462, Total collision Num : 1409.5, Mean collision num : 5.638
+sup_rate 为 0.37, max_vel 为 1.87
+Mean delta pos 0.03084591217339039, Max delta pos 0.08072490245103836, Total collision Num : 1390.5, Mean collision num : 5.562
+sup_rate 为 0.37, max_vel 为 1.9300000000000002
+Mean delta pos 0.03945917263627052, Max delta pos 0.06749636679887772, Total collision Num : 1558.5, Mean collision num : 6.234
+sup_rate 为 0.37, max_vel 为 1.99
+Mean delta pos 0.03511859104037285, Max delta pos 0.08543924242258072, Total collision Num : 1498.75, Mean collision num : 5.995
+sup_rate 为 0.37, max_vel 为 2.07
+Mean delta pos 0.03326846659183502, Max delta pos 0.07317232340574265, Total collision Num : 1586.25, Mean collision num : 6.345
+sup_rate 为 0.37, max_vel 为 2.13
+Mean delta pos 0.031185470521450043, Max delta pos 0.08442521840333939, Total collision Num : 1793.75, Mean collision num : 7.175
+sup_rate 为 0.37, max_vel 为 2.21
+Mean delta pos 0.04748418554663658, Max delta pos 0.08790482580661774, Total collision Num : 1620.25, Mean collision num : 6.481
+sup_rate 为 0.37, max_vel 为 2.25
+Mean delta pos 0.037176866084337234, Max delta pos 0.09452655911445618, Total collision Num : 1775.75, Mean collision num : 7.103
+sup_rate 为 0.37, max_vel 为 2.29
+Mean delta pos 0.0499514602124691, Max delta pos 0.09735050052404404, Total collision Num : 1878.5, Mean collision num : 7.514
+sup_rate 为 0.37, max_vel 为 2.31
+Mean delta pos 0.045162878930568695, Max delta pos 0.09286295622587204, Total collision Num : 1842.0, Mean collision num : 7.368
+sup_rate 为 0.37, max_vel 为 2.33
+Mean delta pos 0.03501535952091217, Max delta pos 0.09852054715156555, Total collision Num : 1660.75, Mean collision num : 6.643
+sup_rate 为 0.37, max_vel 为 2.3699999999999997
+Mean delta pos 0.05226679891347885, Max delta pos 0.09326787292957306, Total collision Num : 1834.75, Mean collision num : 7.339
+sup_rate 为 0.39, max_vel 为 0.05
+Mean delta pos 1.0430461168289185, Max delta pos 1.8210378885269165, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.39, max_vel 为 0.07
+Mean delta pos 1.0311434268951416, Max delta pos 1.8313432931900024, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.39, max_vel 为 0.09
+Mean delta pos 1.014981746673584, Max delta pos 1.8318402767181396, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.39, max_vel 为 0.11
+Mean delta pos 0.9962144494056702, Max delta pos 1.8403666019439697, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.39, max_vel 为 0.13
+Mean delta pos 0.9741109609603882, Max delta pos 1.851699709892273, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.39, max_vel 为 0.15000000000000002
+Mean delta pos 0.9369831681251526, Max delta pos 1.8631422519683838, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.39, max_vel 为 1.4100000000000001
+Mean delta pos 0.02594759501516819, Max delta pos 0.06310591846704483, Total collision Num : 1041.25, Mean collision num : 4.165
+sup_rate 为 0.39, max_vel 为 1.53
+Mean delta pos 0.02736378088593483, Max delta pos 0.07073502242565155, Total collision Num : 1173.25, Mean collision num : 4.693
+sup_rate 为 0.39, max_vel 为 1.59
+Mean delta pos 0.02459033764898777, Max delta pos 0.07381615042686462, Total collision Num : 1146.5, Mean collision num : 4.586
+sup_rate 为 0.39, max_vel 为 1.6500000000000001
+Mean delta pos 0.021913735195994377, Max delta pos 0.07181096822023392, Total collision Num : 1271.25, Mean collision num : 5.085
+sup_rate 为 0.39, max_vel 为 1.6900000000000002
+Mean delta pos 0.038082197308540344, Max delta pos 0.08525276184082031, Total collision Num : 1199.0, Mean collision num : 4.796
+sup_rate 为 0.39, max_vel 为 1.79
+Mean delta pos 0.02642545849084854, Max delta pos 0.07008463144302368, Total collision Num : 1380.5, Mean collision num : 5.522
+sup_rate 为 0.39, max_vel 为 1.9100000000000001
+Mean delta pos 0.029526138678193092, Max delta pos 0.07431739568710327, Total collision Num : 1368.0, Mean collision num : 5.472
+sup_rate 为 0.39, max_vel 为 2.01
+Mean delta pos 0.03516225144267082, Max delta pos 0.08840436488389969, Total collision Num : 1818.0, Mean collision num : 7.272
+sup_rate 为 0.39, max_vel 为 2.07
+Mean delta pos 0.03881963714957237, Max delta pos 0.08857325464487076, Total collision Num : 1589.0, Mean collision num : 6.356
+sup_rate 为 0.39, max_vel 为 2.09
+Mean delta pos 0.03166479244828224, Max delta pos 0.08680730313062668, Total collision Num : 1597.5, Mean collision num : 6.39
+sup_rate 为 0.39, max_vel 为 2.11
+Mean delta pos 0.043005671352148056, Max delta pos 0.07649470865726471, Total collision Num : 1475.5, Mean collision num : 5.902
+sup_rate 为 0.39, max_vel 为 2.13
+Mean delta pos 0.045077014714479446, Max delta pos 0.09604866802692413, Total collision Num : 1943.75, Mean collision num : 7.775
+sup_rate 为 0.39, max_vel 为 2.15
+Mean delta pos 0.04228321835398674, Max delta pos 0.08814116567373276, Total collision Num : 1658.25, Mean collision num : 6.633
+sup_rate 为 0.39, max_vel 为 2.23
+Mean delta pos 0.04107481241226196, Max delta pos 0.0851161926984787, Total collision Num : 1705.5, Mean collision num : 6.822
+sup_rate 为 0.39, max_vel 为 2.33
+Mean delta pos 0.033393051475286484, Max delta pos 0.09613912552595139, Total collision Num : 1739.25, Mean collision num : 6.957
+sup_rate 为 0.39, max_vel 为 2.4299999999999997
+Mean delta pos 0.03990136459469795, Max delta pos 0.09947541356086731, Total collision Num : 1734.25, Mean collision num : 6.937
+sup_rate 为 0.41, max_vel 为 0.05
+Mean delta pos 1.0439447164535522, Max delta pos 1.821277379989624, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.41, max_vel 为 0.07
+Mean delta pos 1.0329183340072632, Max delta pos 1.8317770957946777, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.41, max_vel 为 0.09
+Mean delta pos 1.0176453590393066, Max delta pos 1.8321073055267334, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.41, max_vel 为 0.11
+Mean delta pos 0.9999396204948425, Max delta pos 1.8380569219589233, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.41, max_vel 为 0.13
+Mean delta pos 0.9799179434776306, Max delta pos 1.8504217863082886, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.41, max_vel 为 0.15000000000000002
+Mean delta pos 0.9476531147956848, Max delta pos 1.8612667322158813, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.41, max_vel 为 0.16999999999999998
+Mean delta pos 0.9055411219596863, Max delta pos 1.8655507564544678, Total collision Num : 18.5, Mean collision num : 0.074
+sup_rate 为 0.41, max_vel 为 1.6300000000000001
+Mean delta pos 0.033066198229789734, Max delta pos 0.09144395589828491, Total collision Num : 1103.25, Mean collision num : 4.413
+sup_rate 为 0.41, max_vel 为 1.6700000000000002
+Mean delta pos 0.031450193375349045, Max delta pos 0.0780562236905098, Total collision Num : 1168.0, Mean collision num : 4.672
+sup_rate 为 0.41, max_vel 为 1.77
+Mean delta pos 0.04063056781888008, Max delta pos 0.0966455340385437, Total collision Num : 1205.75, Mean collision num : 4.823
+sup_rate 为 0.41, max_vel 为 1.79
+Mean delta pos 0.03477887064218521, Max delta pos 0.07784369587898254, Total collision Num : 1257.25, Mean collision num : 5.029
+sup_rate 为 0.41, max_vel 为 1.81
+Mean delta pos 0.029099244624376297, Max delta pos 0.07155729830265045, Total collision Num : 1351.75, Mean collision num : 5.407
+sup_rate 为 0.41, max_vel 为 1.8900000000000001
+Mean delta pos 0.026311950758099556, Max delta pos 0.06965097039937973, Total collision Num : 1352.75, Mean collision num : 5.411
+sup_rate 为 0.41, max_vel 为 1.9100000000000001
+Mean delta pos 0.02964891865849495, Max delta pos 0.0701693519949913, Total collision Num : 1396.5, Mean collision num : 5.586
+sup_rate 为 0.41, max_vel 为 1.9300000000000002
+Mean delta pos 0.03792358189821243, Max delta pos 0.09079867601394653, Total collision Num : 1620.75, Mean collision num : 6.483
+sup_rate 为 0.41, max_vel 为 1.97
+Mean delta pos 0.027293525636196136, Max delta pos 0.09428535401821136, Total collision Num : 1529.75, Mean collision num : 6.119
+sup_rate 为 0.41, max_vel 为 2.01
+Mean delta pos 0.03047073632478714, Max delta pos 0.07810120284557343, Total collision Num : 1565.5, Mean collision num : 6.262
+sup_rate 为 0.41, max_vel 为 2.03
+Mean delta pos 0.033024780452251434, Max delta pos 0.09458225965499878, Total collision Num : 1676.25, Mean collision num : 6.705
+sup_rate 为 0.41, max_vel 为 2.05
+Mean delta pos 0.03888918086886406, Max delta pos 0.08409957587718964, Total collision Num : 1588.25, Mean collision num : 6.353
+sup_rate 为 0.41, max_vel 为 2.13
+Mean delta pos 0.038350142538547516, Max delta pos 0.08571051806211472, Total collision Num : 1673.25, Mean collision num : 6.693
+sup_rate 为 0.41, max_vel 为 2.17
+Mean delta pos 0.04071284830570221, Max delta pos 0.08798056095838547, Total collision Num : 1594.75, Mean collision num : 6.379
+sup_rate 为 0.41, max_vel 为 2.19
+Mean delta pos 0.03541724756360054, Max delta pos 0.0852503702044487, Total collision Num : 1753.25, Mean collision num : 7.013
+sup_rate 为 0.41, max_vel 为 2.21
+Mean delta pos 0.030831078067421913, Max delta pos 0.09640684723854065, Total collision Num : 1606.0, Mean collision num : 6.424
+sup_rate 为 0.41, max_vel 为 2.23
+Mean delta pos 0.036421120166778564, Max delta pos 0.08314794301986694, Total collision Num : 1925.5, Mean collision num : 7.702
+sup_rate 为 0.41, max_vel 为 2.25
+Mean delta pos 0.04956081137061119, Max delta pos 0.09795777499675751, Total collision Num : 1669.75, Mean collision num : 6.679
+sup_rate 为 0.41, max_vel 为 2.35
+Mean delta pos 0.04429388791322708, Max delta pos 0.08626358211040497, Total collision Num : 1559.5, Mean collision num : 6.238
+sup_rate 为 0.41, max_vel 为 2.4299999999999997
+Mean delta pos 0.03384726122021675, Max delta pos 0.08030261844396591, Total collision Num : 1626.0, Mean collision num : 6.504
+sup_rate 为 0.43, max_vel 为 0.05
+Mean delta pos 1.044761300086975, Max delta pos 1.8215179443359375, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.43, max_vel 为 0.07
+Mean delta pos 1.0345056056976318, Max delta pos 1.8321430683135986, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.43, max_vel 为 0.09
+Mean delta pos 1.0199692249298096, Max delta pos 1.8324556350708008, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.43, max_vel 为 0.11
+Mean delta pos 1.0035672187805176, Max delta pos 1.8345261812210083, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.43, max_vel 为 0.13
+Mean delta pos 0.9851295351982117, Max delta pos 1.8489850759506226, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.43, max_vel 为 0.15000000000000002
+Mean delta pos 0.9566646218299866, Max delta pos 1.8595435619354248, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.43, max_vel 为 0.16999999999999998
+Mean delta pos 0.9153026938438416, Max delta pos 1.8652809858322144, Total collision Num : 9.0, Mean collision num : 0.036
+sup_rate 为 0.43, max_vel 为 1.55
+Mean delta pos 0.030130214989185333, Max delta pos 0.09055614471435547, Total collision Num : 1072.75, Mean collision num : 4.291
+sup_rate 为 0.43, max_vel 为 1.61
+Mean delta pos 0.026309369131922722, Max delta pos 0.08952492475509644, Total collision Num : 1074.75, Mean collision num : 4.299
+sup_rate 为 0.43, max_vel 为 1.6300000000000001
+Mean delta pos 0.030282851308584213, Max delta pos 0.07256430387496948, Total collision Num : 1066.75, Mean collision num : 4.267
+sup_rate 为 0.43, max_vel 为 1.6500000000000001
+Mean delta pos 0.028493553400039673, Max delta pos 0.07612260431051254, Total collision Num : 1136.5, Mean collision num : 4.546
+sup_rate 为 0.43, max_vel 为 1.6700000000000002
+Mean delta pos 0.026259562000632286, Max delta pos 0.07099263370037079, Total collision Num : 1106.25, Mean collision num : 4.425
+sup_rate 为 0.43, max_vel 为 1.6900000000000002
+Mean delta pos 0.03196985274553299, Max delta pos 0.09976649284362793, Total collision Num : 1116.75, Mean collision num : 4.467
+sup_rate 为 0.43, max_vel 为 1.7100000000000002
+Mean delta pos 0.031147785484790802, Max delta pos 0.0760442465543747, Total collision Num : 1188.0, Mean collision num : 4.752
+sup_rate 为 0.43, max_vel 为 1.83
+Mean delta pos 0.03482048958539963, Max delta pos 0.08466393500566483, Total collision Num : 1282.25, Mean collision num : 5.129
+sup_rate 为 0.43, max_vel 为 1.9300000000000002
+Mean delta pos 0.03772498294711113, Max delta pos 0.07276097685098648, Total collision Num : 1355.5, Mean collision num : 5.422
+sup_rate 为 0.43, max_vel 为 1.97
+Mean delta pos 0.045359332114458084, Max delta pos 0.0880160927772522, Total collision Num : 1466.25, Mean collision num : 5.865
+sup_rate 为 0.43, max_vel 为 1.99
+Mean delta pos 0.038288723677396774, Max delta pos 0.09029961377382278, Total collision Num : 1448.0, Mean collision num : 5.792
+sup_rate 为 0.43, max_vel 为 2.01
+Mean delta pos 0.04326595738530159, Max delta pos 0.09535595774650574, Total collision Num : 1468.5, Mean collision num : 5.874
+sup_rate 为 0.43, max_vel 为 2.03
+Mean delta pos 0.03766508027911186, Max delta pos 0.08262781798839569, Total collision Num : 1483.25, Mean collision num : 5.933
+sup_rate 为 0.43, max_vel 为 2.05
+Mean delta pos 0.028412282466888428, Max delta pos 0.09012483805418015, Total collision Num : 1539.0, Mean collision num : 6.156
+sup_rate 为 0.43, max_vel 为 2.07
+Mean delta pos 0.030385702848434448, Max delta pos 0.08415720611810684, Total collision Num : 1466.5, Mean collision num : 5.866
+sup_rate 为 0.43, max_vel 为 2.13
+Mean delta pos 0.03133700042963028, Max delta pos 0.0929296687245369, Total collision Num : 1480.0, Mean collision num : 5.92
+sup_rate 为 0.43, max_vel 为 2.15
+Mean delta pos 0.0391777865588665, Max delta pos 0.09516225755214691, Total collision Num : 1553.25, Mean collision num : 6.213
+sup_rate 为 0.43, max_vel 为 2.19
+Mean delta pos 0.03530267998576164, Max delta pos 0.08797922730445862, Total collision Num : 1791.5, Mean collision num : 7.166
+sup_rate 为 0.43, max_vel 为 2.21
+Mean delta pos 0.0409594289958477, Max delta pos 0.08126098662614822, Total collision Num : 1590.25, Mean collision num : 6.361
+sup_rate 为 0.43, max_vel 为 2.23
+Mean delta pos 0.03314029425382614, Max delta pos 0.08943891525268555, Total collision Num : 1681.75, Mean collision num : 6.727
+sup_rate 为 0.43, max_vel 为 2.25
+Mean delta pos 0.03140363097190857, Max delta pos 0.08632120490074158, Total collision Num : 1686.5, Mean collision num : 6.746
+sup_rate 为 0.43, max_vel 为 2.27
+Mean delta pos 0.03925628587603569, Max delta pos 0.08910904079675674, Total collision Num : 1746.0, Mean collision num : 6.984
+sup_rate 为 0.43, max_vel 为 2.29
+Mean delta pos 0.04341689497232437, Max delta pos 0.09741105884313583, Total collision Num : 1651.75, Mean collision num : 6.607
+sup_rate 为 0.45, max_vel 为 0.05
+Mean delta pos 1.0455012321472168, Max delta pos 1.8216601610183716, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.45, max_vel 为 0.07
+Mean delta pos 1.0359580516815186, Max delta pos 1.8324357271194458, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.45, max_vel 为 0.09
+Mean delta pos 1.0221202373504639, Max delta pos 1.8327772617340088, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.45, max_vel 为 0.11
+Mean delta pos 1.0069674253463745, Max delta pos 1.8342400789260864, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.45, max_vel 为 0.13
+Mean delta pos 0.9897610545158386, Max delta pos 1.8473654985427856, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.45, max_vel 为 0.15000000000000002
+Mean delta pos 0.9642388224601746, Max delta pos 1.8572862148284912, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.45, max_vel 为 0.16999999999999998
+Mean delta pos 0.9276170134544373, Max delta pos 1.8652913570404053, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.45, max_vel 为 1.6700000000000002
+Mean delta pos 0.036347828805446625, Max delta pos 0.09442371129989624, Total collision Num : 1144.75, Mean collision num : 4.579
+sup_rate 为 0.45, max_vel 为 1.7100000000000002
+Mean delta pos 0.02066120132803917, Max delta pos 0.07203510403633118, Total collision Num : 1174.5, Mean collision num : 4.698
+sup_rate 为 0.45, max_vel 为 1.79
+Mean delta pos 0.03041224554181099, Max delta pos 0.07008116692304611, Total collision Num : 1235.5, Mean collision num : 4.942
+sup_rate 为 0.45, max_vel 为 1.83
+Mean delta pos 0.027229903265833855, Max delta pos 0.06980105489492416, Total collision Num : 1238.25, Mean collision num : 4.953
+sup_rate 为 0.45, max_vel 为 1.85
+Mean delta pos 0.029621846973896027, Max delta pos 0.08099858462810516, Total collision Num : 1314.75, Mean collision num : 5.259
+sup_rate 为 0.45, max_vel 为 1.87
+Mean delta pos 0.034445829689502716, Max delta pos 0.06079297140240669, Total collision Num : 1276.25, Mean collision num : 5.105
+sup_rate 为 0.45, max_vel 为 1.8900000000000001
+Mean delta pos 0.03665216267108917, Max delta pos 0.07512659579515457, Total collision Num : 1249.75, Mean collision num : 4.999
+sup_rate 为 0.45, max_vel 为 1.97
+Mean delta pos 0.027977347373962402, Max delta pos 0.06347254663705826, Total collision Num : 1546.0, Mean collision num : 6.184
+sup_rate 为 0.45, max_vel 为 1.99
+Mean delta pos 0.04125270992517471, Max delta pos 0.08764203637838364, Total collision Num : 1395.75, Mean collision num : 5.583
+sup_rate 为 0.45, max_vel 为 2.01
+Mean delta pos 0.03569395840167999, Max delta pos 0.09271097928285599, Total collision Num : 1471.5, Mean collision num : 5.886
+sup_rate 为 0.45, max_vel 为 2.03
+Mean delta pos 0.026738205924630165, Max delta pos 0.08114795386791229, Total collision Num : 1384.75, Mean collision num : 5.539
+sup_rate 为 0.45, max_vel 为 2.05
+Mean delta pos 0.02536950819194317, Max delta pos 0.09273429214954376, Total collision Num : 1571.75, Mean collision num : 6.287
+sup_rate 为 0.45, max_vel 为 2.11
+Mean delta pos 0.03560688719153404, Max delta pos 0.09749163687229156, Total collision Num : 1664.75, Mean collision num : 6.659
+sup_rate 为 0.45, max_vel 为 2.17
+Mean delta pos 0.04391699656844139, Max delta pos 0.08238154649734497, Total collision Num : 1439.25, Mean collision num : 5.757
+sup_rate 为 0.45, max_vel 为 2.21
+Mean delta pos 0.03868279978632927, Max delta pos 0.08858735859394073, Total collision Num : 1574.25, Mean collision num : 6.297
+sup_rate 为 0.45, max_vel 为 2.25
+Mean delta pos 0.036419034004211426, Max delta pos 0.09065651893615723, Total collision Num : 1620.0, Mean collision num : 6.48
+sup_rate 为 0.45, max_vel 为 2.27
+Mean delta pos 0.04967300966382027, Max delta pos 0.09184946864843369, Total collision Num : 1656.5, Mean collision num : 6.626
+sup_rate 为 0.45, max_vel 为 2.31
+Mean delta pos 0.04982219636440277, Max delta pos 0.0977153331041336, Total collision Num : 1715.25, Mean collision num : 6.861
+sup_rate 为 0.45, max_vel 为 2.35
+Mean delta pos 0.034403976052999496, Max delta pos 0.08879955112934113, Total collision Num : 1632.5, Mean collision num : 6.53
+sup_rate 为 0.45, max_vel 为 2.4299999999999997
+Mean delta pos 0.03351983800530434, Max delta pos 0.0943496823310852, Total collision Num : 1749.5, Mean collision num : 6.998
+sup_rate 为 0.47, max_vel 为 0.05
+Mean delta pos 1.046185851097107, Max delta pos 1.8218082189559937, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.47, max_vel 为 0.07
+Mean delta pos 1.0372751951217651, Max delta pos 1.8327425718307495, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.47, max_vel 为 0.09
+Mean delta pos 1.0241458415985107, Max delta pos 1.8330352306365967, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.47, max_vel 为 0.11
+Mean delta pos 1.009801983833313, Max delta pos 1.8339673280715942, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.47, max_vel 为 0.13
+Mean delta pos 0.9928582310676575, Max delta pos 1.845956802368164, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.47, max_vel 为 0.15000000000000002
+Mean delta pos 0.9703478217124939, Max delta pos 1.855254888534546, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.47, max_vel 为 0.16999999999999998
+Mean delta pos 0.9370148181915283, Max delta pos 1.8653775453567505, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.47, max_vel 为 0.19
+Mean delta pos 0.8989380598068237, Max delta pos 1.8646550178527832, Total collision Num : 14.0, Mean collision num : 0.056
+sup_rate 为 0.47, max_vel 为 1.55
+Mean delta pos 0.029322968795895576, Max delta pos 0.08887672424316406, Total collision Num : 1019.75, Mean collision num : 4.079
+sup_rate 为 0.47, max_vel 为 1.75
+Mean delta pos 0.036477040499448776, Max delta pos 0.09686112403869629, Total collision Num : 1121.25, Mean collision num : 4.485
+sup_rate 为 0.47, max_vel 为 1.77
+Mean delta pos 0.026758797466754913, Max delta pos 0.07277537882328033, Total collision Num : 1167.75, Mean collision num : 4.671
+sup_rate 为 0.47, max_vel 为 1.81
+Mean delta pos 0.03226900473237038, Max delta pos 0.08199312537908554, Total collision Num : 1195.25, Mean collision num : 4.781
+sup_rate 为 0.47, max_vel 为 1.87
+Mean delta pos 0.041575610637664795, Max delta pos 0.09783013164997101, Total collision Num : 1449.0, Mean collision num : 5.796
+sup_rate 为 0.47, max_vel 为 1.9100000000000001
+Mean delta pos 0.03291657194495201, Max delta pos 0.0926574096083641, Total collision Num : 1273.25, Mean collision num : 5.093
+sup_rate 为 0.47, max_vel 为 2.09
+Mean delta pos 0.039716120809316635, Max delta pos 0.0931142047047615, Total collision Num : 1463.5, Mean collision num : 5.854
+sup_rate 为 0.47, max_vel 为 2.13
+Mean delta pos 0.036306239664554596, Max delta pos 0.07766587287187576, Total collision Num : 1475.0, Mean collision num : 5.9
+sup_rate 为 0.47, max_vel 为 2.17
+Mean delta pos 0.030952055007219315, Max delta pos 0.0931471437215805, Total collision Num : 1555.75, Mean collision num : 6.223
+sup_rate 为 0.47, max_vel 为 2.19
+Mean delta pos 0.03466886654496193, Max delta pos 0.0915292277932167, Total collision Num : 1565.75, Mean collision num : 6.263
+sup_rate 为 0.47, max_vel 为 2.25
+Mean delta pos 0.04498950019478798, Max delta pos 0.0921316146850586, Total collision Num : 1548.25, Mean collision num : 6.193
+sup_rate 为 0.47, max_vel 为 2.27
+Mean delta pos 0.04137805849313736, Max delta pos 0.09410297870635986, Total collision Num : 1480.5, Mean collision num : 5.922
+sup_rate 为 0.47, max_vel 为 2.35
+Mean delta pos 0.0481753870844841, Max delta pos 0.0987001433968544, Total collision Num : 1731.25, Mean collision num : 6.925
+sup_rate 为 0.47, max_vel 为 2.3699999999999997
+Mean delta pos 0.04163651540875435, Max delta pos 0.08725296705961227, Total collision Num : 1798.5, Mean collision num : 7.194
+sup_rate 为 0.49, max_vel 为 0.05
+Mean delta pos 1.0468083620071411, Max delta pos 1.8219636678695679, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.49, max_vel 为 0.07
+Mean delta pos 1.038478136062622, Max delta pos 1.8330168724060059, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.49, max_vel 为 0.09
+Mean delta pos 1.026111364364624, Max delta pos 1.833289384841919, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.49, max_vel 为 0.11
+Mean delta pos 1.0120059251785278, Max delta pos 1.833809494972229, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.49, max_vel 为 0.13
+Mean delta pos 0.9964512586593628, Max delta pos 1.8442755937576294, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.49, max_vel 为 0.15000000000000002
+Mean delta pos 0.9757599234580994, Max delta pos 1.8541691303253174, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.49, max_vel 为 0.16999999999999998
+Mean delta pos 0.9452225565910339, Max delta pos 1.865046739578247, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.49, max_vel 为 0.19
+Mean delta pos 0.9075891971588135, Max delta pos 1.864308476448059, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.49, max_vel 为 1.61
+Mean delta pos 0.02892596460878849, Max delta pos 0.09846371412277222, Total collision Num : 970.75, Mean collision num : 3.883
+sup_rate 为 0.49, max_vel 为 1.6300000000000001
+Mean delta pos 0.024413563311100006, Max delta pos 0.09900122880935669, Total collision Num : 991.25, Mean collision num : 3.965
+sup_rate 为 0.49, max_vel 为 1.7100000000000002
+Mean delta pos 0.03358052670955658, Max delta pos 0.0784735307097435, Total collision Num : 1118.5, Mean collision num : 4.474
+sup_rate 为 0.49, max_vel 为 1.73
+Mean delta pos 0.03399355337023735, Max delta pos 0.08642397820949554, Total collision Num : 1115.75, Mean collision num : 4.463
+sup_rate 为 0.49, max_vel 为 1.75
+Mean delta pos 0.028271321207284927, Max delta pos 0.0970044732093811, Total collision Num : 1115.25, Mean collision num : 4.461
+sup_rate 为 0.49, max_vel 为 1.9100000000000001
+Mean delta pos 0.026962338015437126, Max delta pos 0.08093676716089249, Total collision Num : 1236.0, Mean collision num : 4.944
+sup_rate 为 0.49, max_vel 为 1.9300000000000002
+Mean delta pos 0.04191633686423302, Max delta pos 0.09559643268585205, Total collision Num : 1269.75, Mean collision num : 5.079
+sup_rate 为 0.49, max_vel 为 1.9500000000000002
+Mean delta pos 0.034299179911613464, Max delta pos 0.08431454747915268, Total collision Num : 1262.0, Mean collision num : 5.048
+sup_rate 为 0.49, max_vel 为 1.97
+Mean delta pos 0.024622013792395592, Max delta pos 0.08534378558397293, Total collision Num : 1292.25, Mean collision num : 5.169
+sup_rate 为 0.49, max_vel 为 1.99
+Mean delta pos 0.035927869379520416, Max delta pos 0.0988924503326416, Total collision Num : 1273.75, Mean collision num : 5.095
+sup_rate 为 0.49, max_vel 为 2.01
+Mean delta pos 0.040094926953315735, Max delta pos 0.08991308510303497, Total collision Num : 1285.75, Mean collision num : 5.143
+sup_rate 为 0.49, max_vel 为 2.05
+Mean delta pos 0.04124634712934494, Max delta pos 0.09565913677215576, Total collision Num : 1427.75, Mean collision num : 5.711
+sup_rate 为 0.49, max_vel 为 2.07
+Mean delta pos 0.03112846054136753, Max delta pos 0.08375030010938644, Total collision Num : 1465.75, Mean collision num : 5.863
+sup_rate 为 0.49, max_vel 为 2.13
+Mean delta pos 0.04313281923532486, Max delta pos 0.08961009979248047, Total collision Num : 1486.25, Mean collision num : 5.945
+sup_rate 为 0.49, max_vel 为 2.17
+Mean delta pos 0.0353960320353508, Max delta pos 0.09067356586456299, Total collision Num : 1553.5, Mean collision num : 6.214
+sup_rate 为 0.49, max_vel 为 2.21
+Mean delta pos 0.04416423290967941, Max delta pos 0.09472643584012985, Total collision Num : 1437.5, Mean collision num : 5.75
+sup_rate 为 0.49, max_vel 为 2.27
+Mean delta pos 0.04734651371836662, Max delta pos 0.09356646239757538, Total collision Num : 1818.0, Mean collision num : 7.272
+sup_rate 为 0.49, max_vel 为 2.29
+Mean delta pos 0.03472829982638359, Max delta pos 0.0811123475432396, Total collision Num : 1617.75, Mean collision num : 6.471
+sup_rate 为 0.49, max_vel 为 2.33
+Mean delta pos 0.03805660456418991, Max delta pos 0.09077206254005432, Total collision Num : 2001.75, Mean collision num : 8.007
+sup_rate 为 0.49, max_vel 为 2.3899999999999997
+Mean delta pos 0.043019652366638184, Max delta pos 0.08890203386545181, Total collision Num : 1616.5, Mean collision num : 6.466
+sup_rate 为 0.49, max_vel 为 2.4099999999999997
+Mean delta pos 0.04469338431954384, Max delta pos 0.09797938913106918, Total collision Num : 1696.5, Mean collision num : 6.786
+sup_rate 为 0.51, max_vel 为 0.05
+Mean delta pos 1.047375202178955, Max delta pos 1.822077989578247, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.51, max_vel 为 0.07
+Mean delta pos 1.0395609140396118, Max delta pos 1.8332678079605103, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.51, max_vel 为 0.09
+Mean delta pos 1.0279518365859985, Max delta pos 1.8335365056991577, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.51, max_vel 为 0.11
+Mean delta pos 1.0137951374053955, Max delta pos 1.8337149620056152, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.51, max_vel 为 0.13
+Mean delta pos 1.0003130435943604, Max delta pos 1.841981053352356, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.51, max_vel 为 0.15000000000000002
+Mean delta pos 0.981247067451477, Max delta pos 1.852782130241394, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.51, max_vel 为 0.16999999999999998
+Mean delta pos 0.9526651501655579, Max delta pos 1.8638678789138794, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.51, max_vel 为 0.19
+Mean delta pos 0.9194288849830627, Max delta pos 1.8639715909957886, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.51, max_vel 为 0.21000000000000002
+Mean delta pos 0.8873061537742615, Max delta pos 1.8749423027038574, Total collision Num : 15.0, Mean collision num : 0.06
+sup_rate 为 0.51, max_vel 为 1.73
+Mean delta pos 0.0345977321267128, Max delta pos 0.0902252197265625, Total collision Num : 1107.75, Mean collision num : 4.431
+sup_rate 为 0.51, max_vel 为 1.81
+Mean delta pos 0.02318587526679039, Max delta pos 0.07415121793746948, Total collision Num : 1167.5, Mean collision num : 4.67
+sup_rate 为 0.51, max_vel 为 1.85
+Mean delta pos 0.029454976320266724, Max delta pos 0.07717916369438171, Total collision Num : 1197.25, Mean collision num : 4.789
+sup_rate 为 0.51, max_vel 为 1.87
+Mean delta pos 0.03566849231719971, Max delta pos 0.08918457478284836, Total collision Num : 1278.0, Mean collision num : 5.112
+sup_rate 为 0.51, max_vel 为 1.9500000000000002
+Mean delta pos 0.036787666380405426, Max delta pos 0.0887640118598938, Total collision Num : 1280.25, Mean collision num : 5.121
+sup_rate 为 0.51, max_vel 为 1.99
+Mean delta pos 0.03972889482975006, Max delta pos 0.09705865383148193, Total collision Num : 1269.75, Mean collision num : 5.079
+sup_rate 为 0.51, max_vel 为 2.01
+Mean delta pos 0.034706149250268936, Max delta pos 0.07994429767131805, Total collision Num : 1327.75, Mean collision num : 5.311
+sup_rate 为 0.51, max_vel 为 2.03
+Mean delta pos 0.045201241970062256, Max delta pos 0.09740342944860458, Total collision Num : 1369.0, Mean collision num : 5.476
+sup_rate 为 0.51, max_vel 为 2.05
+Mean delta pos 0.02661549299955368, Max delta pos 0.08221869170665741, Total collision Num : 1333.25, Mean collision num : 5.333
+sup_rate 为 0.51, max_vel 为 2.13
+Mean delta pos 0.042424920946359634, Max delta pos 0.09016156941652298, Total collision Num : 1354.5, Mean collision num : 5.418
+sup_rate 为 0.51, max_vel 为 2.17
+Mean delta pos 0.04689233377575874, Max delta pos 0.09880703687667847, Total collision Num : 1487.75, Mean collision num : 5.951
+sup_rate 为 0.51, max_vel 为 2.19
+Mean delta pos 0.0331866629421711, Max delta pos 0.08477213978767395, Total collision Num : 1473.0, Mean collision num : 5.892
+sup_rate 为 0.51, max_vel 为 2.21
+Mean delta pos 0.04620572179555893, Max delta pos 0.09565135836601257, Total collision Num : 1554.25, Mean collision num : 6.217
+sup_rate 为 0.51, max_vel 为 2.35
+Mean delta pos 0.036705613136291504, Max delta pos 0.0822313129901886, Total collision Num : 1610.5, Mean collision num : 6.442
+sup_rate 为 0.51, max_vel 为 2.3699999999999997
+Mean delta pos 0.03372924402356148, Max delta pos 0.09106593579053879, Total collision Num : 1805.5, Mean collision num : 7.222
+sup_rate 为 0.51, max_vel 为 2.3899999999999997
+Mean delta pos 0.052756767719984055, Max delta pos 0.09948047995567322, Total collision Num : 1632.25, Mean collision num : 6.529
+sup_rate 为 0.53, max_vel 为 0.05
+Mean delta pos 1.047947645187378, Max delta pos 1.8222523927688599, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.53, max_vel 为 0.07
+Mean delta pos 1.0405776500701904, Max delta pos 1.8334928750991821, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.53, max_vel 为 0.09
+Mean delta pos 1.0297133922576904, Max delta pos 1.8337643146514893, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.53, max_vel 为 0.11
+Mean delta pos 1.0160951614379883, Max delta pos 1.8340873718261719, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.53, max_vel 为 0.13
+Mean delta pos 1.0035057067871094, Max delta pos 1.8392001390457153, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.53, max_vel 为 0.15000000000000002
+Mean delta pos 0.9855265021324158, Max delta pos 1.851514458656311, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.53, max_vel 为 0.16999999999999998
+Mean delta pos 0.9596356153488159, Max delta pos 1.8623098134994507, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.53, max_vel 为 0.19
+Mean delta pos 0.9264641404151917, Max delta pos 1.864010214805603, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.53, max_vel 为 0.21000000000000002
+Mean delta pos 0.8930380940437317, Max delta pos 1.8644795417785645, Total collision Num : 8.0, Mean collision num : 0.032
+sup_rate 为 0.53, max_vel 为 1.6900000000000002
+Mean delta pos 0.031896717846393585, Max delta pos 0.0977054014801979, Total collision Num : 1045.0, Mean collision num : 4.18
+sup_rate 为 0.53, max_vel 为 1.77
+Mean delta pos 0.02562207169830799, Max delta pos 0.08035127073526382, Total collision Num : 1156.25, Mean collision num : 4.625
+sup_rate 为 0.53, max_vel 为 1.79
+Mean delta pos 0.04523113742470741, Max delta pos 0.08827488869428635, Total collision Num : 1117.75, Mean collision num : 4.471
+sup_rate 为 0.53, max_vel 为 1.81
+Mean delta pos 0.03156658634543419, Max delta pos 0.09342819452285767, Total collision Num : 1106.0, Mean collision num : 4.424
+sup_rate 为 0.53, max_vel 为 1.9100000000000001
+Mean delta pos 0.027867604047060013, Max delta pos 0.07002737373113632, Total collision Num : 1163.5, Mean collision num : 4.654
+sup_rate 为 0.53, max_vel 为 1.9300000000000002
+Mean delta pos 0.025599326938390732, Max delta pos 0.06336750835180283, Total collision Num : 1264.25, Mean collision num : 5.057
+sup_rate 为 0.53, max_vel 为 2.13
+Mean delta pos 0.030952513217926025, Max delta pos 0.09990626573562622, Total collision Num : 1420.5, Mean collision num : 5.682
+sup_rate 为 0.53, max_vel 为 2.15
+Mean delta pos 0.03436212241649628, Max delta pos 0.07731007784605026, Total collision Num : 1428.75, Mean collision num : 5.715
+sup_rate 为 0.53, max_vel 为 2.17
+Mean delta pos 0.031248586252331734, Max delta pos 0.06529448181390762, Total collision Num : 1664.0, Mean collision num : 6.656
+sup_rate 为 0.53, max_vel 为 2.19
+Mean delta pos 0.03592205047607422, Max delta pos 0.08855555951595306, Total collision Num : 1514.0, Mean collision num : 6.056
+sup_rate 为 0.53, max_vel 为 2.29
+Mean delta pos 0.031315211206674576, Max delta pos 0.09295720607042313, Total collision Num : 1550.0, Mean collision num : 6.2
+sup_rate 为 0.53, max_vel 为 2.4099999999999997
+Mean delta pos 0.035618726164102554, Max delta pos 0.0912618562579155, Total collision Num : 1629.5, Mean collision num : 6.518
+sup_rate 为 0.55, max_vel 为 0.05
+Mean delta pos 1.0484575033187866, Max delta pos 1.822336196899414, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.55, max_vel 为 0.07
+Mean delta pos 1.041502833366394, Max delta pos 1.8337153196334839, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.55, max_vel 为 0.09
+Mean delta pos 1.031333088874817, Max delta pos 1.8339911699295044, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.55, max_vel 为 0.11
+Mean delta pos 1.0182477235794067, Max delta pos 1.8345613479614258, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.55, max_vel 为 0.13
+Mean delta pos 1.0060608386993408, Max delta pos 1.838714361190796, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.55, max_vel 为 0.15000000000000002
+Mean delta pos 0.9889639616012573, Max delta pos 1.8502296209335327, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.55, max_vel 为 0.16999999999999998
+Mean delta pos 0.9656461477279663, Max delta pos 1.8605382442474365, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.55, max_vel 为 0.19
+Mean delta pos 0.9331576228141785, Max delta pos 1.864301085472107, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.55, max_vel 为 0.21000000000000002
+Mean delta pos 0.9046062231063843, Max delta pos 1.863892674446106, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.55, max_vel 为 1.6900000000000002
+Mean delta pos 0.026953868567943573, Max delta pos 0.0961451530456543, Total collision Num : 948.5, Mean collision num : 3.794
+sup_rate 为 0.55, max_vel 为 1.77
+Mean delta pos 0.028396595269441605, Max delta pos 0.092862069606781, Total collision Num : 1032.5, Mean collision num : 4.13
+sup_rate 为 0.55, max_vel 为 1.79
+Mean delta pos 0.03324521705508232, Max delta pos 0.09230760484933853, Total collision Num : 1046.25, Mean collision num : 4.185
+sup_rate 为 0.55, max_vel 为 1.87
+Mean delta pos 0.02485480345785618, Max delta pos 0.0782458484172821, Total collision Num : 1079.0, Mean collision num : 4.316
+sup_rate 为 0.55, max_vel 为 1.8900000000000001
+Mean delta pos 0.026763757690787315, Max delta pos 0.08975984156131744, Total collision Num : 1149.5, Mean collision num : 4.598
+sup_rate 为 0.55, max_vel 为 1.9300000000000002
+Mean delta pos 0.03685672581195831, Max delta pos 0.07764521986246109, Total collision Num : 1191.5, Mean collision num : 4.766
+sup_rate 为 0.55, max_vel 为 1.9500000000000002
+Mean delta pos 0.03818896785378456, Max delta pos 0.09472712129354477, Total collision Num : 1176.75, Mean collision num : 4.707
+sup_rate 为 0.55, max_vel 为 2.01
+Mean delta pos 0.025987092405557632, Max delta pos 0.07643598318099976, Total collision Num : 1290.5, Mean collision num : 5.162
+sup_rate 为 0.55, max_vel 为 2.05
+Mean delta pos 0.033737584948539734, Max delta pos 0.0958113968372345, Total collision Num : 1241.0, Mean collision num : 4.964
+sup_rate 为 0.55, max_vel 为 2.07
+Mean delta pos 0.029264718294143677, Max delta pos 0.07943180203437805, Total collision Num : 1244.25, Mean collision num : 4.977
+sup_rate 为 0.55, max_vel 为 2.17
+Mean delta pos 0.035569705069065094, Max delta pos 0.09841650724411011, Total collision Num : 1376.75, Mean collision num : 5.507
+sup_rate 为 0.55, max_vel 为 2.19
+Mean delta pos 0.03851493075489998, Max delta pos 0.09460365772247314, Total collision Num : 1398.25, Mean collision num : 5.593
+sup_rate 为 0.55, max_vel 为 2.21
+Mean delta pos 0.04601944983005524, Max delta pos 0.09811756014823914, Total collision Num : 1494.5, Mean collision num : 5.978
+sup_rate 为 0.55, max_vel 为 2.25
+Mean delta pos 0.04165203869342804, Max delta pos 0.09567619115114212, Total collision Num : 1416.0, Mean collision num : 5.664
+sup_rate 为 0.55, max_vel 为 2.33
+Mean delta pos 0.03386858478188515, Max delta pos 0.08318536728620529, Total collision Num : 1528.25, Mean collision num : 6.113
+sup_rate 为 0.55, max_vel 为 2.35
+Mean delta pos 0.034199703484773636, Max delta pos 0.08634863793849945, Total collision Num : 1540.5, Mean collision num : 6.162
+sup_rate 为 0.55, max_vel 为 2.4299999999999997
+Mean delta pos 0.033265482634305954, Max delta pos 0.09680713713169098, Total collision Num : 1504.5, Mean collision num : 6.018
+sup_rate 为 0.5700000000000001, max_vel 为 0.05
+Mean delta pos 1.048919677734375, Max delta pos 1.8224365711212158, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.5700000000000001, max_vel 为 0.07
+Mean delta pos 1.0423604249954224, Max delta pos 1.833928108215332, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.5700000000000001, max_vel 为 0.09
+Mean delta pos 1.032758116722107, Max delta pos 1.8342139720916748, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.5700000000000001, max_vel 为 0.11
+Mean delta pos 1.020208477973938, Max delta pos 1.8347798585891724, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.5700000000000001, max_vel 为 0.13
+Mean delta pos 1.0070598125457764, Max delta pos 1.8435732126235962, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.5700000000000001, max_vel 为 0.15000000000000002
+Mean delta pos 0.9921524524688721, Max delta pos 1.8488785028457642, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.5700000000000001, max_vel 为 0.16999999999999998
+Mean delta pos 0.9707479476928711, Max delta pos 1.8588017225265503, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.5700000000000001, max_vel 为 0.19
+Mean delta pos 0.9403870105743408, Max delta pos 1.8651890754699707, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.5700000000000001, max_vel 为 0.21000000000000002
+Mean delta pos 0.9109732508659363, Max delta pos 1.8633447885513306, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.5700000000000001, max_vel 为 0.22999999999999998
+Mean delta pos 0.8819350600242615, Max delta pos 1.9056390523910522, Total collision Num : 11.25, Mean collision num : 0.045
+sup_rate 为 0.5700000000000001, max_vel 为 1.85
+Mean delta pos 0.0345541350543499, Max delta pos 0.08634746074676514, Total collision Num : 1085.5, Mean collision num : 4.342
+sup_rate 为 0.5700000000000001, max_vel 为 1.9300000000000002
+Mean delta pos 0.027963880449533463, Max delta pos 0.0775715708732605, Total collision Num : 1188.0, Mean collision num : 4.752
+sup_rate 为 0.5700000000000001, max_vel 为 2.03
+Mean delta pos 0.036560941487550735, Max delta pos 0.07786749303340912, Total collision Num : 1330.0, Mean collision num : 5.32
+sup_rate 为 0.5700000000000001, max_vel 为 2.05
+Mean delta pos 0.03135440871119499, Max delta pos 0.07950647920370102, Total collision Num : 1262.5, Mean collision num : 5.05
+sup_rate 为 0.5700000000000001, max_vel 为 2.07
+Mean delta pos 0.03866996243596077, Max delta pos 0.09957318753004074, Total collision Num : 1288.0, Mean collision num : 5.152
+sup_rate 为 0.5700000000000001, max_vel 为 2.11
+Mean delta pos 0.04055740311741829, Max delta pos 0.09075243771076202, Total collision Num : 1294.0, Mean collision num : 5.176
+sup_rate 为 0.5700000000000001, max_vel 为 2.13
+Mean delta pos 0.04145146906375885, Max delta pos 0.09864737093448639, Total collision Num : 1274.0, Mean collision num : 5.096
+sup_rate 为 0.5700000000000001, max_vel 为 2.19
+Mean delta pos 0.034547630697488785, Max delta pos 0.08242961764335632, Total collision Num : 1389.25, Mean collision num : 5.557
+sup_rate 为 0.5700000000000001, max_vel 为 2.23
+Mean delta pos 0.03651587665081024, Max delta pos 0.07462497800588608, Total collision Num : 1442.0, Mean collision num : 5.768
+sup_rate 为 0.5700000000000001, max_vel 为 2.29
+Mean delta pos 0.052627455443143845, Max delta pos 0.09370135515928268, Total collision Num : 1446.5, Mean collision num : 5.786
+sup_rate 为 0.5700000000000001, max_vel 为 2.31
+Mean delta pos 0.04347921907901764, Max delta pos 0.09293521195650101, Total collision Num : 1458.75, Mean collision num : 5.835
+sup_rate 为 0.5700000000000001, max_vel 为 2.3899999999999997
+Mean delta pos 0.03466047719120979, Max delta pos 0.09210905432701111, Total collision Num : 1658.0, Mean collision num : 6.632
+sup_rate 为 0.5900000000000001, max_vel 为 0.05
+Mean delta pos 1.0493404865264893, Max delta pos 1.8225029706954956, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.5900000000000001, max_vel 为 0.07
+Mean delta pos 1.0431573390960693, Max delta pos 1.8340888023376465, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.5900000000000001, max_vel 为 0.09
+Mean delta pos 1.0340909957885742, Max delta pos 1.8344173431396484, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.5900000000000001, max_vel 为 0.11
+Mean delta pos 1.0220550298690796, Max delta pos 1.834879994392395, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.5900000000000001, max_vel 为 0.13
+Mean delta pos 1.0080372095108032, Max delta pos 1.84833824634552, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.5900000000000001, max_vel 为 0.15000000000000002
+Mean delta pos 0.9959703087806702, Max delta pos 1.8469301462173462, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.5900000000000001, max_vel 为 0.16999999999999998
+Mean delta pos 0.9766651391983032, Max delta pos 1.8561108112335205, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.5900000000000001, max_vel 为 0.19
+Mean delta pos 0.9472696185112, Max delta pos 1.8653976917266846, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.5900000000000001, max_vel 为 0.21000000000000002
+Mean delta pos 0.917214572429657, Max delta pos 1.8631210327148438, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.5900000000000001, max_vel 为 0.22999999999999998
+Mean delta pos 0.8845496773719788, Max delta pos 1.9046467542648315, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.5900000000000001, max_vel 为 2.01
+Mean delta pos 0.03973471000790596, Max delta pos 0.0876343846321106, Total collision Num : 1200.25, Mean collision num : 4.801
+sup_rate 为 0.5900000000000001, max_vel 为 2.11
+Mean delta pos 0.03018149361014366, Max delta pos 0.09044893085956573, Total collision Num : 1280.0, Mean collision num : 5.12
+sup_rate 为 0.5900000000000001, max_vel 为 2.23
+Mean delta pos 0.03128102049231529, Max delta pos 0.09062015265226364, Total collision Num : 1514.25, Mean collision num : 6.057
+sup_rate 为 0.5900000000000001, max_vel 为 2.25
+Mean delta pos 0.040151894092559814, Max delta pos 0.09386630356311798, Total collision Num : 1442.75, Mean collision num : 5.771
+sup_rate 为 0.5900000000000001, max_vel 为 2.29
+Mean delta pos 0.03606497123837471, Max delta pos 0.08386704325675964, Total collision Num : 1468.25, Mean collision num : 5.873
+sup_rate 为 0.5900000000000001, max_vel 为 2.33
+Mean delta pos 0.0341903381049633, Max delta pos 0.07791302353143692, Total collision Num : 1481.25, Mean collision num : 5.925
+sup_rate 为 0.5900000000000001, max_vel 为 2.3899999999999997
+Mean delta pos 0.04002969339489937, Max delta pos 0.096210777759552, Total collision Num : 1444.25, Mean collision num : 5.777
+sup_rate 为 0.6100000000000001, max_vel 为 0.05
+Mean delta pos 1.0497263669967651, Max delta pos 1.8225966691970825, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.6100000000000001, max_vel 为 0.07
+Mean delta pos 1.0439019203186035, Max delta pos 1.8342331647872925, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.6100000000000001, max_vel 为 0.09
+Mean delta pos 1.035321593284607, Max delta pos 1.834618330001831, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.6100000000000001, max_vel 为 0.11
+Mean delta pos 1.0238538980484009, Max delta pos 1.8348429203033447, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.6100000000000001, max_vel 为 0.13
+Mean delta pos 1.0099855661392212, Max delta pos 1.849825143814087, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.6100000000000001, max_vel 为 0.15000000000000002
+Mean delta pos 0.9992461800575256, Max delta pos 1.847194790840149, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.6100000000000001, max_vel 为 0.16999999999999998
+Mean delta pos 0.9807102680206299, Max delta pos 1.854689121246338, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.6100000000000001, max_vel 为 0.19
+Mean delta pos 0.9535281658172607, Max delta pos 1.8650966882705688, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.6100000000000001, max_vel 为 0.21000000000000002
+Mean delta pos 0.9233627319335938, Max delta pos 1.8622952699661255, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.6100000000000001, max_vel 为 0.22999999999999998
+Mean delta pos 0.8998305201530457, Max delta pos 1.8642503023147583, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.6100000000000001, max_vel 为 0.25
+Mean delta pos 0.8719400763511658, Max delta pos 1.9056390523910522, Total collision Num : 11.25, Mean collision num : 0.045
+sup_rate 为 0.6100000000000001, max_vel 为 2.01
+Mean delta pos 0.033873602747917175, Max delta pos 0.08071384578943253, Total collision Num : 1140.25, Mean collision num : 4.561
+sup_rate 为 0.6100000000000001, max_vel 为 2.09
+Mean delta pos 0.03427615389227867, Max delta pos 0.0997861921787262, Total collision Num : 1225.75, Mean collision num : 4.903
+sup_rate 为 0.6100000000000001, max_vel 为 2.19
+Mean delta pos 0.03965282812714577, Max delta pos 0.0882156565785408, Total collision Num : 1336.75, Mean collision num : 5.347
+sup_rate 为 0.6100000000000001, max_vel 为 2.23
+Mean delta pos 0.03034088760614395, Max delta pos 0.09068015217781067, Total collision Num : 1390.25, Mean collision num : 5.561
+sup_rate 为 0.6100000000000001, max_vel 为 2.27
+Mean delta pos 0.03370033949613571, Max delta pos 0.07587974518537521, Total collision Num : 1417.75, Mean collision num : 5.671
+sup_rate 为 0.6100000000000001, max_vel 为 2.31
+Mean delta pos 0.03284425288438797, Max delta pos 0.08144757151603699, Total collision Num : 1418.0, Mean collision num : 5.672
+sup_rate 为 0.6100000000000001, max_vel 为 2.35
+Mean delta pos 0.041681885719299316, Max delta pos 0.09524890035390854, Total collision Num : 1473.75, Mean collision num : 5.895
+sup_rate 为 0.6100000000000001, max_vel 为 2.3699999999999997
+Mean delta pos 0.0337674580514431, Max delta pos 0.07371734827756882, Total collision Num : 1478.75, Mean collision num : 5.915
+sup_rate 为 0.6100000000000001, max_vel 为 2.3899999999999997
+Mean delta pos 0.03682874143123627, Max delta pos 0.0953938364982605, Total collision Num : 1422.5, Mean collision num : 5.69
+sup_rate 为 0.6100000000000001, max_vel 为 2.4099999999999997
+Mean delta pos 0.049189504235982895, Max delta pos 0.0949603021144867, Total collision Num : 1597.25, Mean collision num : 6.389
+sup_rate 为 0.63, max_vel 为 0.05
+Mean delta pos 1.0500925779342651, Max delta pos 1.8226736783981323, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.63, max_vel 为 0.07
+Mean delta pos 1.0445891618728638, Max delta pos 1.8343901634216309, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.63, max_vel 为 0.09
+Mean delta pos 1.0364426374435425, Max delta pos 1.834804892539978, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.63, max_vel 为 0.11
+Mean delta pos 1.0255712270736694, Max delta pos 1.8348358869552612, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.63, max_vel 为 0.13
+Mean delta pos 1.012057900428772, Max delta pos 1.8506982326507568, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.63, max_vel 为 0.15000000000000002
+Mean delta pos 1.0012190341949463, Max delta pos 1.8503203392028809, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.63, max_vel 为 0.16999999999999998
+Mean delta pos 0.9841705560684204, Max delta pos 1.8535808324813843, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.63, max_vel 为 0.19
+Mean delta pos 0.9597436189651489, Max delta pos 1.8642371892929077, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.63, max_vel 为 0.21000000000000002
+Mean delta pos 0.9296414256095886, Max delta pos 1.8625850677490234, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.63, max_vel 为 0.22999999999999998
+Mean delta pos 0.9043433666229248, Max delta pos 1.8635050058364868, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.63, max_vel 为 0.25
+Mean delta pos 0.8764021992683411, Max delta pos 1.9056390523910522, Total collision Num : 7.0, Mean collision num : 0.028
+sup_rate 为 0.63, max_vel 为 2.05
+Mean delta pos 0.04171004518866539, Max delta pos 0.09273587167263031, Total collision Num : 1131.75, Mean collision num : 4.527
+sup_rate 为 0.63, max_vel 为 2.11
+Mean delta pos 0.034456413239240646, Max delta pos 0.09748633950948715, Total collision Num : 1273.0, Mean collision num : 5.092
+sup_rate 为 0.63, max_vel 为 2.13
+Mean delta pos 0.04301242157816887, Max delta pos 0.09186802059412003, Total collision Num : 1213.5, Mean collision num : 4.854
+sup_rate 为 0.63, max_vel 为 2.15
+Mean delta pos 0.03892367705702782, Max delta pos 0.09409743547439575, Total collision Num : 1239.5, Mean collision num : 4.958
+sup_rate 为 0.63, max_vel 为 2.17
+Mean delta pos 0.04754495620727539, Max delta pos 0.09800873696804047, Total collision Num : 1214.5, Mean collision num : 4.858
+sup_rate 为 0.63, max_vel 为 2.29
+Mean delta pos 0.03178102523088455, Max delta pos 0.08148282766342163, Total collision Num : 1415.0, Mean collision num : 5.66
+sup_rate 为 0.63, max_vel 为 2.31
+Mean delta pos 0.037361521273851395, Max delta pos 0.0956258475780487, Total collision Num : 1337.25, Mean collision num : 5.349
+sup_rate 为 0.63, max_vel 为 2.35
+Mean delta pos 0.03897855803370476, Max delta pos 0.09284335374832153, Total collision Num : 1538.5, Mean collision num : 6.154
+sup_rate 为 0.63, max_vel 为 2.3899999999999997
+Mean delta pos 0.03735075145959854, Max delta pos 0.09011703729629517, Total collision Num : 1494.25, Mean collision num : 5.977
+sup_rate 为 0.63, max_vel 为 2.4099999999999997
+Mean delta pos 0.03724974766373634, Max delta pos 0.0977703258395195, Total collision Num : 1492.25, Mean collision num : 5.969
+sup_rate 为 0.63, max_vel 为 2.4299999999999997
+Mean delta pos 0.0345720499753952, Max delta pos 0.08880168199539185, Total collision Num : 1416.5, Mean collision num : 5.666
+sup_rate 为 0.65, max_vel 为 0.05
+Mean delta pos 1.0504205226898193, Max delta pos 1.8227194547653198, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.65, max_vel 为 0.07
+Mean delta pos 1.045235514640808, Max delta pos 1.8345462083816528, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.65, max_vel 为 0.09
+Mean delta pos 1.0374705791473389, Max delta pos 1.8349878787994385, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.65, max_vel 为 0.11
+Mean delta pos 1.0272248983383179, Max delta pos 1.834642767906189, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.65, max_vel 为 0.13
+Mean delta pos 1.0141689777374268, Max delta pos 1.8511669635772705, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.65, max_vel 为 0.15000000000000002
+Mean delta pos 1.0016067028045654, Max delta pos 1.8564770221710205, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.65, max_vel 为 0.16999999999999998
+Mean delta pos 0.9873501062393188, Max delta pos 1.8529455661773682, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.65, max_vel 为 0.19
+Mean delta pos 0.9651430249214172, Max delta pos 1.8629096746444702, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.65, max_vel 为 0.21000000000000002
+Mean delta pos 0.9362439513206482, Max delta pos 1.8643311262130737, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.65, max_vel 为 0.22999999999999998
+Mean delta pos 0.9092945456504822, Max delta pos 1.862744688987732, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.65, max_vel 为 0.25
+Mean delta pos 0.8784189820289612, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.65, max_vel 为 0.27
+Mean delta pos 0.8616364002227783, Max delta pos 1.9056390523910522, Total collision Num : 12.25, Mean collision num : 0.049
+sup_rate 为 0.65, max_vel 为 2.11
+Mean delta pos 0.04329219087958336, Max delta pos 0.0973932221531868, Total collision Num : 1250.25, Mean collision num : 5.001
+sup_rate 为 0.65, max_vel 为 2.13
+Mean delta pos 0.030244069173932076, Max delta pos 0.08403825759887695, Total collision Num : 1218.25, Mean collision num : 4.873
+sup_rate 为 0.65, max_vel 为 2.33
+Mean delta pos 0.04444323107600212, Max delta pos 0.08062595129013062, Total collision Num : 1338.5, Mean collision num : 5.354
+sup_rate 为 0.65, max_vel 为 2.35
+Mean delta pos 0.034857433289289474, Max delta pos 0.09947377443313599, Total collision Num : 1340.5, Mean collision num : 5.362
+sup_rate 为 0.65, max_vel 为 2.4099999999999997
+Mean delta pos 0.038293980062007904, Max delta pos 0.08709362149238586, Total collision Num : 1415.5, Mean collision num : 5.662
+sup_rate 为 0.67, max_vel 为 0.05
+Mean delta pos 1.0507349967956543, Max delta pos 1.8228087425231934, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.67, max_vel 为 0.07
+Mean delta pos 1.0458452701568604, Max delta pos 1.8346649408340454, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.67, max_vel 为 0.09
+Mean delta pos 1.0383808612823486, Max delta pos 1.8351653814315796, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.67, max_vel 为 0.11
+Mean delta pos 1.0287210941314697, Max delta pos 1.8345683813095093, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.67, max_vel 为 0.13
+Mean delta pos 1.0159863233566284, Max delta pos 1.8515106439590454, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.67, max_vel 为 0.15000000000000002
+Mean delta pos 1.0023759603500366, Max delta pos 1.8607945442199707, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.67, max_vel 为 0.16999999999999998
+Mean delta pos 0.9913970232009888, Max delta pos 1.8543360233306885, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.67, max_vel 为 0.19
+Mean delta pos 0.9707896709442139, Max delta pos 1.860937476158142, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.67, max_vel 为 0.21000000000000002
+Mean delta pos 0.9423462152481079, Max delta pos 1.8646749258041382, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.67, max_vel 为 0.22999999999999998
+Mean delta pos 0.9158554673194885, Max delta pos 1.861995816230774, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.67, max_vel 为 0.25
+Mean delta pos 0.8956121802330017, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.67, max_vel 为 0.27
+Mean delta pos 0.8655698299407959, Max delta pos 1.9056390523910522, Total collision Num : 8.25, Mean collision num : 0.033
+sup_rate 为 0.67, max_vel 为 2.17
+Mean delta pos 0.03564243018627167, Max delta pos 0.09731902182102203, Total collision Num : 1243.75, Mean collision num : 4.975
+sup_rate 为 0.67, max_vel 为 2.3699999999999997
+Mean delta pos 0.03237808495759964, Max delta pos 0.08804643154144287, Total collision Num : 1388.5, Mean collision num : 5.554
+sup_rate 为 0.67, max_vel 为 2.3899999999999997
+Mean delta pos 0.04785781353712082, Max delta pos 0.09847763180732727, Total collision Num : 1351.0, Mean collision num : 5.404
+sup_rate 为 0.67, max_vel 为 2.4299999999999997
+Mean delta pos 0.029598914086818695, Max delta pos 0.0843132883310318, Total collision Num : 1417.5, Mean collision num : 5.67
+sup_rate 为 0.6900000000000001, max_vel 为 0.05
+Mean delta pos 1.0510268211364746, Max delta pos 1.8228843212127686, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.6900000000000001, max_vel 为 0.07
+Mean delta pos 1.0464167594909668, Max delta pos 1.834791660308838, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.6900000000000001, max_vel 为 0.09
+Mean delta pos 1.0392509698867798, Max delta pos 1.8353447914123535, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.6900000000000001, max_vel 为 0.11
+Mean delta pos 1.030059576034546, Max delta pos 1.8346898555755615, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.6900000000000001, max_vel 为 0.13
+Mean delta pos 1.0177359580993652, Max delta pos 1.851768136024475, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.6900000000000001, max_vel 为 0.15000000000000002
+Mean delta pos 1.0038701295852661, Max delta pos 1.8636716604232788, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.6900000000000001, max_vel 为 0.16999999999999998
+Mean delta pos 0.9946525692939758, Max delta pos 1.8563262224197388, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.6900000000000001, max_vel 为 0.19
+Mean delta pos 0.9748254418373108, Max delta pos 1.8596056699752808, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.6900000000000001, max_vel 为 0.21000000000000002
+Mean delta pos 0.947813093662262, Max delta pos 1.8644378185272217, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.6900000000000001, max_vel 为 0.22999999999999998
+Mean delta pos 0.9206940531730652, Max delta pos 1.8624296188354492, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.6900000000000001, max_vel 为 0.25
+Mean delta pos 0.8990377187728882, Max delta pos 1.903152346611023, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.6900000000000001, max_vel 为 0.27
+Mean delta pos 0.8665791153907776, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.6900000000000001, max_vel 为 0.29
+Mean delta pos 0.8476908206939697, Max delta pos 1.9056390523910522, Total collision Num : 23.0, Mean collision num : 0.092
+sup_rate 为 0.7100000000000001, max_vel 为 0.05
+Mean delta pos 1.0513076782226562, Max delta pos 1.8229295015335083, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7100000000000001, max_vel 为 0.07
+Mean delta pos 1.0469611883163452, Max delta pos 1.8349034786224365, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7100000000000001, max_vel 为 0.09
+Mean delta pos 1.04007887840271, Max delta pos 1.8355162143707275, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7100000000000001, max_vel 为 0.11
+Mean delta pos 1.0313223600387573, Max delta pos 1.8348450660705566, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7100000000000001, max_vel 为 0.13
+Mean delta pos 1.0193618535995483, Max delta pos 1.8518638610839844, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7100000000000001, max_vel 为 0.15000000000000002
+Mean delta pos 1.0059682130813599, Max delta pos 1.8645124435424805, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7100000000000001, max_vel 为 0.16999999999999998
+Mean delta pos 0.9954884648323059, Max delta pos 1.8614295721054077, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7100000000000001, max_vel 为 0.19
+Mean delta pos 0.9783506989479065, Max delta pos 1.858271598815918, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7100000000000001, max_vel 为 0.21000000000000002
+Mean delta pos 0.9550716280937195, Max delta pos 1.8648751974105835, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7100000000000001, max_vel 为 0.22999999999999998
+Mean delta pos 0.9269140958786011, Max delta pos 1.863289475440979, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7100000000000001, max_vel 为 0.25
+Mean delta pos 0.902991533279419, Max delta pos 1.8858928680419922, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7100000000000001, max_vel 为 0.27
+Mean delta pos 0.8840153217315674, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7100000000000001, max_vel 为 0.29
+Mean delta pos 0.8563750982284546, Max delta pos 1.9056390523910522, Total collision Num : 10.0, Mean collision num : 0.04
+sup_rate 为 0.7300000000000001, max_vel 为 0.05
+Mean delta pos 1.051566243171692, Max delta pos 1.8229366540908813, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7300000000000001, max_vel 为 0.07
+Mean delta pos 1.0475215911865234, Max delta pos 1.835169792175293, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7300000000000001, max_vel 为 0.09
+Mean delta pos 1.0408347845077515, Max delta pos 1.8356671333312988, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7300000000000001, max_vel 为 0.11
+Mean delta pos 1.0324708223342896, Max delta pos 1.8351163864135742, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7300000000000001, max_vel 为 0.13
+Mean delta pos 1.0208815336227417, Max delta pos 1.8518356084823608, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7300000000000001, max_vel 为 0.15000000000000002
+Mean delta pos 1.0079452991485596, Max delta pos 1.8653368949890137, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7300000000000001, max_vel 为 0.16999999999999998
+Mean delta pos 0.9956395030021667, Max delta pos 1.8674870729446411, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7300000000000001, max_vel 为 0.19
+Mean delta pos 0.981545090675354, Max delta pos 1.8600040674209595, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7300000000000001, max_vel 为 0.21000000000000002
+Mean delta pos 0.9601607918739319, Max delta pos 1.8646953105926514, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7300000000000001, max_vel 为 0.22999999999999998
+Mean delta pos 0.9329785704612732, Max delta pos 1.862987995147705, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7300000000000001, max_vel 为 0.25
+Mean delta pos 0.908713698387146, Max delta pos 1.8621582984924316, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7300000000000001, max_vel 为 0.27
+Mean delta pos 0.8897412419319153, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7300000000000001, max_vel 为 0.29
+Mean delta pos 0.8562974333763123, Max delta pos 1.9056390523910522, Total collision Num : 6.5, Mean collision num : 0.026
+sup_rate 为 0.7300000000000001, max_vel 为 0.31
+Mean delta pos 0.8345847725868225, Max delta pos 1.9056390523910522, Total collision Num : 22.0, Mean collision num : 0.088
+sup_rate 为 0.7300000000000001, max_vel 为 2.25
+Mean delta pos 0.04021087661385536, Max delta pos 0.09035587310791016, Total collision Num : 1131.0, Mean collision num : 4.524
+sup_rate 为 0.7300000000000001, max_vel 为 2.3899999999999997
+Mean delta pos 0.04524914547801018, Max delta pos 0.0999516174197197, Total collision Num : 1284.75, Mean collision num : 5.139
+sup_rate 为 0.7300000000000001, max_vel 为 2.4299999999999997
+Mean delta pos 0.042757727205753326, Max delta pos 0.09374245256185532, Total collision Num : 1410.25, Mean collision num : 5.641
+sup_rate 为 0.7500000000000001, max_vel 为 0.05
+Mean delta pos 1.051811695098877, Max delta pos 1.822973370552063, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7500000000000001, max_vel 为 0.07
+Mean delta pos 1.0480117797851562, Max delta pos 1.835326910018921, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7500000000000001, max_vel 为 0.09
+Mean delta pos 1.041563630104065, Max delta pos 1.835839033126831, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7500000000000001, max_vel 为 0.11
+Mean delta pos 1.0335041284561157, Max delta pos 1.8351022005081177, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7500000000000001, max_vel 为 0.13
+Mean delta pos 1.0223188400268555, Max delta pos 1.8518325090408325, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7500000000000001, max_vel 为 0.15000000000000002
+Mean delta pos 1.010034441947937, Max delta pos 1.866108775138855, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7500000000000001, max_vel 为 0.16999999999999998
+Mean delta pos 0.996534526348114, Max delta pos 1.8716343641281128, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7500000000000001, max_vel 为 0.19
+Mean delta pos 0.9851138591766357, Max delta pos 1.8621838092803955, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7500000000000001, max_vel 为 0.21000000000000002
+Mean delta pos 0.9648312330245972, Max delta pos 1.8638068437576294, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7500000000000001, max_vel 为 0.22999999999999998
+Mean delta pos 0.9376994967460632, Max delta pos 1.8620896339416504, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7500000000000001, max_vel 为 0.25
+Mean delta pos 0.9135074019432068, Max delta pos 1.860701560974121, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7500000000000001, max_vel 为 0.27
+Mean delta pos 0.8936321139335632, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7500000000000001, max_vel 为 0.29
+Mean delta pos 0.8624126315116882, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.7500000000000001, max_vel 为 0.31
+Mean delta pos 0.8426500558853149, Max delta pos 1.9056390523910522, Total collision Num : 9.75, Mean collision num : 0.039
+sup_rate 为 0.7500000000000001, max_vel 为 2.23
+Mean delta pos 0.04102827236056328, Max delta pos 0.09892647713422775, Total collision Num : 1142.0, Mean collision num : 4.568
+sup_rate 为 0.7500000000000001, max_vel 为 2.35
+Mean delta pos 0.04160149767994881, Max delta pos 0.09904370456933975, Total collision Num : 1235.5, Mean collision num : 4.942
+sup_rate 为 0.77, max_vel 为 0.05
+Mean delta pos 1.0520440340042114, Max delta pos 1.8230202198028564, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.77, max_vel 为 0.07
+Mean delta pos 1.0484691858291626, Max delta pos 1.8354519605636597, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.77, max_vel 为 0.09
+Mean delta pos 1.0422415733337402, Max delta pos 1.8360137939453125, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.77, max_vel 为 0.11
+Mean delta pos 1.0344644784927368, Max delta pos 1.8351597785949707, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.77, max_vel 为 0.13
+Mean delta pos 1.0238314867019653, Max delta pos 1.8519498109817505, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.77, max_vel 为 0.15000000000000002
+Mean delta pos 1.0118768215179443, Max delta pos 1.8667958974838257, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.77, max_vel 为 0.16999999999999998
+Mean delta pos 0.9979209303855896, Max delta pos 1.8750351667404175, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.77, max_vel 为 0.19
+Mean delta pos 0.9884886145591736, Max delta pos 1.8644603490829468, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.77, max_vel 为 0.21000000000000002
+Mean delta pos 0.9690969586372375, Max delta pos 1.8627210855484009, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.77, max_vel 为 0.22999999999999998
+Mean delta pos 0.9430170059204102, Max delta pos 1.86124849319458, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.77, max_vel 为 0.25
+Mean delta pos 0.9176890254020691, Max delta pos 1.8624041080474854, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.77, max_vel 为 0.27
+Mean delta pos 0.8978830575942993, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.77, max_vel 为 0.29
+Mean delta pos 0.8801632523536682, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.77, max_vel 为 0.31
+Mean delta pos 0.843102753162384, Max delta pos 1.9056390523910522, Total collision Num : 7.75, Mean collision num : 0.031
+sup_rate 为 0.79, max_vel 为 0.05
+Mean delta pos 1.0522668361663818, Max delta pos 1.8230016231536865, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.79, max_vel 为 0.07
+Mean delta pos 1.0489100217819214, Max delta pos 1.8355708122253418, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.79, max_vel 为 0.09
+Mean delta pos 1.0428932905197144, Max delta pos 1.8361833095550537, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.79, max_vel 为 0.11
+Mean delta pos 1.0353535413742065, Max delta pos 1.835192084312439, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.79, max_vel 为 0.13
+Mean delta pos 1.0253074169158936, Max delta pos 1.8518950939178467, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.79, max_vel 为 0.15000000000000002
+Mean delta pos 1.0135161876678467, Max delta pos 1.8671513795852661, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.79, max_vel 为 0.16999999999999998
+Mean delta pos 0.9998133182525635, Max delta pos 1.876663327217102, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.79, max_vel 为 0.19
+Mean delta pos 0.989007830619812, Max delta pos 1.869607925415039, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.79, max_vel 为 0.21000000000000002
+Mean delta pos 0.9726312160491943, Max delta pos 1.8624645471572876, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.79, max_vel 为 0.22999999999999998
+Mean delta pos 0.9490470886230469, Max delta pos 1.86129629611969, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.79, max_vel 为 0.25
+Mean delta pos 0.9232582449913025, Max delta pos 1.8622267246246338, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.79, max_vel 为 0.27
+Mean delta pos 0.9028911590576172, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.79, max_vel 为 0.29
+Mean delta pos 0.8844650387763977, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.79, max_vel 为 0.31
+Mean delta pos 0.850911557674408, Max delta pos 1.9056390523910522, Total collision Num : 2.25, Mean collision num : 0.009
+sup_rate 为 0.79, max_vel 为 0.33
+Mean delta pos 0.8294740915298462, Max delta pos 1.9056390523910522, Total collision Num : 9.75, Mean collision num : 0.039
+sup_rate 为 0.79, max_vel 为 2.31
+Mean delta pos 0.040090642869472504, Max delta pos 0.09914430230855942, Total collision Num : 1118.5, Mean collision num : 4.474
+sup_rate 为 0.81, max_vel 为 0.05
+Mean delta pos 1.0524743795394897, Max delta pos 1.8230825662612915, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.81, max_vel 为 0.07
+Mean delta pos 1.0493234395980835, Max delta pos 1.835655689239502, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.81, max_vel 为 0.09
+Mean delta pos 1.0434997081756592, Max delta pos 1.8363327980041504, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.81, max_vel 为 0.11
+Mean delta pos 1.036150336265564, Max delta pos 1.8351962566375732, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.81, max_vel 为 0.13
+Mean delta pos 1.0266153812408447, Max delta pos 1.8521863222122192, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.81, max_vel 为 0.15000000000000002
+Mean delta pos 1.0151294469833374, Max delta pos 1.8673057556152344, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.81, max_vel 为 0.16999999999999998
+Mean delta pos 1.0017932653427124, Max delta pos 1.8776350021362305, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.81, max_vel 为 0.19
+Mean delta pos 0.9895361661911011, Max delta pos 1.8752648830413818, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.81, max_vel 为 0.21000000000000002
+Mean delta pos 0.9755169749259949, Max delta pos 1.8650530576705933, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.81, max_vel 为 0.22999999999999998
+Mean delta pos 0.9539092183113098, Max delta pos 1.861506700515747, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.81, max_vel 为 0.25
+Mean delta pos 0.9289242029190063, Max delta pos 1.8614392280578613, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.81, max_vel 为 0.27
+Mean delta pos 0.9074158072471619, Max delta pos 1.8979899883270264, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.81, max_vel 为 0.29
+Mean delta pos 0.8880749940872192, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.81, max_vel 为 0.31
+Mean delta pos 0.86666339635849, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.81, max_vel 为 0.33
+Mean delta pos 0.833666205406189, Max delta pos 1.9056390523910522, Total collision Num : 7.5, Mean collision num : 0.03
+sup_rate 为 0.8300000000000001, max_vel 为 0.05
+Mean delta pos 1.0526716709136963, Max delta pos 1.8231024742126465, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8300000000000001, max_vel 为 0.07
+Mean delta pos 1.049716591835022, Max delta pos 1.835795521736145, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8300000000000001, max_vel 为 0.09
+Mean delta pos 1.0440541505813599, Max delta pos 1.8364754915237427, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8300000000000001, max_vel 为 0.11
+Mean delta pos 1.0369646549224854, Max delta pos 1.8351622819900513, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8300000000000001, max_vel 为 0.13
+Mean delta pos 1.0278431177139282, Max delta pos 1.852491021156311, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8300000000000001, max_vel 为 0.15000000000000002
+Mean delta pos 1.016656517982483, Max delta pos 1.8673840761184692, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8300000000000001, max_vel 为 0.16999999999999998
+Mean delta pos 1.004067301750183, Max delta pos 1.8785780668258667, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8300000000000001, max_vel 为 0.19
+Mean delta pos 0.9912349581718445, Max delta pos 1.8794622421264648, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8300000000000001, max_vel 为 0.21000000000000002
+Mean delta pos 0.9794002771377563, Max delta pos 1.8676284551620483, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8300000000000001, max_vel 为 0.22999999999999998
+Mean delta pos 0.9584342241287231, Max delta pos 1.8620672225952148, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8300000000000001, max_vel 为 0.25
+Mean delta pos 0.9337141513824463, Max delta pos 1.8595019578933716, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8300000000000001, max_vel 为 0.27
+Mean delta pos 0.910454511642456, Max delta pos 1.8819444179534912, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8300000000000001, max_vel 为 0.29
+Mean delta pos 0.8934690356254578, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8300000000000001, max_vel 为 0.31
+Mean delta pos 0.8732233047485352, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8300000000000001, max_vel 为 0.33
+Mean delta pos 0.8365700840950012, Max delta pos 1.9056390523910522, Total collision Num : 4.75, Mean collision num : 0.019
+sup_rate 为 0.8300000000000001, max_vel 为 0.35
+Mean delta pos 0.8277229070663452, Max delta pos 1.9056390523910522, Total collision Num : 17.75, Mean collision num : 0.071
+sup_rate 为 0.8300000000000001, max_vel 为 2.4099999999999997
+Mean delta pos 0.03862198442220688, Max delta pos 0.08796703070402145, Total collision Num : 1053.25, Mean collision num : 4.213
+sup_rate 为 0.8500000000000001, max_vel 为 0.05
+Mean delta pos 1.0528591871261597, Max delta pos 1.8231323957443237, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8500000000000001, max_vel 为 0.07
+Mean delta pos 1.0500952005386353, Max delta pos 1.835862159729004, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8500000000000001, max_vel 为 0.09
+Mean delta pos 1.0445799827575684, Max delta pos 1.8366117477416992, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8500000000000001, max_vel 为 0.11
+Mean delta pos 1.0377250909805298, Max delta pos 1.835095763206482, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8500000000000001, max_vel 为 0.13
+Mean delta pos 1.028905987739563, Max delta pos 1.8527319431304932, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8500000000000001, max_vel 为 0.15000000000000002
+Mean delta pos 1.0180765390396118, Max delta pos 1.867495059967041, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8500000000000001, max_vel 为 0.16999999999999998
+Mean delta pos 1.0059317350387573, Max delta pos 1.8792064189910889, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8500000000000001, max_vel 为 0.19
+Mean delta pos 0.9926804304122925, Max delta pos 1.8833590745925903, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8500000000000001, max_vel 为 0.21000000000000002
+Mean delta pos 0.9824756383895874, Max delta pos 1.8705763816833496, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8500000000000001, max_vel 为 0.22999999999999998
+Mean delta pos 0.9623141884803772, Max delta pos 1.8637200593948364, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8500000000000001, max_vel 为 0.25
+Mean delta pos 0.9385305643081665, Max delta pos 1.8590482473373413, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8500000000000001, max_vel 为 0.27
+Mean delta pos 0.9147653579711914, Max delta pos 1.866007685661316, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8500000000000001, max_vel 为 0.29
+Mean delta pos 0.8980309963226318, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8500000000000001, max_vel 为 0.31
+Mean delta pos 0.8788242340087891, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8500000000000001, max_vel 为 0.33
+Mean delta pos 0.8453942537307739, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8500000000000001, max_vel 为 0.35
+Mean delta pos 0.8310930728912354, Max delta pos 1.9056390523910522, Total collision Num : 8.5, Mean collision num : 0.034
+sup_rate 为 0.8700000000000001, max_vel 为 0.05
+Mean delta pos 1.053039789199829, Max delta pos 1.823168396949768, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8700000000000001, max_vel 为 0.07
+Mean delta pos 1.0504579544067383, Max delta pos 1.8359549045562744, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8700000000000001, max_vel 为 0.09
+Mean delta pos 1.0450788736343384, Max delta pos 1.83674156665802, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8700000000000001, max_vel 为 0.11
+Mean delta pos 1.0384306907653809, Max delta pos 1.8351036310195923, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8700000000000001, max_vel 为 0.13
+Mean delta pos 1.0299296379089355, Max delta pos 1.852898120880127, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8700000000000001, max_vel 为 0.15000000000000002
+Mean delta pos 1.019404649734497, Max delta pos 1.8673503398895264, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8700000000000001, max_vel 为 0.16999999999999998
+Mean delta pos 1.0075434446334839, Max delta pos 1.8798389434814453, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8700000000000001, max_vel 为 0.19
+Mean delta pos 0.9944071173667908, Max delta pos 1.8859872817993164, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8700000000000001, max_vel 为 0.21000000000000002
+Mean delta pos 0.983430027961731, Max delta pos 1.8750331401824951, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8700000000000001, max_vel 为 0.22999999999999998
+Mean delta pos 0.9660364389419556, Max delta pos 1.8666903972625732, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8700000000000001, max_vel 为 0.25
+Mean delta pos 0.9430845975875854, Max delta pos 1.8653205633163452, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8700000000000001, max_vel 为 0.27
+Mean delta pos 0.9201058149337769, Max delta pos 1.8611772060394287, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8700000000000001, max_vel 为 0.29
+Mean delta pos 0.898158073425293, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8700000000000001, max_vel 为 0.31
+Mean delta pos 0.8832307457923889, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8700000000000001, max_vel 为 0.33
+Mean delta pos 0.8596193790435791, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.8700000000000001, max_vel 为 0.35
+Mean delta pos 0.821712076663971, Max delta pos 1.9056390523910522, Total collision Num : 6.25, Mean collision num : 0.025
+sup_rate 为 0.8700000000000001, max_vel 为 0.37
+Mean delta pos 0.8180848956108093, Max delta pos 1.9056390523910522, Total collision Num : 19.75, Mean collision num : 0.079
+sup_rate 为 0.89, max_vel 为 0.05
+Mean delta pos 1.05321204662323, Max delta pos 1.8231834173202515, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.89, max_vel 为 0.07
+Mean delta pos 1.05079984664917, Max delta pos 1.8360447883605957, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.89, max_vel 为 0.09
+Mean delta pos 1.0455526113510132, Max delta pos 1.8368711471557617, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.89, max_vel 为 0.11
+Mean delta pos 1.039119005203247, Max delta pos 1.835088849067688, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.89, max_vel 为 0.13
+Mean delta pos 1.0309007167816162, Max delta pos 1.853074550628662, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.89, max_vel 为 0.15000000000000002
+Mean delta pos 1.0207337141036987, Max delta pos 1.8675241470336914, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.89, max_vel 为 0.16999999999999998
+Mean delta pos 1.009275197982788, Max delta pos 1.8800946474075317, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.89, max_vel 为 0.19
+Mean delta pos 0.9964720010757446, Max delta pos 1.8876495361328125, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.89, max_vel 为 0.21000000000000002
+Mean delta pos 0.9837303161621094, Max delta pos 1.880083441734314, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.89, max_vel 为 0.22999999999999998
+Mean delta pos 0.96956866979599, Max delta pos 1.8690985441207886, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.89, max_vel 为 0.25
+Mean delta pos 0.9468594789505005, Max delta pos 1.8652681112289429, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.89, max_vel 为 0.27
+Mean delta pos 0.9251826405525208, Max delta pos 1.8592993021011353, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.89, max_vel 为 0.29
+Mean delta pos 0.9023245573043823, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.89, max_vel 为 0.31
+Mean delta pos 0.8884084224700928, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.89, max_vel 为 0.33
+Mean delta pos 0.8677099943161011, Max delta pos 1.9056390523910522, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.89, max_vel 为 0.35
+Mean delta pos 0.8346675038337708, Max delta pos 1.9056390523910522, Total collision Num : 2.75, Mean collision num : 0.011
+sup_rate 为 0.89, max_vel 为 0.37
+Mean delta pos 0.8213883638381958, Max delta pos 1.9056390523910522, Total collision Num : 8.25, Mean collision num : 0.033
+sup_rate 为 0.91, max_vel 为 0.05
+Mean delta pos 1.0533807277679443, Max delta pos 1.8231991529464722, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.91, max_vel 为 0.07
+Mean delta pos 1.051135778427124, Max delta pos 1.8361458778381348, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.91, max_vel 为 0.09
+Mean delta pos 1.0460089445114136, Max delta pos 1.8369977474212646, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.91, max_vel 为 0.11
+Mean delta pos 1.0397579669952393, Max delta pos 1.8352106809616089, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.91, max_vel 为 0.13
+Mean delta pos 1.0318405628204346, Max delta pos 1.8531407117843628, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.91, max_vel 为 0.15000000000000002
+Mean delta pos 1.0220551490783691, Max delta pos 1.8677490949630737, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.91, max_vel 为 0.16999999999999998
+Mean delta pos 1.0108898878097534, Max delta pos 1.880409836769104, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.91, max_vel 为 0.19
+Mean delta pos 0.9987316727638245, Max delta pos 1.8889036178588867, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.91, max_vel 为 0.21000000000000002
+Mean delta pos 0.9857000112533569, Max delta pos 1.8839222192764282, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate 为 0.91, max_vel 为 0.22999999999999998

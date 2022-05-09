@@ -184,7 +184,7 @@
 # CUDA_VISIBLE_DEVICES=1 python -m ipdb test_final.py \
 # --exp_name M5D6_r04 \
 # --n_boxes 10 \
-# --radius 0.8 \
+# --radius 0.4 \
 # --max_vel 0.2 \
 # --sup_rate 0.3 \
 # --dt 1/50 \
@@ -196,10 +196,56 @@
 ###All delta_pos : 0.8831984400749207 || Mean delta_pos : 0.08831984549760818 || Max delta_pos : 0.4032108783721924###
 ###Totally safe###
 # 视频结果：到达了指定位置
+#######################################################
+# CUDA_VISIBLE_DEVICES=1 python -m ipdb test_final.py \
+# --exp_name M5D6_r04 \
+# --n_boxes 10 \
+# --radius 0.4 \
+# --max_vel 0.15 \
+# --sup_rate 0.2 \
+# --dt 1/50 \
+# --pb_freq 4 \
+# --duration 5\
+# --wall_bound 0.20
+# 量化指标： 
+### Average vel err: 0.16741926021405001 || Mean vel err: 0.03729325369333637###
+###All delta_pos : 0.18022741377353668 || Mean delta_pos : 0.018022742122411728 || Max delta_pos : 0.06688100844621658###
+###Totally safe###
+# 视频结果：到达了指定位置
 
+#######################################################
+# CUDA_VISIBLE_DEVICES=1 python -m ipdb test_final.py \
+# --exp_name M5D6_r04 \
+# --n_boxes 10 \
+# --radius 0.4 \
+# --max_vel 0.49 \
+# --sup_rate 1.06 \
+# --dt 1/50 \
+# --pb_freq 4 \
+# --duration 5\
+# --wall_bound 0.20
+# 量化指标： 
+### Average vel err: 0.20834771171495756 || Mean vel err: 0.03821383525567756###
+###All delta_pos : 0.18387456238269806 || Mean delta_pos : 0.018387455493211746 || Max delta_pos : 0.0600334107875824###
+###Totally safe###
+# 视频结果：到达了指定位置
 
-
-
+#######################################################
+# CUDA_VISIBLE_DEVICES=1 python -m ipdb test_final.py \
+# --exp_name M5D6_r04 \
+# --n_boxes 30 \
+# --radius 0.4 \
+# --max_vel 1.8484 \
+# --sup_rate 1.05 \
+# --dt 1/50 \
+# --pb_freq 4 \
+# --duration 5\
+# --wall_bound 0.7
+# 量化指标： 
+### Average vel err: 0.5160280951927735 || Mean vel err: 0.020035658499946485###
+###All delta_pos : 0.9957493543624878 || Mean delta_pos : 0.03319164365530014 || Max delta_pos : 0.0880768671631813###
+### Mean Collision Num: 0.01 || Total Collision Num: 2.5 ###
+# 视频结果：到达了指定位置
 
 
 
