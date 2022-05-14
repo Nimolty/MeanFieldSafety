@@ -107,9 +107,9 @@ class Sorting:
         if condition is None:
             positions = np.random.uniform(-1, 1, size=(self.n_boxes, 2)) * scale
         else:
-            init_pos = condition.reshape((self.n_boxes, 2))
+            init_pos = condition.reshape((self.n_boxes, 2)) * scale
             sigma = 0.3 if sigma is None else sigma
-            positions = init_pos + np.random.normal(loc=0.0, scale=scale*sigma, size=(self.n_boxes, 2))
+            positions = init_pos + np.random.normal(loc=0.0, scale=self.r*sigma, size=(self.n_boxes, 2))
             positions = np.clip(positions, -scale, scale)
         return positions
 
@@ -217,6 +217,8 @@ class Sorting:
         for idx1, ball_1 in enumerate(items[:-1]):
             for idx2, ball_2 in enumerate(items[idx1 + 1:]):
                 points = p.getContactPoints(ball_1, ball_2, physicsClientId=self.cid)
+                if len(points) > 0:
+                    print([idx1, idx2+idx1+1])
                 cnt += (len(points) > 0)
                 # for debug
                 # print(f'{name1} {name2} {len(points)}')
