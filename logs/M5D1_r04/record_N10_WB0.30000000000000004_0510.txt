@@ -1,0 +1,100 @@
+sup_rate : 0.05, max_vel : 0.027500000000000004
+Mean delta pos 0.09636688232421875, Max delta pos 0.31235888600349426, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.03162500000000001
+Mean delta pos 0.08420445024967194, Max delta pos 0.3386884331703186, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.035750000000000004
+Mean delta pos 0.072746142745018, Max delta pos 0.3547562062740326, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.03987500000000001
+Mean delta pos 0.06310369074344635, Max delta pos 0.36471009254455566, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.044000000000000004
+Mean delta pos 0.05704718083143234, Max delta pos 0.37169942259788513, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.048125
+Mean delta pos 0.050510793924331665, Max delta pos 0.37110811471939087, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.052250000000000005
+Mean delta pos 0.046665165573358536, Max delta pos 0.36672478914260864, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.05637500000000001
+Mean delta pos 0.04514187201857567, Max delta pos 0.3599553108215332, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.060500000000000005
+Mean delta pos 0.04526872932910919, Max delta pos 0.3783263564109802, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.06462500000000002
+Mean delta pos 0.04494320973753929, Max delta pos 0.3739146292209625, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.06875
+Mean delta pos 0.04463857039809227, Max delta pos 0.3663756251335144, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.07287500000000001
+Mean delta pos 0.04303322359919548, Max delta pos 0.35712966322898865, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.07700000000000001
+Mean delta pos 0.04104186221957207, Max delta pos 0.33912307024002075, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.08112500000000002
+Mean delta pos 0.03915881738066673, Max delta pos 0.3142882287502289, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.08525
+Mean delta pos 0.03555597737431526, Max delta pos 0.2778427302837372, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.089375
+Mean delta pos 0.029750272631645203, Max delta pos 0.21645210683345795, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.0935
+Mean delta pos 0.018910620361566544, Max delta pos 0.10578508675098419, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.097625
+Mean delta pos 0.009768362157046795, Max delta pos 0.022645913064479828, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.10175000000000001
+Mean delta pos 0.009291109628975391, Max delta pos 0.025724954903125763, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.10587500000000001
+Mean delta pos 0.009006951004266739, Max delta pos 0.018340039998292923, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.11000000000000001
+Mean delta pos 0.007956424728035927, Max delta pos 0.012250910513103008, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.11412500000000002
+Mean delta pos 0.0082539739087224, Max delta pos 0.013975311070680618, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.11825
+Mean delta pos 0.00784442387521267, Max delta pos 0.00879411119967699, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.122375
+Mean delta pos 0.006939807441085577, Max delta pos 0.010678090155124664, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.1265
+Mean delta pos 0.007638669107109308, Max delta pos 0.012229991145431995, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.130625
+Mean delta pos 0.007314561400562525, Max delta pos 0.009657580405473709, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.13475
+Mean delta pos 0.007590642664581537, Max delta pos 0.015911981463432312, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.13887500000000003
+Mean delta pos 0.006286265794187784, Max delta pos 0.009336587972939014, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.14300000000000002
+Mean delta pos 0.008013731800019741, Max delta pos 0.01397973857820034, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.14712500000000003
+Mean delta pos 0.005979121662676334, Max delta pos 0.008721249178051949, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.15125
+Mean delta pos 0.007556894328445196, Max delta pos 0.01452393364161253, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.15537499999999999
+Mean delta pos 0.006341669708490372, Max delta pos 0.01180374063551426, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.1595
+Mean delta pos 0.006175016053020954, Max delta pos 0.01068043801933527, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.163625
+Mean delta pos 0.006439363118261099, Max delta pos 0.012408317998051643, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.16775
+Mean delta pos 0.005740492604672909, Max delta pos 0.01407613605260849, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.171875
+Mean delta pos 0.004618806764483452, Max delta pos 0.009608297608792782, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.17600000000000002
+Mean delta pos 0.004297260195016861, Max delta pos 0.009475456550717354, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.18012499999999998
+Mean delta pos 0.004764947108924389, Max delta pos 0.008431333117187023, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.18425
+Mean delta pos 0.005151840858161449, Max delta pos 0.015373365953564644, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.188375
+Mean delta pos 0.0051422324031591415, Max delta pos 0.014674484729766846, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.1925
+Mean delta pos 0.006621581502258778, Max delta pos 0.015957636758685112, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.196625
+Mean delta pos 0.00550997955724597, Max delta pos 0.011534175835549831, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.20075
+Mean delta pos 0.004619026090949774, Max delta pos 0.013585882261395454, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.204875
+Mean delta pos 0.00413710530847311, Max delta pos 0.010969707742333412, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.209
+Mean delta pos 0.00730323139578104, Max delta pos 0.014003009535372257, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.21312499999999998
+Mean delta pos 0.00632960582152009, Max delta pos 0.013503405265510082, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.21725
+Mean delta pos 0.005900755524635315, Max delta pos 0.016019562259316444, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.221375
+Mean delta pos 0.005685628857463598, Max delta pos 0.015963299199938774, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.2255
+Mean delta pos 0.004520495422184467, Max delta pos 0.01334086898714304, Total collision Num : 0.0, Mean collision num : 0.0
+sup_rate : 0.05, max_vel : 0.229625
+Mean delta pos 0.0044479770585894585, Max delta pos 0.01273222267627716, Total collision Num : 0.0, Mean collision num : 0.0

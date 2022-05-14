@@ -177,7 +177,7 @@ def compute_V_des(X, goal, V_max):
 #    parser.add_argument('--sup_rate', type=float, default=0.1)
     
     
-def plan(SUP_RATE, MAX_VEL, EXP_NAME = 'M5D1_r04',N_BOXES=10,WALL_BOUND=0.2,R=0.4,NUM_SCALE=10,\
+def plan(SUP_RATE, MAX_VEL, EXP_NAME = 'M5D1_r04',N_BOXES=10,WALL_BOUND=0.2,neighbor_std = 0.3, R=0.4,NUM_SCALE=10,\
          agent_radius=0.025/(0.2-0.025),SIGMA=25.,PB_FREQ=4,dt=1/50,DURATION=5,t0=1e-2,is_gui=False, \
          IS_SIM=True,IS_GOAL=True,IS_SUPPORT=True,VIDEO_NUM=0):
     MAX_VEL = MAX_VEL
@@ -218,10 +218,9 @@ def plan(SUP_RATE, MAX_VEL, EXP_NAME = 'M5D1_r04',N_BOXES=10,WALL_BOUND=0.2,R=0.
     test_env.seed(0)
     
     # 接下来我们设定起始状态和终止状态，并且做出拍照
-    target_state = test_env.reset()
-    snapshot(test_env, 'goal.png')
     init_state = test_env.reset()
-    snapshot(test_env, 'init.png')
+    target_state = test_env.reset(init_state, neighbor_std)
+    test_env.set_state(init_state)
     
     n_objs = test_env.n_boxes
     init_state = init_state.reshape((n_objs, -1))
@@ -376,26 +375,31 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--exp_name',type=str,default='M5D1_r04')
     parser.add_argument('--n_boxes', type = int,default=10)
-    parser.add_argument('--wall_bound', type=float, default=0.2)
+    parser.add_argument('--scale', type=float, default=2)
     parser.add_argument('--sup_rate_init', type=float,default=0.05)
-    parser.add_argument('--max_vel_init', type=float, default=0.05)
+    parser.add_argument('--max_vel_ratio', type=float, default=0.1)
+    parser.add_argument('--neighbor_std', type=float, default=4.5)
     
     args = parser.parse_args()
     exp_name = args.exp_name
-    wall_bound = args.wall_bound
     n_boxes = args.n_boxes
     sup_rate_init = args.sup_rate_init
-    max_vel_init = args.max_vel_init
+    scale = args.scale
+    wall_bound = 0.2 * scale * np.sqrt(int(n_boxes / 10))
+    max_vel_ratio = args.max_vel_ratio
+    neighbor_std = args.neighbor_std
     
     
-    out = open(f'./logs/M5D1_r04/record_N{n_boxes}_WB{wall_bound}_new.txt', 'w')
-    sup_rate = [sup_rate_init + i * 0.001 for i in range(10)]
-    max_vel = [max_vel_init + i * 0.0001 for i in range(200)]
+    
+    out = open(f'./logs/M5D1_r04/record_N{n_boxes}_WB{round(wall_bound,4)}_0511.txt', 'w')
+    sup_rate = [sup_rate_init + i * 0.01 for i in range(200)]
+    max_vel_ratio = [max_vel_ratio + i * 0.015 for i in range(200)]
     for i in tqdm(sup_rate):
-        for j in max_vel:
-            max_, mean_, coll_num, mean_coll_num = plan(i, j,exp_name, n_boxes, wall_bound)
-            if mean_coll_num < 0.2 and max_ < 0.1:
-                out.write(f'sup_rate 为 {i}, max_vel 为 {j}' + f'\n')
+        for j in max_vel_ratio:
+            max_vel = j * (wall_bound - 0.025)
+            max_, mean_, coll_num, mean_coll_num = plan(i, max_vel,exp_name, n_boxes, wall_bound, neighbor_std)
+            if mean_coll_num < 0.1 or max_ < 0.1:
+                out.write(f'sup_rate : {i}, max_vel : {max_vel}, max_vel_ratio : {j}' + f'\n')
                 out.write(f'Mean delta pos {mean_}, Max delta pos {max_}, Total collision Num : {coll_num}, Mean collision num : {mean_coll_num}' + f'\n')
     out.close()
 

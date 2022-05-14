@@ -247,8 +247,12 @@
 ### Mean Collision Num: 0.01 || Total Collision Num: 2.5 ###
 # 视频结果：到达了指定位置
 
-
-
+#######################################################
+# CUDA_VISIBLE_DEVICES=1 python -m ipdb Finding.py \
+# --exp_name M5D1_r04 \
+# --n_boxes 10 \
+# --neighbor_std 4.5 \
+# 这个实验的目的是重新设置target_state的活动半径，原先的话太困难了
 
 
 
