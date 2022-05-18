@@ -84,15 +84,11 @@ def comp_sup_vel(state, t, score,r):
     state_inp = state
     with torch.no_grad():
         # !!! MMD 之前都没根据当前state来定edge graph！！
-        #print(state)
-        #print(radius_graph)
         edge = radius_graph(torch.tensor(state, device=device).view(-1, 2), r)
         convert_to_inp = partial(Data, edge_index=edge)
         state_ts = convert_to_inp(x=torch.tensor(state_inp).to(device))
         inp_batch = Batch.from_data_list([state_ts])
         vels = score(inp_batch, t) # 我们normalize了sup vel就发挥不出他的威力了！
-        # vels = out_score*MAX_VEL/(torch.max(torch.abs(out_score)) + 1e-7) # norm to max_vel = MAX_VEL
-        # print(vels.max())
     return vels.cpu().numpy()
     # 这里就是通过我们训练好的score，然后模拟出state所在位置的si(\theta)信息
 
@@ -132,8 +128,6 @@ def compute_V_des(X, goal, V_max):
             V_des[i][0] = 0
             V_des[i][1] = 0
     return V_des
-
-    
     
 def plan(SUP_RATE, MAX_VEL, EXP_NAME = 'M5D1_r04',N_BOXES=10,WALL_BOUND=0.2,neighbor_std = 0.3, R=0.4,NUM_SCALE=10,\
          agent_radius=0.025/(0.2-0.025),SIGMA=25.,PB_FREQ=4,dt=1/50,DURATION=5,t0=1e-2,is_gui=False, \
@@ -154,7 +148,7 @@ def plan(SUP_RATE, MAX_VEL, EXP_NAME = 'M5D1_r04',N_BOXES=10,WALL_BOUND=0.2,neig
         'normalize' : True,
         }
     test_env = RLSorting(**env_kwargs) #我们在此设置了环境
-    test_env.seed(0)
+    #test_env.seed(0)
     
     # 接下来我们设定起始状态和终止状态，并且做出拍照
     init_state = test_env.reset()
@@ -254,6 +248,7 @@ def plan(SUP_RATE, MAX_VEL, EXP_NAME = 'M5D1_r04',N_BOXES=10,WALL_BOUND=0.2,neig
     final_state = get_cur_state_np(agents)
     delta_pos = np.sqrt(np.sum((final_state - target_state)**2, axis=1))
     
+    
     # safety
     if IS_SIM:
         print(
@@ -270,48 +265,61 @@ def plan(SUP_RATE, MAX_VEL, EXP_NAME = 'M5D1_r04',N_BOXES=10,WALL_BOUND=0.2,neig
     test_env.close()
     
     return np.max(delta_pos), np.mean(delta_pos), collision_num, collision_num/total_steps
-    # set_trace()
-    
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--exp_name',type=str,default='M5D1_r04')
-    parser.add_argument('--date', type=int, default= 518)
+    parser.add_argument('--date', type=int, default= 517)
     parser.add_argument('--n_boxes', type = int,default=10)
-    parser.add_argument('--dist_r', type=int, default=3)
+    parser.add_argument('--dist_r', type=int, default=5)
     parser.add_argument('--scale', type=float, default=2)
     parser.add_argument('--sup_rate_init', type=float,default=0.05)
-    parser.add_argument('--max_vel_ratio', type=float, default=0.1)
+    parser.add_argument('--sup_rate_final',type=float,default=1.04)
+    #parser.add_argument('--sup_rate_num',type=int, default=30)
+    parser.add_argument('--max_vel_ratio_init', type=float, default=0.1)
+    parser.add_argument('--max_vel_ratio_final',type=float,default=3.085)
+    parser.add_argument('--max_vel_num',type=int,default=50)
     parser.add_argument('--neighbor_std', type=float, default=8)
-    parser.add_argument('--duration', type=float, default=5.)
     
     args = parser.parse_args()
     exp_name = args.exp_name
     n_boxes = args.n_boxes
     sup_rate_init = args.sup_rate_init
+    sup_rate_final = args.sup_rate_final
     scale = args.scale
     dist_r = args.dist_r
     date = args.date
     wall_bound = 0.2 * scale * np.sqrt(int(n_boxes / 10))
-    max_vel_ratio = args.max_vel_ratio
+    max_vel_ratio_init = args.max_vel_ratio_init
+    max_vel_ratio_final = args.max_vel_ratio_final
     neighbor_std = args.neighbor_std
     radius = dist_r * 0.025 / (wall_bound - 0.025)
     
     path = f'./logs/M5D1_r04/{date}'
     exists_or_mkdir(path)
     out = open(f'./logs/M5D1_r04/{date}/record_N{n_boxes}_WB{round(wall_bound,2)}_dr{dist_r}_nb{neighbor_std}.txt', 'w')
-    sup_rate = [sup_rate_init + i * 0.01 for i in range(100)]
-    max_vel_ratio = [max_vel_ratio + i * 0.015 for i in range(200)]
+    sup_rate = np.linspace(sup_rate_init, sup_rate_final, num=100)
+    max_vel_ratio = np.linspace(max_vel_ratio_init, max_vel_ratio_final, num=args.max_vel_num)
     for i in tqdm(sup_rate):
         for j in max_vel_ratio:
             max_vel = j * (wall_bound - 0.025)
-            max_, mean_, coll_num, mean_coll_num = plan(i, max_vel,exp_name, n_boxes, wall_bound, neighbor_std, radius, DURATION=args.duration)
-            if mean_coll_num < 0.1 or max_ < 0.1:
-                max_ = format(max_, '.4f')
-                mean_ = format(mean_, '.4f')
-                max_vel = format(max_vel, '.4f')
-                j_ = format(j, '.4f')
-                out.write(f'sup_rate : {i}, max_vel : {max_vel}, max_vel_ratio : {j_}, radius : {round(radius, 4)}' + f'\n')
+            max_, mean_, coll_num, mean_coll_num = 0,0,0,0
+            for k in range(20):
+                cur_max, cur_mean, cur_coll_num, cur_mean_coll_num = plan(i, max_vel,exp_name, n_boxes, wall_bound, neighbor_std, radius)
+                max_ += cur_max
+                mean_ += cur_mean
+                coll_num += cur_coll_num
+                mean_coll_num += cur_mean_coll_num
+            
+            max_ = format(max_ / 20, '.4f')
+            mean_ = format(mean_ / 20, '.4f')
+            coll_num = format(coll_num / 20, '.4f')
+            mean_coll_num = format(mean_coll_num / 20, '.4f')
+            max_vel = format(max_vel, '.4f')
+            
+            if float(mean_coll_num) < 0.1 or float(max_) < 0.05:
+                out.write(f'sup_rate : {i}, max_vel : {max_vel}, max_vel_ratio : {j}, radius : {round(radius, 4)}' + f'\n')
                 out.write(f'Mean delta pos {mean_}, Max delta pos {max_}, Total collision Num : {coll_num}, Mean collision num : {mean_coll_num}' + f'\n')
     out.close()
 

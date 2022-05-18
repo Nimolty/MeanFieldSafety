@@ -31,28 +31,6 @@ from Envs.test_ball_score import vis_scores
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-#MARGIN_RATE = 0.10
-#SCALE = 1.0
-#BOUND = 0.2*SCALE
-# RADIUS = (0.025*(1+MARGIN_RATE) / (BOUND-0.025))
-#RADIUS = 0.025*(1+MARGIN_RATE) / (0.2 - 0.025)
-# N_BOXES = 10*int((SCALE**2))
-#N_BOXES = 10
-#MAX_VEL = 1.0
-#DURATION = 5
-#KNN = 7
-#dt = 1/50
-#tau = 10*dt
-#t0 = 1e-2 # for score
-# PB_FREQ = 4 # 一个dt的时间，在PB的模拟器里切成PB_FREQ步（为了更模拟更精细）
-#is_gui = False
-#SIGMA = 25
-
-# IS_SUPPORT = True
-# IS_GOAL = True
-# SUP_RATE = 0.1
-# IS_SIM = False
-
 def save_video(env, states, save_path, simulation=False, fps=50, render_size=256, camera_hight=1.0, suffix='avi'):
     imgs = []
     for _, state in tqdm(enumerate(states), desc='Saving video'):
@@ -63,28 +41,14 @@ def save_video(env, states, save_path, simulation=False, fps=50, render_size=256
     batch_imgs = np.stack(imgs, axis=0)
     images_to_video(save_path+f'.{suffix}', batch_imgs, fps, (render_size, render_size))
 
-
-def save_video2(env, states, save_path, simulation=False, fps = 50, render_size = 256, suffix='avi'):
-    imgs = []
-    for _, state in tqdm(enumerate(states), desc='Saving video'):
-        # set_trace()
-        env.set_state(state, simulation)
-        img = env.render(render_size)
-        imgs.append(img)
-    batch_imgs = np.stack(imgs, axis=0)
-    images_to_video(save_path+f'.{suffix}', batch_imgs, fps, (render_size, render_size))
-
 def images_to_video(path, images, fps, size):
     out = cv2.VideoWriter(path, cv2.VideoWriter_fourcc(*'mp4v'), fps, size)
     for item in images:
         out.write(item)
     out.release()
 
-def snapshot(env, file_name,camera_hight=None):
-    if camera_hight is None:
-        img = env.render(256)
-    else:
-        img = env.render(256, camera_hight=camera_hight)
+def snapshot(env, file_name,camera_hight):
+    img = env.render(256, camera_hight=camera_hight)
     cv2.imwrite(file_name, img)
 
 def get_cur_state_np(agents):
@@ -117,7 +81,7 @@ def comp_sup_vel(state, t, score,r):
 
 def normalise_vels(vels):
     vels = np.array(vels)
-    max_vel_norm = np.max(np.abs(vels))
+    max_vel_norm = np.max(np.abs(vels)) + 1e-5
     scale_factor = MAX_VEL / max_vel_norm
     scale_factor = np.min([scale_factor, 1])
     new_vels = scale_factor * vels
@@ -156,9 +120,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--exp_name',type=str,default='M5D1_r04')
     parser.add_argument('--n_boxes', type = int,default=10)
-    parser.add_argument('--radius',type=float,default=0.4)
-    parser.add_argument('--camera_hight', type=float,default=2.)
-    parser.add_argument('--scale', default=2)
+    parser.add_argument('--dist_r',type=float,default=3.)
+    parser.add_argument('--camera_hight', type=float,default=1.)
+    parser.add_argument('--scale', type=float, default=2.)
     parser.add_argument('--agent_radius', type=float,default=0.025/(0.2-0.025))
     parser.add_argument('--sigma', type=float, default=25.)
     parser.add_argument('--pb_freq', type=int, default=4)
@@ -170,9 +134,8 @@ if __name__ == '__main__':
     parser.add_argument('--IS_SIM', type=bool, default=True)
     parser.add_argument('--IS_GOAL', type=bool, default=True)
     parser.add_argument('--IS_SUPPORT', type=bool, default=True)
-    parser.add_argument('--savevideo_num', type=int, default=1)
     parser.add_argument('--sup_rate', type=float, default=0.1)
-    parser.add_argument('--neighbor_std', type=float, default=4.5)
+    parser.add_argument('--neighbor_std', type=float, default=8)
     
     
 
@@ -180,7 +143,6 @@ if __name__ == '__main__':
     args = parser.parse_args()
     EXP_NAME = args.exp_name
     N_BOXES = args.n_boxes
-    R = args.radius
     #WALL_BOUND = args.wall_bound
     SCALE = args.scale
     RADIUS = args.agent_radius
@@ -194,9 +156,9 @@ if __name__ == '__main__':
     IS_SIM = args.IS_SIM
     IS_GOAL = args.IS_GOAL
     IS_SUPPORT = args.IS_SUPPORT
-    VIDEO_NUM = args.savevideo_num
     SUP_RATE = args.sup_rate
     WALL_BOUND = 0.2 * SCALE * np.sqrt(int(N_BOXES / 10))
+    R = args.dist_r * 0.025 / (WALL_BOUND - 0.025)
     MAX_VEL = args.max_vel_ratio * (WALL_BOUND - 0.025)
     camera_hight = args.camera_hight
     neighbor_std = args.neighbor_std
@@ -218,16 +180,12 @@ if __name__ == '__main__':
     
     # 接下来我们设定起始状态和终止状态，并且做出拍照
     init_state = test_env.reset()
-    if VIDEO_NUM == 1:
-        snapshot(test_env, f'./logs/{EXP_NAME}/N{N_BOXES}_R{R}_SR{SUP_RATE}_MAXVEL{MAX_VEL}_init.png', camera_hight=np.sqrt(camera_hight*2))
+    snapshot(test_env, f'./logs/{EXP_NAME}/N{N_BOXES}_R{R}_SR{SUP_RATE}_MAXVEL{MAX_VEL}_nbstd{neighbor_std}_init.png', camera_hight=camera_hight)
+    if neighbor_std > 0:
+        target_state = test_env.reset(init_state, neighbor_std)
     else:
-        snapshot(test_env, f'./logs/{EXP_NAME}/N{N_BOXES}_R{R}_SR{SUP_RATE}_MAXVEL{MAX_VEL}_init.png')
-    target_state = test_env.reset(init_state, neighbor_std)
-    if VIDEO_NUM == 1:
-        snapshot(test_env, f'./logs/{EXP_NAME}/N{N_BOXES}_R{R}_SR{SUP_RATE}_MAXVEL{MAX_VEL}_goal.png', camera_hight=np.sqrt(camera_hight*2))
-    else:
-        snapshot(test_env, f'./logs/{EXP_NAME}/N{N_BOXES}_R{R}_SR{SUP_RATE}_MAXVEL{MAX_VEL}_goal.png')
-    
+        target_state = test_env.reset()
+    snapshot(test_env, f'./logs/{EXP_NAME}/N{N_BOXES}_R{R}_SR{SUP_RATE}_MAXVEL{MAX_VEL}_nbstd{neighbor_std}_goal.png', camera_hight=camera_hight)
     test_env.set_state(init_state)
 
     
@@ -279,9 +237,6 @@ if __name__ == '__main__':
     vel_errs = []
     vel_errs_mean = []
     
-    #test_env2 = RLSorting(**env_kwargs)
-    #test_env2.seed(0)
-    #test_env2.reset()
     
     
     for step in tqdm(range(total_steps)):
@@ -289,9 +244,7 @@ if __name__ == '__main__':
             cur_state = get_cur_state_np(agents)
             states_np.append(deepcopy(cur_state).reshape(-1))
             states_np2.append(deepcopy(cur_state).reshape(-1)[[4,5, 32, 33]])
-            #print(states_np2[-1])
             tar_vels = comp_des_vel(cur_state.tolist())
-            #print(cur_state - target_state)
             sup_vels = get_sup_vel(cur_state, t)
             
             if IS_GOAL:
@@ -302,17 +255,6 @@ if __name__ == '__main__':
             else:
                 obj_vels = sup_vels
             obj_vels = normalise_vels(obj_vels)
-            print(states_np2[-1][0:2], states_np2[-1][2:4])
-            print((sup_vels * SUP_RATE)[2], (sup_vels * SUP_RATE)[16], 'nnn')
-            #print(obj_vels)
-            #print(normalise_vels(tar_vels))
-            print(normalise_vels(tar_vels)[2], normalise_vels(tar_vels)[16])
-            #print(get_sup_vel([cur_state[2], cur_state[16]], t))
-            edge = radius_graph(torch.tensor(cur_state, device=device).view(-1, 2), R)
-            if step <= 100:
-                for i, j in edge.T:
-                    if j == 2:
-                        print(f'第{i}个位置{cur_state[i]}球给{cur_state[j]}施加的力为{get_sup_vel([cur_state[j], cur_state[i]], t)[0]}')
             assign_tar_vels(agents, obj_vels)
             
             if IS_SIM:
@@ -338,54 +280,13 @@ if __name__ == '__main__':
         collision_num += infos['collision_num'] if IS_SIM else dummy_collision_checker(agents)
         #print(infos['collision_num'])
     
-    #delta_pos = np.sqrt(np.sum(infos['delta_pos']**2, axis=1))
-    #print(delta_pos)
+
     final_state = get_cur_state_np(agents)
-    #print(final_state)
-    #print(target_state)
-    #print(final_state - target_state)
-    #print(sup_vels)
-    #print(sup_vels * SUP_RATE)
-    #print(normalise_vels(tar_vels))
-    #print(obj_vels)
-    #print(infos['points'])
-    #print(final_state)
-    #print(target_state)
     delta_pos = np.sqrt(np.sum((final_state - target_state)**2, axis=1))
     
     max_index = np.where(delta_pos == np.max(delta_pos))[0].item()
     #print(max_index)
     print(final_state[max_index], target_state[max_index])
-    edge_final = radius_graph(torch.tensor(final_state.tolist(), device=device).view(-1, 2), R).T
-    for i, j in edge_final:
-        if j.detach().item() == max_index:
-            print(final_state[i], target_state[i])
-    #print(edge_final.shape)  
-    #print(edge_final)
-    
-    #print(delta_pos)
-    #f = score_support.conv_spatial.mlp.cpu()
-    #fig, scores = vis_scores(model=f.cpu(), radius=R, savefig=None, prefix='sup', log_norm=False, axis=True,\
-                           #padding=padding, grid_size=score_grid, arrowwidth=arrowwidth) 
-    #fig.savefig('gradient_field')
-    #print(scores[640:680])
-    #print(-f(torch.tensor([mesh[640:680])))
-    #left_bound = -1
-    #right_bound = 1
-    #grid_size = 40
-
-    #mesh = []
-    #x = np.linspace(left_bound, right_bound, grid_size)
-    #y = np.linspace(left_bound, right_bound, grid_size)
-    #for i in x:
-    #    for j in y:
-     #       mesh.append(np.asarray([i, j]))
-            
-    #mesh = np.stack(mesh, axis=0)
-    #mesh = torch.from_numpy(mesh).float()
-    #if device is not None:
-    #    mesh = mesh.to(device)
-    #print(-f(mesh[640:680]))
     
     # safety
     if IS_SIM:
@@ -393,17 +294,14 @@ if __name__ == '__main__':
             f'### Average vel err: {sum(vel_errs) / len(vel_errs)} || Mean vel err: {sum(vel_errs_mean) / len(vel_errs_mean)}###')
         print(
             f'###All delta_pos : {delta_pos.sum()} || Mean delta_pos : {np.mean(delta_pos)} || Max delta_pos : {np.max(delta_pos)}###')
+        print(f'N_BOXES: {N_BOXES}, sup_rate : {SUP_RATE}, max_vel_ratio : {args.max_vel_ratio}')
     if collision_num == 0:
         print("###Totally safe###")
     else:
         print(f'### Mean Collision Num: {collision_num / total_steps} || Total Collision Num: {collision_num} ###')
     # set_trace()
-    if VIDEO_NUM == 0:
-        save_video2(test_env, states_np, save_path=f'./logs/{EXP_NAME}/' + f'N{N_BOXES}_SR{SUP_RATE}_MAXVEL{MAX_VEL}'.replace('.', ''), fps=len(states_np) // DURATION, suffix='mp4')
-        
-        
-    elif VIDEO_NUM == 1:
-        save_video(test_env, states_np, save_path=f'./logs/{EXP_NAME}/' + f'N{N_BOXES}_R{R}_SR{SUP_RATE}_MAXVEL{MAX_VEL}'.replace('.', ''), camera_hight=np.sqrt(camera_hight * 2), fps=len(states_np) // 5, suffix='mp4')
+    
+    save_video(test_env, states_np, save_path=f'./logs/{EXP_NAME}/' + f'N{N_BOXES}_R{R}_SR{SUP_RATE}_MAXVEL{MAX_VEL}_nbstd{neighbor_std}'.replace('.', ''), camera_hight=camera_hight, fps=len(states_np) // 5, suffix='mp4')
 
 
 

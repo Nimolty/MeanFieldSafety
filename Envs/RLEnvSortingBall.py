@@ -217,8 +217,8 @@ class Sorting:
         for idx1, ball_1 in enumerate(items[:-1]):
             for idx2, ball_2 in enumerate(items[idx1 + 1:]):
                 points = p.getContactPoints(ball_1, ball_2, physicsClientId=self.cid)
-                if len(points) > 0:
-                    print([idx1, idx2+idx1+1])
+                #if len(points) > 0:
+                    #print([idx1, idx2+idx1+1])
                 cnt += (len(points) > 0)
                 # for debug
                 # print(f'{name1} {name2} {len(points)}')

@@ -1,5 +1,11 @@
 # -*- coding: utf-8 -*-
 """
+Created on Mon May 16 21:16:03 2022
+
+@author: lenovo
+"""
+# -*- coding: utf-8 -*-
+"""
 Created on Sun May  8 01:02:31 2022
 
 @author: lenovo
@@ -33,10 +39,32 @@ sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
 from Algorithms.SDE import ScoreModelGNN, ScoreModelGNNMini, MiniUpdate,  marginal_prob_std, diffusion_coeff
 from Algorithms.pyorca.pyorca import Agent
+from Algorithms.baseline import P_update
 from Envs.test_ball_score import vis_scores
 from utils import exists_or_mkdir
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
+#MARGIN_RATE = 0.10
+#SCALE = 1.0
+#BOUND = 0.2*SCALE
+# RADIUS = (0.025*(1+MARGIN_RATE) / (BOUND-0.025))
+#RADIUS = 0.025*(1+MARGIN_RATE) / (0.2 - 0.025)
+# N_BOXES = 10*int((SCALE**2))
+#N_BOXES = 10
+#MAX_VEL = 1.0
+#DURATION = 5
+#KNN = 7
+#dt = 1/50
+#tau = 10*dt
+#t0 = 1e-2 # for score
+# PB_FREQ = 4 # 一个dt的时间，在PB的模拟器里切成PB_FREQ步（为了更模拟更精细）
+#is_gui = False
+#SIGMA = 25
+
+# IS_SUPPORT = True
+# IS_GOAL = True
+# SUP_RATE = 0.1
+# IS_SIM = False
 
 def save_video(env, states, save_path, simulation=False, fps=50, render_size=256, camera_hight=1.0, suffix='avi'):
     imgs = []
@@ -78,7 +106,7 @@ def assign_tar_vels(agents, vels):
         agent.pref_velocity = np.array(vel)
     # 将tar的pref_velocity设置为我们计算所得的vel
 
-def comp_sup_vel(state, t, score,r):
+def comp_sup_vel(state, ratio, score,r):
     # set_trace()
     # state_inp = state * SCALE
     state_inp = state
@@ -90,7 +118,7 @@ def comp_sup_vel(state, t, score,r):
         convert_to_inp = partial(Data, edge_index=edge)
         state_ts = convert_to_inp(x=torch.tensor(state_inp).to(device))
         inp_batch = Batch.from_data_list([state_ts])
-        vels = score(inp_batch, t) # 我们normalize了sup vel就发挥不出他的威力了！
+        vels = score(inp_batch, ratio) # 我们normalize了sup vel就发挥不出他的威力了！
         # vels = out_score*MAX_VEL/(torch.max(torch.abs(out_score)) + 1e-7) # norm to max_vel = MAX_VEL
         # print(vels.max())
     return vels.cpu().numpy()
@@ -133,13 +161,54 @@ def compute_V_des(X, goal, V_max):
             V_des[i][1] = 0
     return V_des
 
+
+#if __name__ == '__main__':
+#    parser = argparse.ArgumentParser()
+#    parser.add_argument('--exp_name',type=str,default='M5D1_r04')
+#    parser.add_argument('--n_boxes', type = int,default=10)
+#    parser.add_argument('--radius',type=float,default=0.4)
+#    parser.add_argument('--wall_bound', type=float,default=0.2)
+#    parser.add_argument('--num_scale', default=10)
+#   parser.add_argument('--agent_radius', type=float,default=0.025/(0.02-0.025))
+#    parser.add_argument('--sigma', type=float, default=25.)
+#    parser.add_argument('--pb_freq', type=int, default=4)
+#    parser.add_argument('--max_vel', type=float, default=0.3)
+#    parser.add_argument('--dt', type=float, default=1/50)
+#    parser.add_argument('--duration',type=int, default=5)
+#    parser.add_argument('--t0', type=float, default=1e-2)
+#    parser.add_argument('--is_gui', type=bool, default=False)
+#    parser.add_argument('--IS_SIM', type=bool, default=True)
+#    parser.add_argument('--IS_GOAL', type=bool, default=True)
+#    parser.add_argument('--IS_SUPPORT', type=bool, default=True)
+#    parser.add_argument('--savevideo_num', type=int, default=0)
+#    parser.add_argument('--sup_rate', type=float, default=0.1)
     
     
-def plan(SUP_RATE, MAX_VEL, EXP_NAME = 'M5D1_r04',N_BOXES=10,WALL_BOUND=0.2,neighbor_std = 0.3, R=0.4,NUM_SCALE=10,\
+def plan(SUP_RATE, MAX_VEL, EXP_NAME = 'M5D1_r04',N_BOXES=10,WALL_BOUND=0.2,neighbor_std = 0.3, R=0.4,p=2,ratio=0.1,isnorm=True,\
+         NUM_SCALE=10,\
          agent_radius=0.025/(0.2-0.025),SIGMA=25.,PB_FREQ=4,dt=1/50,DURATION=5,t0=1e-2,is_gui=False, \
          IS_SIM=True,IS_GOAL=True,IS_SUPPORT=True,VIDEO_NUM=0):
     MAX_VEL = MAX_VEL
     SUP_RATE = SUP_RATE
+    #args = parser.parse_args()
+    #EXP_NAME = args.exp_name
+    #N_BOXES = args.n_boxes
+    #R = args.radius
+    #WALL_BOUND = args.wall_bound
+    #NUM_SCALE = args.num_scale
+    #RADIUS = args.agent_radius
+    #SIGMA = args.sigma
+    #PB_FREQ = args.pb_freq
+    #MAX_VEL = args.max_vel
+    #dt = args.dt
+    #DURATION = args.duration
+    #t0 = args.t0
+    #is_gui = args.is_gui
+    #IS_SIM = args.IS_SIM
+    #IS_GOAL = args.IS_GOAL
+    #IS_SUPPORT = args.IS_SUPPORT
+    #VIDEO_NUM = args.savevideo_num
+    #SUP_RATE = args.sup_rate
     padding = 0.03
     score_grid = 40
     arrowwidth = 0.010
@@ -170,12 +239,7 @@ def plan(SUP_RATE, MAX_VEL, EXP_NAME = 'M5D1_r04',N_BOXES=10,WALL_BOUND=0.2,neig
     #print(target_state)
     
     # 我们将pretrained的score导入到我们程序中
-    sup_path = f'./logs/{EXP_NAME}/score.pt'
-    marginal_prob_std_fn = functools.partial(marginal_prob_std, sigma=SIGMA)
-    score_support = MiniUpdate(marginal_prob_std_fn, n_objs, hidden_dim=256, embed_dim=128)
-    # 也可以考虑其他的scoremodel，这里我们都可以换，主要是看两个指标的结果
-    # 导入pretrained的模型
-    score_support.load_state_dict(torch.load(sup_path))
+    score_support = P_update(p, is_norm=isnorm)
     
     # 这边是设置一些速度相关的函数，但有几个地方明天问一下东哥
     #r = 0.2
@@ -184,7 +248,7 @@ def plan(SUP_RATE, MAX_VEL, EXP_NAME = 'M5D1_r04',N_BOXES=10,WALL_BOUND=0.2,neig
     # comp_des_vel 是先得到距离，然后计算速度
     t = torch.tensor([t0]).unsqueeze(0).to(device) # t的shape为torch.Size([1,1])
     get_sup_vel = partial(comp_sup_vel, score=score_support.to(device), r=R)
-    sup_vel = get_sup_vel(init_state, t)
+    sup_vel = get_sup_vel(init_state, ratio)
     
     comp_des_vel = partial(compute_V_des, goal=target_state.tolist(), V_max = [MAX_VEL] * (n_objs))
     tar_vel = comp_des_vel(init_state.tolist())
@@ -217,7 +281,7 @@ def plan(SUP_RATE, MAX_VEL, EXP_NAME = 'M5D1_r04',N_BOXES=10,WALL_BOUND=0.2,neig
             
             tar_vels = comp_des_vel(cur_state.tolist())
             #print(cur_state - target_state)
-            sup_vels = get_sup_vel(cur_state, t)
+            sup_vels = get_sup_vel(cur_state, ratio)
             
             if IS_GOAL:
                 if IS_SUPPORT:
@@ -227,6 +291,9 @@ def plan(SUP_RATE, MAX_VEL, EXP_NAME = 'M5D1_r04',N_BOXES=10,WALL_BOUND=0.2,neig
             else:
                 obj_vels = sup_vels
             obj_vels = normalise_vels(obj_vels, MAX_VEL)
+            #print(sup_vels * SUP_RATE)
+            #print(obj_vels)
+            #print(normalise_vels(tar_vels))
             assign_tar_vels(agents, obj_vels)
             
             if IS_SIM:
@@ -250,9 +317,39 @@ def plan(SUP_RATE, MAX_VEL, EXP_NAME = 'M5D1_r04',N_BOXES=10,WALL_BOUND=0.2,neig
             break
         collision_num += infos['collision_num'] if IS_SIM else dummy_collision_checker(agents)
     
-
+    #delta_pos = np.sqrt(np.sum(infos['delta_pos']**2, axis=1))
+    #print(delta_pos)
     final_state = get_cur_state_np(agents)
+    #print(final_state)
+    #print(target_state)
+    #print(sup_vels)
+    #print(sup_vels * SUP_RATE)
+    #print(normalise_vels(tar_vels))
+    #print(final_state - target_state)
     delta_pos = np.sqrt(np.sum((final_state - target_state)**2, axis=1))
+    #print(delta_pos)
+    #f = score_support.conv_spatial.mlp.cpu()
+    #fig, scores = vis_scores(model=f.cpu(), radius=R, savefig=None, prefix='sup', log_norm=False, axis=True,\
+                           #padding=padding, grid_size=score_grid, arrowwidth=arrowwidth) 
+    #fig.savefig('gradient_field')
+    #print(scores[640:680])
+    #print(-f(torch.tensor([mesh[640:680])))
+    #left_bound = -1
+    #right_bound = 1
+    #grid_size = 40
+
+    #mesh = []
+    #x = np.linspace(left_bound, right_bound, grid_size)
+    #y = np.linspace(left_bound, right_bound, grid_size)
+    #for i in x:
+    #    for j in y:
+     #       mesh.append(np.asarray([i, j]))
+            
+    #mesh = np.stack(mesh, axis=0)
+    #mesh = torch.from_numpy(mesh).float()
+    #if device is not None:
+    #    mesh = mesh.to(device)
+    #print(-f(mesh[640:680]))
     
     # safety
     if IS_SIM:
@@ -271,23 +368,34 @@ def plan(SUP_RATE, MAX_VEL, EXP_NAME = 'M5D1_r04',N_BOXES=10,WALL_BOUND=0.2,neig
     
     return np.max(delta_pos), np.mean(delta_pos), collision_num, collision_num/total_steps
     # set_trace()
-    
+    #if VIDEO_NUM == 0:
+    #    save_video2(test_env, states_np, save_path=f'./logs/{EXP_NAME}/' + f'N{N_BOXES}_SR{SUP_RATE}_MAXVEL{MAX_VEL}'.replace('.', ''), fps=len(states_np) // DURATION, suffix='mp4')
+    #elif VIDEO_NUM == 1:
+    #    save_video(test_env, states_np, save_path=f'./logs/{EXP_NAME}/' + f'N{N_BOXES}_R{R}_SR{SUP_RATE}'.replace('.', ''), camera_hight=np.sqrt(NUM_SCALE), fps=len(states_np) // 5, suffix='mp4')
+
+    #if i == 3:
+        #break
+    #break
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--exp_name',type=str,default='M5D1_r04')
-    parser.add_argument('--date', type=int, default= 518)
+    parser.add_argument('--date', type=int, default= 516)
     parser.add_argument('--n_boxes', type = int,default=10)
-    parser.add_argument('--dist_r', type=int, default=3)
+    parser.add_argument('--p', type=float,default=2.)
+    parser.add_argument('--ratio',type=float,default=0.1)
+    parser.add_argument('--dist_r', type=int, default=5)
     parser.add_argument('--scale', type=float, default=2)
     parser.add_argument('--sup_rate_init', type=float,default=0.05)
     parser.add_argument('--max_vel_ratio', type=float, default=0.1)
     parser.add_argument('--neighbor_std', type=float, default=8)
-    parser.add_argument('--duration', type=float, default=5.)
+    parser.add_argument('--isnorm', type=bool, default=True)
     
     args = parser.parse_args()
     exp_name = args.exp_name
     n_boxes = args.n_boxes
+    p = args.p
+    ratio = args.ratio
     sup_rate_init = args.sup_rate_init
     scale = args.scale
     dist_r = args.dist_r
@@ -296,16 +404,17 @@ if __name__ == '__main__':
     max_vel_ratio = args.max_vel_ratio
     neighbor_std = args.neighbor_std
     radius = dist_r * 0.025 / (wall_bound - 0.025)
+    isnorm = args.isnorm
     
-    path = f'./logs/M5D1_r04/{date}'
+    path = f'./logs/Baseline_norm/{exp_name}/{date}'
     exists_or_mkdir(path)
-    out = open(f'./logs/M5D1_r04/{date}/record_N{n_boxes}_WB{round(wall_bound,2)}_dr{dist_r}_nb{neighbor_std}.txt', 'w')
+    out = open(f'./logs/Baseline_norm/{exp_name}/{date}/record_N{n_boxes}_WB{round(wall_bound,2)}_dr{dist_r}_nb{neighbor_std}.txt', 'w')
     sup_rate = [sup_rate_init + i * 0.01 for i in range(100)]
-    max_vel_ratio = [max_vel_ratio + i * 0.015 for i in range(200)]
+    max_vel_ratio = [max_vel_ratio + i * 0.015 for i in range(150)]
     for i in tqdm(sup_rate):
         for j in max_vel_ratio:
             max_vel = j * (wall_bound - 0.025)
-            max_, mean_, coll_num, mean_coll_num = plan(i, max_vel,exp_name, n_boxes, wall_bound, neighbor_std, radius, DURATION=args.duration)
+            max_, mean_, coll_num, mean_coll_num = plan(i, max_vel,exp_name, n_boxes, wall_bound, neighbor_std, radius,p, ratio, isnorm)
             if mean_coll_num < 0.1 or max_ < 0.1:
                 max_ = format(max_, '.4f')
                 mean_ = format(mean_, '.4f')

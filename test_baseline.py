@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun May  8 01:02:31 2022
+Created on Mon May 16 19:22:56 2022
 
 @author: lenovo
 """
@@ -16,7 +16,7 @@ import numpy as np
 from scipy.spatial import distance_matrix
 from math import *
 from functools import partial
-from tqdm import tqdm, trange
+from tqdm import tqdm
 import cv2
 import time
 import functools
@@ -32,11 +32,12 @@ import argparse
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
 from Algorithms.SDE import ScoreModelGNN, ScoreModelGNNMini, MiniUpdate,  marginal_prob_std, diffusion_coeff
+from Algorithms.baseline import P_update, EdgeConv_norm
 from Algorithms.pyorca.pyorca import Agent
 from Envs.test_ball_score import vis_scores
 from utils import exists_or_mkdir
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 def save_video(env, states, save_path, simulation=False, fps=50, render_size=256, camera_hight=1.0, suffix='avi'):
     imgs = []
@@ -48,25 +49,14 @@ def save_video(env, states, save_path, simulation=False, fps=50, render_size=256
     batch_imgs = np.stack(imgs, axis=0)
     images_to_video(save_path+f'.{suffix}', batch_imgs, fps, (render_size, render_size))
 
-
-def save_video2(env, states, save_path, simulation=False, fps = 50, render_size = 256, suffix='avi'):
-    imgs = []
-    for _, state in tqdm(enumerate(states), desc='Saving video'):
-        # set_trace()
-        env.set_state(state, simulation)
-        img = env.render(render_size)
-        imgs.append(img)
-    batch_imgs = np.stack(imgs, axis=0)
-    images_to_video(save_path+f'.{suffix}', batch_imgs, fps, (render_size, render_size))
-
 def images_to_video(path, images, fps, size):
     out = cv2.VideoWriter(path, cv2.VideoWriter_fourcc(*'mp4v'), fps, size)
     for item in images:
         out.write(item)
     out.release()
 
-def snapshot(env, file_name):
-    img = env.render(256)
+def snapshot(env, file_name,camera_hight):
+    img = env.render(256, camera_hight=camera_hight)
     cv2.imwrite(file_name, img)
 
 def get_cur_state_np(agents):
@@ -78,7 +68,7 @@ def assign_tar_vels(agents, vels):
         agent.pref_velocity = np.array(vel)
     # 将tar的pref_velocity设置为我们计算所得的vel
 
-def comp_sup_vel(state, t, score,r):
+def comp_sup_vel(state, ratio, score,r):
     # set_trace()
     # state_inp = state * SCALE
     state_inp = state
@@ -90,14 +80,14 @@ def comp_sup_vel(state, t, score,r):
         convert_to_inp = partial(Data, edge_index=edge)
         state_ts = convert_to_inp(x=torch.tensor(state_inp).to(device))
         inp_batch = Batch.from_data_list([state_ts])
-        vels = score(inp_batch, t) # 我们normalize了sup vel就发挥不出他的威力了！
+        vels = score(inp_batch, ratio) # 我们normalize了sup vel就发挥不出他的威力了！
         # vels = out_score*MAX_VEL/(torch.max(torch.abs(out_score)) + 1e-7) # norm to max_vel = MAX_VEL
         # print(vels.max())
     return vels.cpu().numpy()
     # 这里就是通过我们训练好的score，然后模拟出state所在位置的si(\theta)信息
 
 
-def normalise_vels(vels, MAX_VEL):
+def normalise_vels(vels):
     vels = np.array(vels)
     max_vel_norm = np.max(np.abs(vels))
     scale_factor = MAX_VEL / max_vel_norm
@@ -133,13 +123,57 @@ def compute_V_des(X, goal, V_max):
             V_des[i][1] = 0
     return V_des
 
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--exp_name',type=str,default='M5D1_r04')
+    parser.add_argument('--n_boxes', type = int,default=10)
+    parser.add_argument('--radius',type=float,default=0.4)
+    parser.add_argument('--p', type=int, default=2)
+    parser.add_argument('--ratio', type=float, default=0.1)
+    parser.add_argument('--camera_hight', type=float,default=1.)
+    parser.add_argument('--scale', type=float, default=2.)
+    parser.add_argument('--agent_radius', type=float,default=0.025/(0.2-0.025))
+    parser.add_argument('--sigma', type=float, default=25.)
+    parser.add_argument('--pb_freq', type=int, default=4)
+    parser.add_argument('--max_vel_ratio', type=float, default=0.3)
+    parser.add_argument('--dt', type=float, default=1/50)
+    parser.add_argument('--duration',type=int, default=5)
+    parser.add_argument('--t0', type=float, default=1e-2)
+    parser.add_argument('--is_gui', type=bool, default=False)
+    parser.add_argument('--IS_SIM', type=bool, default=True)
+    parser.add_argument('--IS_GOAL', type=bool, default=True)
+    parser.add_argument('--IS_SUPPORT', type=bool, default=True)
+    parser.add_argument('--sup_rate', type=float, default=0.1)
+    parser.add_argument('--neighbor_std', type=float, default=8)
     
     
-def plan(SUP_RATE, MAX_VEL, EXP_NAME = 'M5D1_r04',N_BOXES=10,WALL_BOUND=0.2,neighbor_std = 0.3, R=0.4,NUM_SCALE=10,\
-         agent_radius=0.025/(0.2-0.025),SIGMA=25.,PB_FREQ=4,dt=1/50,DURATION=5,t0=1e-2,is_gui=False, \
-         IS_SIM=True,IS_GOAL=True,IS_SUPPORT=True,VIDEO_NUM=0):
-    MAX_VEL = MAX_VEL
-    SUP_RATE = SUP_RATE
+
+    
+    args = parser.parse_args()
+    EXP_NAME = args.exp_name
+    N_BOXES = args.n_boxes
+    R = args.radius
+    p = args.p
+    ratio = args.ratio
+    #WALL_BOUND = args.wall_bound
+    SCALE = args.scale
+    RADIUS = args.agent_radius
+    SIGMA = args.sigma
+    PB_FREQ = args.pb_freq
+    MAX_VEL_RATIO = args.max_vel_ratio
+    dt = args.dt
+    DURATION = args.duration
+    t0 = args.t0
+    is_gui = args.is_gui
+    IS_SIM = args.IS_SIM
+    IS_GOAL = args.IS_GOAL
+    IS_SUPPORT = args.IS_SUPPORT
+    SUP_RATE = args.sup_rate
+    WALL_BOUND = 0.2 * SCALE * np.sqrt(int(N_BOXES / 10))
+    MAX_VEL = args.max_vel_ratio * (WALL_BOUND - 0.025)
+    camera_hight = args.camera_hight
+    neighbor_std = args.neighbor_std
     padding = 0.03
     score_grid = 40
     arrowwidth = 0.010
@@ -156,35 +190,34 @@ def plan(SUP_RATE, MAX_VEL, EXP_NAME = 'M5D1_r04',N_BOXES=10,WALL_BOUND=0.2,neig
     test_env = RLSorting(**env_kwargs) #我们在此设置了环境
     test_env.seed(0)
     
+    exists_or_mkdir(f'./logs/Baseline_norm/{EXP_NAME}')
     # 接下来我们设定起始状态和终止状态，并且做出拍照
     init_state = test_env.reset()
+    snapshot(test_env, f'./logs/Baseline_norm/{EXP_NAME}/N{N_BOXES}_R{R}_SR{SUP_RATE}_MAXVEL{MAX_VEL}_nbstd{neighbor_std}_init.png', camera_hight=camera_hight)
     if neighbor_std > 0:
         target_state = test_env.reset(init_state, neighbor_std)
     else:
         target_state = test_env.reset()
+    snapshot(test_env, f'./logs/Baseline_norm/{EXP_NAME}/N{N_BOXES}_R{R}_SR{SUP_RATE}_MAXVEL{MAX_VEL}_nbstd{neighbor_std}_goal.png', camera_hight=camera_hight)
     test_env.set_state(init_state)
+
     
     n_objs = test_env.n_boxes
     init_state = init_state.reshape((n_objs, -1))
     target_state = target_state.reshape((n_objs, -1))
     #print(target_state)
     
-    # 我们将pretrained的score导入到我们程序中
-    sup_path = f'./logs/{EXP_NAME}/score.pt'
-    marginal_prob_std_fn = functools.partial(marginal_prob_std, sigma=SIGMA)
-    score_support = MiniUpdate(marginal_prob_std_fn, n_objs, hidden_dim=256, embed_dim=128)
-    # 也可以考虑其他的scoremodel，这里我们都可以换，主要是看两个指标的结果
-    # 导入pretrained的模型
-    score_support.load_state_dict(torch.load(sup_path))
+    # 我们将baseline中的model导入到我们程序中
+    score_support = P_update(p)
     
     # 这边是设置一些速度相关的函数，但有几个地方明天问一下东哥
     #r = 0.2
     #edge_graph = radius_graph(torch.ones((n_objs, 2)).to(device), r)
     # 这里我们设置了get_sup_vel，这样的话得到当前状态的梯度信息
     # comp_des_vel 是先得到距离，然后计算速度
-    t = torch.tensor([t0]).unsqueeze(0).to(device) # t的shape为torch.Size([1,1])
+    # t的shape为torch.Size([1,1])
     get_sup_vel = partial(comp_sup_vel, score=score_support.to(device), r=R)
-    sup_vel = get_sup_vel(init_state, t)
+    sup_vel = get_sup_vel(init_state, ratio)
     
     comp_des_vel = partial(compute_V_des, goal=target_state.tolist(), V_max = [MAX_VEL] * (n_objs))
     tar_vel = comp_des_vel(init_state.tolist())
@@ -192,16 +225,16 @@ def plan(SUP_RATE, MAX_VEL, EXP_NAME = 'M5D1_r04',N_BOXES=10,WALL_BOUND=0.2,neig
     # 接下来是一些可能造成迷惑的地方了，这里的SUPPORT和IS_GOAL的作用是什么呢，我们又应该根据什么来设置这两个bool值
     if IS_GOAL:
         if IS_SUPPORT:
-            obj_vel = sup_vel * SUP_RATE + normalise_vels(tar_vel, MAX_VEL)
+            obj_vel = sup_vel * SUP_RATE + normalise_vels(tar_vel)
         else:
             obj_vel = tar_vel
     else:
         obj_vel = sup_vel
-    obj_vel = normalise_vels(obj_vel,MAX_VEL)
+    obj_vel = normalise_vels(obj_vel)
     
     agents = []
     for i in range(init_state.shape[0]):
-        agents.append(Agent(init_state[i], (0.0, 0.0), agent_radius, MAX_VEL, np.array(obj_vel[i])))
+        agents.append(Agent(init_state[i], (0.0, 0.0), RADIUS, MAX_VEL, np.array(obj_vel[i])))
     
     #--------------------------------------
     # simulation starts
@@ -210,23 +243,24 @@ def plan(SUP_RATE, MAX_VEL, EXP_NAME = 'M5D1_r04',N_BOXES=10,WALL_BOUND=0.2,neig
     collision_num = 0
     vel_errs = []
     vel_errs_mean = []
-    for step in range(total_steps):
+
+    
+    for step in tqdm(range(total_steps)):
         try:
             cur_state = get_cur_state_np(agents)
             states_np.append(deepcopy(cur_state).reshape(-1))
-            
             tar_vels = comp_des_vel(cur_state.tolist())
             #print(cur_state - target_state)
-            sup_vels = get_sup_vel(cur_state, t)
+            sup_vels = get_sup_vel(cur_state, ratio)
             
             if IS_GOAL:
                 if IS_SUPPORT:
-                    obj_vels = sup_vels * SUP_RATE + normalise_vels(tar_vels, MAX_VEL)
+                    obj_vels = sup_vels * SUP_RATE + normalise_vels(tar_vels)
                 else:
                     obj_vels = tar_vels
             else:
                 obj_vels = sup_vels
-            obj_vels = normalise_vels(obj_vels, MAX_VEL)
+            obj_vels = normalise_vels(obj_vels)
             assign_tar_vels(agents, obj_vels)
             
             if IS_SIM:
@@ -235,6 +269,7 @@ def plan(SUP_RATE, MAX_VEL, EXP_NAME = 'M5D1_r04',N_BOXES=10,WALL_BOUND=0.2,neig
                 for i, agent in enumerate(agents):
                     agent.velocity = obj_vels[i]
                 new_state, _, infos = test_env.step(np.array(obj_vels), step_size=PB_FREQ)
+                #test_env.get_collision_num()
                 vel_errs.append(infos['vel_err'])
                 vel_errs_mean.append(infos['vel_err_mean'])
                 for i, agent in enumerate(agents):
@@ -249,10 +284,15 @@ def plan(SUP_RATE, MAX_VEL, EXP_NAME = 'M5D1_r04',N_BOXES=10,WALL_BOUND=0.2,neig
             print(e)
             break
         collision_num += infos['collision_num'] if IS_SIM else dummy_collision_checker(agents)
+        #print(infos['collision_num'])
     
 
     final_state = get_cur_state_np(agents)
     delta_pos = np.sqrt(np.sum((final_state - target_state)**2, axis=1))
+    
+    max_index = np.where(delta_pos == np.max(delta_pos))[0].item()
+    #print(max_index)
+    print(final_state[max_index], target_state[max_index])
     
     # safety
     if IS_SIM:
@@ -264,56 +304,19 @@ def plan(SUP_RATE, MAX_VEL, EXP_NAME = 'M5D1_r04',N_BOXES=10,WALL_BOUND=0.2,neig
         print("###Totally safe###")
     else:
         print(f'### Mean Collision Num: {collision_num / total_steps} || Total Collision Num: {collision_num} ###')
-    
-    if collision_num == 0 and np.max(delta_pos) < 0.05:
-        print('Find it')
-    test_env.close()
-    
-    return np.max(delta_pos), np.mean(delta_pos), collision_num, collision_num/total_steps
     # set_trace()
     
+    save_video(test_env, states_np, save_path=f'./logs/Baseline_norm/{EXP_NAME}/' + f'N{N_BOXES}_R{R}_SR{SUP_RATE}_MAXVEL{MAX_VEL}_nbstd{neighbor_std}'.replace('.', ''), camera_hight=camera_hight, fps=len(states_np) // 5, suffix='mp4')
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--exp_name',type=str,default='M5D1_r04')
-    parser.add_argument('--date', type=int, default= 518)
-    parser.add_argument('--n_boxes', type = int,default=10)
-    parser.add_argument('--dist_r', type=int, default=3)
-    parser.add_argument('--scale', type=float, default=2)
-    parser.add_argument('--sup_rate_init', type=float,default=0.05)
-    parser.add_argument('--max_vel_ratio', type=float, default=0.1)
-    parser.add_argument('--neighbor_std', type=float, default=8)
-    parser.add_argument('--duration', type=float, default=5.)
-    
-    args = parser.parse_args()
-    exp_name = args.exp_name
-    n_boxes = args.n_boxes
-    sup_rate_init = args.sup_rate_init
-    scale = args.scale
-    dist_r = args.dist_r
-    date = args.date
-    wall_bound = 0.2 * scale * np.sqrt(int(n_boxes / 10))
-    max_vel_ratio = args.max_vel_ratio
-    neighbor_std = args.neighbor_std
-    radius = dist_r * 0.025 / (wall_bound - 0.025)
-    
-    path = f'./logs/M5D1_r04/{date}'
-    exists_or_mkdir(path)
-    out = open(f'./logs/M5D1_r04/{date}/record_N{n_boxes}_WB{round(wall_bound,2)}_dr{dist_r}_nb{neighbor_std}.txt', 'w')
-    sup_rate = [sup_rate_init + i * 0.01 for i in range(100)]
-    max_vel_ratio = [max_vel_ratio + i * 0.015 for i in range(200)]
-    for i in tqdm(sup_rate):
-        for j in max_vel_ratio:
-            max_vel = j * (wall_bound - 0.025)
-            max_, mean_, coll_num, mean_coll_num = plan(i, max_vel,exp_name, n_boxes, wall_bound, neighbor_std, radius, DURATION=args.duration)
-            if mean_coll_num < 0.1 or max_ < 0.1:
-                max_ = format(max_, '.4f')
-                mean_ = format(mean_, '.4f')
-                max_vel = format(max_vel, '.4f')
-                j_ = format(j, '.4f')
-                out.write(f'sup_rate : {i}, max_vel : {max_vel}, max_vel_ratio : {j_}, radius : {round(radius, 4)}' + f'\n')
-                out.write(f'Mean delta pos {mean_}, Max delta pos {max_}, Total collision Num : {coll_num}, Mean collision num : {mean_coll_num}' + f'\n')
-    out.close()
+
+
+
+
+
+
+
+
+
 
 
 

@@ -182,7 +182,7 @@
 # 视频结果：到达了指定位置
 #######################################################
 # CUDA_VISIBLE_DEVICES=1 python -m ipdb test_final.py \
-# --exp_name M5D6_r04 \
+# --exp_name M5D1_r04 \
 # --n_boxes 10 \
 # --radius 0.4 \
 # --max_vel 0.2 \
@@ -198,7 +198,7 @@
 # 视频结果：到达了指定位置
 #######################################################
 # CUDA_VISIBLE_DEVICES=1 python -m ipdb test_final.py \
-# --exp_name M5D6_r04 \
+# --exp_name M5D1_r04 \
 # --n_boxes 10 \
 # --radius 0.4 \
 # --max_vel 0.15 \
@@ -215,7 +215,7 @@
 
 #######################################################
 # CUDA_VISIBLE_DEVICES=1 python -m ipdb test_final.py \
-# --exp_name M5D6_r04 \
+# --exp_name M5D1_r04 \
 # --n_boxes 10 \
 # --radius 0.4 \
 # --max_vel 0.49 \
@@ -232,7 +232,7 @@
 
 #######################################################
 # CUDA_VISIBLE_DEVICES=1 python -m ipdb test_final.py \
-# --exp_name M5D6_r04 \
+# --exp_name M5D1_r04 \
 # --n_boxes 30 \
 # --radius 0.4 \
 # --max_vel 1.8484 \
@@ -254,8 +254,160 @@
 # --neighbor_std 4.5 \
 # 这个实验的目的是重新设置target_state的活动半径，原先的话太困难了
 
+#######################################################
+# CUDA_VISIBLE_DEVICES=1 python -m ipdb test_final.py \
+# --exp_name M5D6_r04 \
+# --n_boxes 60 \
+# --radius 0.08 \
+# --max_vel_ratio 0.685 \
+# --sup_rate 0.11 \
+# --dt 1/50 \
+# --pb_freq 4 \
+# --duration 5\
+# --neighbor_std 4.5
+# 量化指标： 
+### Average vel err: 0.02378026485644819 || Mean vel err: 0.001837816157940173###
+###All delta_pos : 0.3306301236152649 || Mean delta_pos : 0.005510502029210329 || Max delta_pos : 0.020111139863729477###
+### Mean Collision Num: 0.003 || Total Collision Num: 0.75 ###
+
+#######################################################
+# CUDA_VISIBLE_DEVICES=1 python -m ipdb test_final.py \
+# --exp_name M5D1_r04 \
+# --n_boxes 60 \
+# --radius 0.08 \
+# --max_vel_ratio 0.685 \
+# --sup_rate 0.11 \
+# --dt 1/50 \
+# --pb_freq 4 \
+# --duration 5\
+# --neighbor_std 8
+# 量化指标： 
+### Average vel err: 0.37175488947906593 || Mean vel err: 0.005798921807748367###
+###All delta_pos : 0.32274577021598816 || Mean delta_pos : 0.0053790961392223835 || Max delta_pos : 0.02037626877427101###
+### Mean Collision Num: 0.001 || Total Collision Num: 0.25 ###
 
 
+
+#######################################################
+# CUDA_VISIBLE_DEVICES=1 python -m ipdb Finding.py \
+# --exp_name M5D1_r04 \
+# --date 514
+# --n_boxes 10 \
+# --dist_r 5 \
+# --max_vel_ratio 0.1 \
+# --sup_rate 0.05 \
+# --scale 2
+# --neighbor_std 8
+
+#######################################################
+# CUDA_VISIBLE_DEVICES=1 python -m ipdb Finding.py \
+# --exp_name M5D1_r04 \
+# --date 514
+# --n_boxes 30 \
+# --dist_r 5 \
+# --max_vel_ratio 0.1 \
+# --sup_rate_init 0.05 \
+# --scale 2.
+# --neighbor_std 8
+
+#######################################################
+# CUDA_VISIBLE_DEVICES=1 python -m ipdb Finding.py \
+# --exp_name M5D1_r04 \
+# --date 514
+# --n_boxes 60 \
+# --dist_r 5 \
+# --max_vel_ratio 0.1 \
+# --sup_rate_init 0.05 \
+# --scale 2.
+# --neighbor_std 8
+
+#######################################################
+# CUDA_VISIBLE_DEVICES=1 python -m ipdb Finding.py \
+# --exp_name M5D1_r04 \
+# --date 514
+# --n_boxes 90 \
+# --dist_r 5 \
+# --max_vel_ratio 0.1 \
+# --sup_rate_init 0.05 \
+# --scale 2.
+# --neighbor_std 8
+
+#######################################################
+# CUDA_VISIBLE_DEVICES=1 python -m ipdb Finding.py \
+# --exp_name M5D1_r04 \
+# --date 514
+# --n_boxes 10 \
+# --dist_r 3 \
+# --max_vel_ratio 0.1 \
+# --sup_rate_init 0.05 \
+# --scale 2.
+# --neighbor_std 8
+
+#######################################################
+# CUDA_VISIBLE_DEVICES=1 python -m ipdb Finding.py \
+# --exp_name M5D1_r04 \
+# --date 514
+# --n_boxes 30 \
+# --dist_r 3 \
+# --max_vel_ratio 0.1 \
+# --sup_rate_init 0.05 \
+# --scale 2.
+# --neighbor_std 8
+
+#######################################################
+# CUDA_VISIBLE_DEVICES=1 python -m ipdb Finding.py \
+# --exp_name M5D1_r04 \
+# --date 514
+# --n_boxes 60 \
+# --dist_r 3 \
+# --max_vel_ratio 0.1 \
+# --sup_rate_init 0.05 \
+# --scale 2.
+# --neighbor_std 8
+
+#######################################################
+# CUDA_VISIBLE_DEVICES=1 python -m ipdb Finding.py \
+# --exp_name M5D1_r04 \
+# --date 514
+# --n_boxes 90 \
+# --dist_r 3 \
+# --max_vel_ratio 0.1 \
+# --sup_rate_init 0.05 \
+# --scale 2.
+# --neighbor_std 8
+
+#######################################################
+# CUDA_VISIBLE_DEVICES=1 python -m ipdb Finding.py \
+# --exp_name M5D1_r04 \
+# --date 514
+# --n_boxes 10 \
+# --dist_r 5 \
+# --max_vel_ratio 0.1 \
+# --sup_rate_init 0.05 \
+# --scale 2.
+# --neighbor_std 0
+
+#######################################################
+# CUDA_VISIBLE_DEVICES=1 python -m ipdb Finding.py \
+# --exp_name M5D1_r04 \
+# --date 514
+# --n_boxes 30 \
+# --dist_r 5 \
+# --max_vel_ratio 0.1 \
+# --sup_rate_init 0.05 \
+# --scale 2.
+# --neighbor_std 0
+
+#######################################################
+# CUDA_VISIBLE_DEVICES=1 python -m ipdb Finding.py \
+# --exp_name M5D1_r04 \
+# --date 514
+# --n_boxes 60 \
+# --dist_r 5 \
+# --max_vel_ratio 0.1 \
+# --sup_rate_init 0.05 \
+# --scale 2.
+# --neighbor_std 0
 
 
 
